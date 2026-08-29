@@ -1540,14 +1540,6 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
   </programme>
-  <programme start="20260829130200 +0000" stop="20260829145400 +0000" channel="fdf.es">
-    <title lang="es">La que se avecina</title>
-    <desc lang="es">Tras desalojar el emblemático edificio de Mirador de Montepinar, los vecinos inician una nueva vida trasladándose a un inmueble en el centro de la ciudad.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP3157037" />
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF3157037.jpg</image>
-  </programme>
   <programme start="20260829145400 +0000" stop="20260829163000 +0000" channel="fdf.es">
     <title lang="es">El pueblo</title>
     <desc lang="es">Ha llegado el día D. En un mismo domingo se van a producir tres eventos trascendentales: la entrega de drogas con los gallegos, la boda de Arsacio y Damarys y las elecciones generales.</desc>
@@ -2498,6 +2490,14 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4389192.jpg</image>
   </programme>
+  <programme start="20260831144500 +0000" stop="20260831150000 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4361296" />
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
   <programme start="20260829100000 +0000" stop="20260829220000 +0000" channel="mlaliga2.es">
     <title lang="es">M+ LALIGA 2</title>
     <desc lang="es">M+ LALIGA 2</desc>
@@ -2557,14 +2557,6 @@
   <programme start="20260831100000 +0000" stop="20260831220000 +0000" channel="movistarlaliga4.es">
     <title lang="es">M+ LALIGA 4</title>
     <desc lang="es">M+ LALIGA 4</desc>
-  </programme>
-  <programme start="20260829141200 +0000" stop="20260829144000 +0000" channel="movistarlaliga.es">
-    <title lang="es">LALIGA Show</title>
-    <desc lang="es">La previa de cada jornada de LaLiga. Además, el espacio se complementa con entrevistas a los protagonistas de la competición y reportajes sobre temas de actualidad.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/M2648972V4380026" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MLIGBARF4380026.jpg</image>
   </programme>
   <programme start="20260829144000 +0000" stop="20260829163000 +0000" channel="movistarlaliga.es">
     <title lang="es">LALIGA EA SPORTS</title>
