@@ -1,81 +1,132 @@
-# Categorías de SERIES que quieres importar desde Xtream.
-# Para añadir/quitar una categoría, modifica únicamente este archivo.
-series_categories:
-  - AMAZON DOCU-SERIES
-  - AMAZON DOCU-SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - AMAZON KIDS
-  - AMAZON KIDS ⁴ᴷ ³⁸⁴⁰ᴾ
-  - AMAZON REALITY
-  - AMAZON REALITY ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ ⁴ᴷ ³⁸⁴⁰ᴾ
-  - AMAZON SERIES
-  - AMAZON SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - APPLE+ DOCU-SERIES
-  - APPLE+ DOCU-SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - APPLE+ KIDS
-  - APPLE+ KIDS ⁴ᴷ ³⁸⁴⁰ᴾ
-  - APPLE+ SERIES
-  - APPLE+ SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - CRUNCHYROLL SERIES (MULTI-SUBS)
-  - DISCOVERY+ SERIES
-  - DISNEY+ ASIA SERIES
-  - DISNEY+ ASIA SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - DISNEY+ DOCU-SERIES
-  - DISNEY+ DOCU-SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - DISNEY+ KIDS SERIES
-  - DISNEY+ KIDS SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - DISNEY+ PODCAST
-  - DISNEY+ REALITY
-  - DISNEY+ SERIES
-  - DISNEY+ SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - ESPAÑA AMAZON PRIME
-  - ESPAÑA ANIMACIÓN
-  - ESPAÑA APPLE TV+
-  - ESPAÑA ATRESPLAYER - STARZ - RTVE
-  - ESPAÑA DISNEY+
-  - ESPAÑA DOCUMENTAL
-  - ESPAÑA HBO MAX
-  - ESPAÑA HULU
-  - ESPAÑA INFANTILES
-  - ESPAÑA MOVISTAR
-  - ESPAÑA NETFLIX
-  - ESPAÑA PARAMOUNT+
-  - ESPAÑA REALITY TV SHOWS
-  - ESPAÑA SERIES
-  - ESPAÑA SERIES NOVELA TURCAS
-  - ESPAÑA SERIES SUBTITLES
-  - ESPAÑA SERIES ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ
-  - ESPAÑA SERIES ⁴ᴷ ³⁸⁴⁰ᴾ ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ
-  - ESPAÑA SERIES ⁴ᴷ ᴴᴰᴿ ᴰᴼᴸᴮʸ ⱽᴵˢᴵÓᴺ
-  - ESPAÑA SKYSHOWTIME
-  - ESPAÑA TELENOVELAS
-  - ESPAÑA VIX PREMIUM
-  - HBO MAX (ADULT SWIM)
-  - HBO MAX DOCU-SERIES
-  - HBO MAX PODCAST
-  - HBO MAX SERIES
-  - HBO MAX SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - MARVEL SERIES (MULTI)
-  - MARVEL SERIES 3840P (MULTI)
-  - NETFLIX SERIES
-  - NETFLIX ADULT-SWIM
-  - NETFLIX ANIME
-  - NETFLIX ASIA
-  - NETFLIX DOCU-SERIES
-  - NETFLIX KIDS
-  - NETFLIX KIDS ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ ⁴ᴷ ³⁸⁴⁰ᴾ
-  - NETFLIX PODCAST
-  - NETFLIX REALITY
-  - NETFLIX SERIES ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ
-  - NETFLIX SERIES ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ ⁴ᴷ ³⁸⁴⁰ᴾ
-  - NETFLIX STAND-UP COMEDY
-  - NETFLIX WWE
-  - NICKELODEON
-  - OSN+ SERIES ⁴ᴷ ³⁸⁴⁰ᴾ
-  - PARAMOUNT+
-  - PARAMOUNT+ ⁴ᴷ ³⁸⁴⁰ᴾ ᴰᵒˡᵇʸ ⱽᶦˢᶦᵒⁿ
-  - PEACOCK
-  - SHOWTIME
-  - SKY
+# ============================================================
+# CONFIGURACIÓN DE PLAYLIST IPTV
+# ============================================================
+# Añade o elimina categorías manteniendo el texto EXACTAMENTE
+# como aparece en tu proveedor Xtream.
+#
+# El generador conservará tu canales.m3u al principio y añadirá
+# debajo las películas y series seleccionadas.
+# ============================================================
 
-# Déjalas vacías hasta que me indiques las categorías de películas que quieres.
-movie_categories: []
+series_categories:
+  - "AMAZON DOCU-SERIES"
+  - "AMAZON DOCU-SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "AMAZON KIDS"
+  - "AMAZON KIDS ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "AMAZON REALITY"
+  - "AMAZON REALITY ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "AMAZON SERIES"
+  - "AMAZON SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "APPLE+ DOCU-SERIES"
+  - "APPLE+ DOCU-SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "APPLE+ KIDS"
+  - "APPLE+ KIDS ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "APPLE+ SERIES"
+  - "APPLE+ SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "CRUNCHYROLL SERIES (MULTI-SUBS)"
+  - "DISCOVERY+ SERIES"
+  - "DISNEY+ ASIA SERIES"
+  - "DISNEY+ ASIA SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "DISNEY+ DOCU-SERIES"
+  - "DISNEY+ DOCU-SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "DISNEY+ KIDS SERIES"
+  - "DISNEY+ KIDS SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "DISNEY+ PODCAST"
+  - "DISNEY+ REALITY"
+  - "DISNEY+ SERIES"
+  - "DISNEY+ SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "ESPAÑA AMAZON PRIME"
+  - "ESPAÑA ANIMACIÓN"
+  - "ESPAÑA APPLE TV+"
+  - "ESPAÑA ATRESPLAYER - STARZ - RTVE"
+  - "ESPAÑA DISNEY+"
+  - "ESPAÑA DOCUMENTAL"
+  - "ESPAÑA HBO MAX"
+  - "ESPAÑA HULU"
+  - "ESPAÑA INFANTILES"
+  - "ESPAÑA MOVISTAR"
+  - "ESPAÑA NETFLIX"
+  - "ESPAÑA PARAMOUNT+"
+  - "ESPAÑA REALITY TV SHOWS"
+  - "ESPAÑA SERIES"
+  - "ESPAÑA SERIES NOVELA TURCAS"
+  - "ESPAÑA SERIES SUBTITLES"
+  - "ESPAÑA SERIES ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ"
+  - "ESPAÑA SERIES ⁴ᴷ ³⁸⁴⁰ᴾ ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ"
+  - "ESPAÑA SERIES ⁴ᴷ ᴴᴰᴿ ᴰᴼᴸᴮʸ ⱽᴵˢᴵÓᴺ"
+  - "ESPAÑA SKYSHOWTIME"
+  - "ESPAÑA TELENOVELAS"
+  - "ESPAÑA VIX PREMIUM"
+  - "HBO MAX (ADULT SWIM)"
+  - "HBO MAX DOCU-SERIES"
+  - "HBO MAX PODCAST"
+  - "HBO MAX SERIES"
+  - "HBO MAX SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "MARVEL SERIES (MULTI)"
+  - "MARVEL SERIES 3840P (MULTI)"
+  - "NETFLIX SERIES"
+  - "NETFLIX ADULT-SWIM"
+  - "NETFLIX ANIME"
+  - "NETFLIX ASIA"
+  - "NETFLIX DOCU-SERIES"
+  - "NETFLIX KIDS"
+  - "NETFLIX KIDS ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "NETFLIX PODCAST"
+  - "NETFLIX REALITY"
+  - "NETFLIX SERIES ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ"
+  - "NETFLIX SERIES ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "NETFLIX STAND-UP COMEDY"
+  - "NETFLIX WWE"
+  - "NICKELODEON"
+  - "OSN+ SERIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "PARAMOUNT+"
+  - "PARAMOUNT+ ⁴ᴷ ³⁸⁴⁰ᴾ ᴰᵒˡᵇʸ ⱽᶦˢᶦᵒⁿ"
+  - "PEACOCK"
+  - "SHOWTIME"
+  - "SKY"
+
+movie_categories:
+  - "AMAZON DOCU-MOVIES"
+  - "AMAZON DOCU-MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "AMAZON KIDS"
+  - "AMAZON KIDS ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "AMAZON MOVIES"
+  - "AMAZON MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "APPLE+ KIDS"
+  - "APPLE+ KIDS ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "APPLE+ MOVIES"
+  - "APPLE+ MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "DISCOVERY+ MOVIES"
+  - "DISNEY+ DOCU-MOVIES"
+  - "DISNEY+ DOCU-MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "DISNEY+ KIDS MOVIES"
+  - "DISNEY+ KIDS MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "DISNEY+ MOVIES"
+  - "DISNEY+ MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "DISNEY+ STAND-UP COMEDY"
+  - "DREAMWORKS ANIMATION"
+  - "ES - DOCUMENTALES"
+  - "ES - FORMULA 1"
+  - "ES - INFANTILES Y FAMILIAS"
+  - "ES - MOTOGP"
+  - "ES - NETFLIX"
+  - "ES - PARTIDOS DE LALIGA"
+  - "ES - PELÍCULAS"
+  - "ES - PELÍCULAS 2024"
+  - "ES - PELÍCULAS 2025"
+  - "ES - PELÍCULAS 2026"
+  - "ES - PELÍCULAS ANIMACION"
+  - "ES - PELÍCULAS ANTIGUAS Y SAGAS"
+  - "ES - PELÍCULAS CLASICO"
+  - "ES - PELÍCULAS DE NAVIDAD"
+  - "ES - PELÍCULAS SUBTITLES"
+  - "ES - PELÍCULAS TERROR"
+  - "ES - PELÍCULAS ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ"
+  - "ES - PELÍCULAS ⁴ᴷ ³⁸⁴⁰ᴾ ᴰᴼᴸᴮʸ ᴬᵁᴰᴵᴼ"
+  - "ES - PELÍCULAS ⁴ᴷ ᴴᴰᴿ ᴰᴼᴸᴮʸ ⱽᴵˢᴵÓᴺ"
+  - "ES - PRIME+"
+  - "JAMES BOND 007"
+  - "MARVEL MOVIES 3840P (MULTI)"
+  - "NETFLIX KIDS ⁴ᴷ ³⁸⁴⁰ᴾ"
+  - "NETFLIX MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ ᴰᵒˡᵇʸ ⱽᶦˢᶦᵒⁿ"
+  - "OSN+ MOVIES ⁴ᴷ ³⁸⁴⁰ᴾ"
