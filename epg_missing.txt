@@ -19,6 +19,7 @@ canalhollywood.es
 canalparlamentoes.es
 canalsur2.es
 castillalamanchatves.es
+cineespanolpormpluses.es
 cinesverditv.es
 cmmtves.es
 darkes.es
@@ -27,7 +28,6 @@ dazn4es.es
 discoverychannel.es
 enfamiliaes.es
 escapatv.es
-escapatves.es
 etb.es
 etbbasquees.es
 filmcoes.es
@@ -59,10 +59,10 @@ motoadv.es
 movistaracción.es
 movistarcineespañoles.es
 movistarclasicos.es
+movistarclasicoses.es
 movistarcomedia.es
 movistardeportes.es
 movistardrama.es
-movistardramaes.es
 movistarf1es.es
 movistargolf.es
 movistargolf2.es
@@ -75,7 +75,7 @@ movistarligadecampeones9.es
 movistarpluses.es
 movistarpluses.es.plus2
 movistarseries2.es
-mplusacciónes.es
+mplusacciones.es
 mplusbaloncesto2es.es
 mplusbaloncesto3es.es
 mpluscineespañoles.es
