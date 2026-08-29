@@ -1,0 +1,122 @@
+LA1.es | ELEGIDO EPGShare ES1:La.1.es | CANDIDATOS EPGShare ES1:La.1.es ; IPTV-EPG España:LA1.es
+la2.es | ELEGIDO EPGShare ES1:La.2.es | CANDIDATOS EPGShare ES1:La.2.es ; IPTV-EPG España:LA2.es
+antena3.es | ELEGIDO EPGShare ES1:Antena.3.es | CANDIDATOS EPGShare ES1:Antena.3.es ; IPTV-EPG España:Antena3.es
+cuatro.es | ELEGIDO EPGShare ES1:Cuatro.es | CANDIDATOS EPGShare ES1:Cuatro.es ; IPTV-EPG España:Cuatro.es
+telecinco.es | ELEGIDO EPGShare ES1:Telecinco.es | CANDIDATOS EPGShare ES1:Telecinco.es ; IPTV-EPG España:Telecinco.es
+lasexta.es | ELEGIDO EPGShare ES1:laSexta.es | CANDIDATOS EPGShare ES1:laSexta.es ; IPTV-EPG España:LaSexta.es
+canalsurandalucia.es | ELEGIDO EPGShare ES1:Canal.Sur.Andalucía.es | CANDIDATOS EPGShare ES1:Canal.Sur.Andalucía.es ; IPTV-EPG España:CanalSurAndalucia.es
+neox.es | ELEGIDO EPGShare ES1:Neox.es | CANDIDATOS EPGShare ES1:Neox.es ; IPTV-EPG España:Neox.es
+nova.es | ELEGIDO EPGShare ES1:Nova.es | CANDIDATOS EPGShare ES1:Nova.es ; IPTV-EPG España:Nova.es
+mega.es | ELEGIDO EPGShare ES1:Mega.es | CANDIDATOS EPGShare ES1:Mega.es ; IPTV-EPG España:Mega.es
+energy.es | ELEGIDO EPGShare ES1:Energy.es | CANDIDATOS EPGShare ES1:Energy.es ; IPTV-EPG España:Energy.es
+divinity.es | ELEGIDO EPGShare ES1:Divinity.es | CANDIDATOS EPGShare ES1:Divinity.es ; IPTV-EPG España:Divinity.es
+bemad.es | ELEGIDO EPGShare ES1:Be.Mad.es | CANDIDATOS EPGShare ES1:Be.Mad.es ; IPTV-EPG España:BEMAD.es
+dkiss.es | ELEGIDO EPGShare ES1:DKISS.es | CANDIDATOS EPGShare ES1:DKISS.es ; IPTV-EPG España:DKISS.es
+trece.es | ELEGIDO EPGShare ES1:TRECE.es | CANDIDATOS EPGShare ES1:TRECE.es ; IPTV-EPG España:TRECE.es
+squirreles.es | ELEGIDO IPTV-org Orange TV:11280 | CANDIDATOS IPTV-org Orange TV:11280 ; EPGShare ES1:Squirrel.es ; IPTV-EPG España:Squirrel.es
+ten.es | ELEGIDO EPGShare ES1:TEN.es | CANDIDATOS EPGShare ES1:TEN.es ; IPTV-EPG España:Ten.es
+nickelodeon.es | ELEGIDO EPGShare ES1:Nickelodeon.es | CANDIDATOS EPGShare ES1:Nickelodeon.es ; IPTV-EPG España:Nickelodeon.es
+clantve.es | ELEGIDO EPGShare ES1:Clan.TVE.es | CANDIDATOS EPGShare ES1:Clan.TVE.es ; IPTV-EPG España:ClanTVE.es
+disneychannel.es | ELEGIDO EPGShare ES1:Disney.Channel.es | CANDIDATOS EPGShare ES1:Disney.Channel.es ; IPTV-EPG España:DisneyChannel.es
+dreamworks.es | ELEGIDO EPGShare ES1:DreamWorks.es | CANDIDATOS EPGShare ES1:DreamWorks.es ; EPGShare ES1:Dreamworks.es ; IPTV-EPG España:Dreamworks.es
+boing.es | ELEGIDO EPGShare ES1:Boing.es | CANDIDATOS EPGShare ES1:Boing.es ; IPTV-EPG España:Boing.es
+amcbreak.es | ELEGIDO EPGShare ES1:AMC.Break.es | CANDIDATOS EPGShare ES1:AMC.Break.es ; IPTV-EPG España:AMCBreak.es
+axn.es | ELEGIDO EPGShare ES1:AXN.es | CANDIDATOS EPGShare ES1:AXN.es ; IPTV-EPG España:AXN.es
+atreseries.es | ELEGIDO EPGShare ES1:Atreseries.es | CANDIDATOS EPGShare ES1:Atreseries.es ; IPTV-EPG España:Atreseries.es
+bbcseries.es | ELEGIDO EPGShare ES1:BBC.Series.es | CANDIDATOS EPGShare ES1:BBC.Series.es ; IPTV-EPG España:BBCSeries.es
+bomcine.es | ELEGIDO EPGShare ES1:BOM.Cine.es | CANDIDATOS EPGShare ES1:BOM.Cine.es ; IPTV-EPG España:BOMCine.es
+calle13.es | ELEGIDO EPGShare ES1:Calle.13.es | CANDIDATOS EPGShare ES1:Calle.13.es ; IPTV-EPG España:Calle13.es
+hollywood.es | ELEGIDO EPGShare ES1:Hollywood.es | CANDIDATOS EPGShare ES1:Hollywood.es ; IPTV-EPG España:Hollywood.es
+skyshowtime1.es | ELEGIDO EPGShare ES1:SkyShowtime.1.es | CANDIDATOS EPGShare ES1:SkyShowtime.1.es ; IPTV-EPG España:SkyShowtime1.es
+somos.es | ELEGIDO EPGShare ES1:Somos.es | CANDIDATOS EPGShare ES1:Somos.es ; IPTV-EPG España:Somos.es
+syfy.es | ELEGIDO EPGShare ES1:Syfy.es | CANDIDATOS EPGShare ES1:Syfy.es ; IPTV-EPG España:SYFY.es
+tcm.es | ELEGIDO EPGShare ES1:TCM.es | CANDIDATOS EPGShare ES1:TCM.es ; IPTV-EPG España:TCM.es
+xtrm.es | ELEGIDO EPGShare ES1:XTRM.es | CANDIDATOS EPGShare ES1:XTRM.es ; IPTV-EPG España:XTRM.es
+warnertv.es | ELEGIDO EPGShare ES1:Warner.TV.es | CANDIDATOS EPGShare ES1:Warner.TV.es ; IPTV-EPG España:WarnerTV.es
+canalcocina.es | ELEGIDO EPGShare ES1:Canal.Cocina.es | CANDIDATOS EPGShare ES1:Canal.Cocina.es ; IPTV-EPG España:CanalCocina.es
+nationalgeographic.es | ELEGIDO EPGShare ES1:National.Geographic.es | CANDIDATOS EPGShare ES1:National.Geographic.es ; IPTV-EPG España:NationalGeographic.es
+Odisea.es | ELEGIDO EPGShare ES1:Odisea.es | CANDIDATOS EPGShare ES1:Odisea.es ; IPTV-EPG España:Odisea.es
+cazavisión.es | ELEGIDO EPGShare ES1:Cazavisión.es | CANDIDATOS EPGShare ES1:Cazavisión.es ; IPTV-EPG España:Cazavision.es
+movistarclásicoses.es | ELEGIDO IPTV-org Movistar+:MCLAS | CANDIDATOS IPTV-org Movistar+:MCLAS ; EPGShare ES1:M+.Clásicos.es ; IPTV-EPG España:M+Clasicos.es
+movistarindiees.es | ELEGIDO IPTV-org Movistar+:MINDI | CANDIDATOS IPTV-org Movistar+:MINDI ; EPGShare ES1:M+.Indie.es ; IPTV-EPG España:M+Indie.es
+movistaroriginaleses.es | ELEGIDO IPTV-org Movistar+:MORIG | CANDIDATOS IPTV-org Movistar+:MORIG ; EPGShare ES1:M+.Originales.es ; IPTV-EPG España:M+Originales.es
+movistardocumentaleses.es | ELEGIDO IPTV-org Movistar+:MDOC | CANDIDATOS IPTV-org Movistar+:MDOC ; EPGShare ES1:M+.Documentales.es ; IPTV-EPG España:M+Documentales.es
+movistarvamos2es.es | ELEGIDO IPTV-org Movistar+:VAM2SD | CANDIDATOS IPTV-org Movistar+:VAM2SD ; EPGShare ES1:M+.Vamos.2.es
+movistarhitses.es | ELEGIDO IPTV-org Movistar+:MHITS | CANDIDATOS IPTV-org Movistar+:MHITS ; EPGShare ES1:M+.Hits.es ; IPTV-EPG España:M+Hits.es
+eurosport1.es | ELEGIDO EPGShare ES1:Eurosport.1.es | CANDIDATOS EPGShare ES1:Eurosport.1.es ; IPTV-EPG España:Eurosport1.es
+eurosport2.es | ELEGIDO EPGShare ES1:Eurosport.2.es | CANDIDATOS EPGShare ES1:Eurosport.2.es ; IPTV-EPG España:Eurosport2.es
+mdeportes4.es | ELEGIDO IPTV-org Movistar+:USOP3 | CANDIDATOS IPTV-org Movistar+:USOP3 ; EPGShare ES1:M+.Deportes.4.es ; IPTV-EPG España:M+Deportes4.es
+mdeportes5.es | ELEGIDO IPTV-org Movistar+:USOP11 | CANDIDATOS IPTV-org Movistar+:USOP11 ; EPGShare ES1:M+.Deportes.5.es ; IPTV-EPG España:M+Deportes5.es
+mplusgolfes.es | ELEGIDO IPTV-org Movistar+:GOLF+ | CANDIDATOS IPTV-org Movistar+:GOLF+ ; EPGShare ES1:M+.Golf.es ; IPTV-EPG España:M+Golf.es
+mplusgolf2.es | ELEGIDO IPTV-org Movistar+:GOLF2 | CANDIDATOS IPTV-org Movistar+:GOLF2 ; EPGShare ES1:M+.Golf.2.es ; IPTV-EPG España:M+Golf2.es
+movistardeporteses.es | ELEGIDO IPTV-org Movistar+:CPDEP | CANDIDATOS IPTV-org Movistar+:CPDEP ; EPGShare ES1:M+.Deportes.es ; IPTV-EPG España:M+Deportes.es
+teledeporte.es | ELEGIDO EPGShare ES1:Teledeporte.es | CANDIDATOS EPGShare ES1:Teledeporte.es ; IPTV-EPG España:Teledeporte.es
+dazn1.es | ELEGIDO EPGShare ES1:DAZN.1.es | CANDIDATOS EPGShare ES1:DAZN.1.es ; IPTV-EPG España:DAZN1.es
+dazn2.es | ELEGIDO EPGShare ES1:DAZN.2.es | CANDIDATOS EPGShare ES1:DAZN.2.es ; IPTV-EPG España:DAZN2.es
+daznf1.es | ELEGIDO EPGShare ES1:DAZN.F1.es | CANDIDATOS EPGShare ES1:DAZN.F1.es ; IPTV-EPG España:DAZNF1.es
+daznmotogpes.es | ELEGIDO IPTV-org Orange TV:11229 | CANDIDATOS IPTV-org Orange TV:11229 ; IPTV-EPG España:DAZNMotoGP.es
+daznlaliga.es | ELEGIDO EPGShare ES1:DAZN.LALIGA.es | CANDIDATOS EPGShare ES1:DAZN.LALIGA.es ; EPGShare ES1:DAZN.LaLiga.es ; IPTV-EPG España:DAZNLaLiga.es
+daznlaliga2.es | ELEGIDO EPGShare ES1:DAZN.LALIGA.2.es | CANDIDATOS EPGShare ES1:DAZN.LALIGA.2.es ; EPGShare ES1:DAZN.LaLiga.2.es ; IPTV-EPG España:DAZNLaLiga2.es
+movistarlaliga.es | ELEGIDO IPTV-org Movistar+:MLIGA | CANDIDATOS IPTV-org Movistar+:MLIGA ; IPTV-org Orange TV:LaLigaTVporMovistarPlusPlus.es@SD ; EPGShare ES1:M+.LALIGA.TV.es ; IPTV-EPG España:M+LaLigaTV.es
+movistarlaliga2.es | ELEGIDO IPTV-org Movistar+:MLIG1 | CANDIDATOS IPTV-org Movistar+:MLIG1 ; IPTV-org Orange TV:LaLiga1porMovistarPlusPlus.es@SD
+movistarlaliga3.es | ELEGIDO IPTV-org Movistar+:MLIG2 | CANDIDATOS IPTV-org Movistar+:MLIG2 ; IPTV-org Orange TV:LaLigaTV2porMovistarPlusPlus.es@SD
+mplusligadecampeones4es.es | ELEGIDO IPTV-org Movistar+:CHAP3 | CANDIDATOS IPTV-org Movistar+:CHAP3 ; IPTV-org Orange TV:LigadeCampeones3porMovistarPlusPlus.es@SD ; EPGShare ES1:M+.Liga.de.Campeones..4.es ; IPTV-EPG España:M+LigadeCampeones4.es
+mplusligadecampeones2.es | ELEGIDO IPTV-org Movistar+:CHAP1 | CANDIDATOS IPTV-org Movistar+:CHAP1 ; IPTV-org Orange TV:LigadeCampeones1porMovistarPlusPlus.es@SD ; EPGShare ES1:M+.Liga.de.Campeones.2.es ; IPTV-EPG España:M+LigadeCampeones2.es
+canalsur.es | ELEGIDO EPGShare ES1:Canal.Sur.es | CANDIDATOS EPGShare ES1:Canal.Sur.es ; IPTV-EPG España:CanalSur.es
+etb2.es | ELEGIDO EPGShare ES1:ETB.2.es | CANDIDATOS EPGShare ES1:ETB.2.es ; EPGShare ES1:ETB2.es ; IPTV-EPG España:ETB2.es
+canalextremadurasates.es | ELEGIDO IPTV-org Orange TV:11211 | CANDIDATOS IPTV-org Orange TV:11211 ; EPGShare ES1:Canal.Extremadura.SAT.es ; EPGShare ES1:Canal.Extremadura.Sat.es ; IPTV-EPG España:CanalExtremaduraSat.es
+324es.es | ELEGIDO EPGShare ES1:324.es | CANDIDATOS EPGShare ES1:324.es ; IPTV-EPG España:324.es
+laotra.es | ELEGIDO EPGShare ES1:La.Otra.es | CANDIDATOS EPGShare ES1:La.Otra.es ; IPTV-EPG España:LaOtra.es
+negociostv.es | ELEGIDO EPGShare ES1:Negocios.TV.es | CANDIDATOS EPGShare ES1:Negocios.TV.es ; IPTV-EPG España:NegociosTV.es
+realmadridtv.es | ELEGIDO EPGShare ES1:Real.Madrid.TV.es | CANDIDATOS EPGShare ES1:Real.Madrid.TV.es ; IPTV-EPG España:RealMadridTV.es
+telemadrid.es | ELEGIDO EPGShare ES1:Telemadrid.es | CANDIDATOS EPGShare ES1:Telemadrid.es ; IPTV-EPG España:Telemadrid.es
+cazaypesca.es | ELEGIDO EPGShare ES1:Caza.y.Pesca.es | CANDIDATOS EPGShare ES1:Caza.y.Pesca.es ; IPTV-EPG España:CazayPesca.es
+tvgaliciaes.es | ELEGIDO IPTV-org Orange TV:GaliciaTVEuropa.es@SD | CANDIDATOS IPTV-org Orange TV:GaliciaTVEuropa.es@SD ; EPGShare ES1:TVG.es
+amc.es | ELEGIDO EPGShare ES1:AMC.es | CANDIDATOS EPGShare ES1:AMC.es ; IPTV-EPG España:AMC.es ; IPTV-EPG España:AMC+.es
+bemadtv.es | ELEGIDO IPTV-org Movistar+:BEMAD | CANDIDATOS IPTV-org Movistar+:BEMAD ; EPGShare ES1:Be.Mad.es ; IPTV-EPG España:BEMAD.es
+clanes.es | ELEGIDO IPTV-org Movistar+:CLANTV | CANDIDATOS IPTV-org Movistar+:CLANTV ; EPGShare ES1:Clan.TVE.es ; IPTV-EPG España:ClanTVE.es
+cocina.es | ELEGIDO IPTV-org Orange TV:CanalCocina.es@SD | CANDIDATOS IPTV-org Orange TV:CanalCocina.es@SD ; EPGShare ES1:Canal.Cocina.es ; IPTV-EPG España:CanalCocina.es
+eltorotv.es | ELEGIDO EPGShare ES1:El.Toro.TV.es | CANDIDATOS EPGShare ES1:El.Toro.TV.es ; IPTV-EPG España:ElToroTV.es
+esport3.es | ELEGIDO EPGShare ES1:Esport.3.es | CANDIDATOS EPGShare ES1:Esport.3.es ; IPTV-EPG España:Esport3.es
+etb1.es | ELEGIDO EPGShare ES1:ETB.1.es | CANDIDATOS EPGShare ES1:ETB.1.es ; EPGShare ES1:ETB1.es ; IPTV-EPG España:ETB1.es
+ib3.es | ELEGIDO EPGShare ES1:IB3.es | CANDIDATOS EPGShare ES1:IB3.es ; IPTV-EPG España:IB3.es
+tdp.es | ELEGIDO IPTV-org Movistar+:TDEP | CANDIDATOS IPTV-org Movistar+:TDEP ; EPGShare ES1:Teledeporte.es ; IPTV-EPG España:Teledeporte.es
+tvg2.es | ELEGIDO EPGShare ES1:tvG2.es | CANDIDATOS EPGShare ES1:tvG2.es ; IPTV-EPG España:TVG2.es
+ubeat.es | ELEGIDO EPGShare ES1:Ubeat.es | CANDIDATOS EPGShare ES1:Ubeat.es ; IPTV-EPG España:Ubeat.es
+mplusdeporteses.es | ELEGIDO IPTV-org Movistar+:CPDEP | CANDIDATOS IPTV-org Movistar+:CPDEP ; EPGShare ES1:M+.Deportes.es ; IPTV-EPG España:M+Deportes.es
+bbcfood.es | ELEGIDO EPGShare ES1:BBC.Food.es | CANDIDATOS EPGShare ES1:BBC.Food.es ; IPTV-EPG España:BBCFood.es
+canalsurandalucíaes.es | ELEGIDO IPTV-org Movistar+:ANTV | CANDIDATOS IPTV-org Movistar+:ANTV ; IPTV-org Orange TV:11199 ; IPTV-org Orange TV:CanalSur.es@SD ; EPGShare ES1:Canal.Sur.Andalucía.es ; EPGShare ES1:Canal.Sur.es ; IPTV-EPG España:CanalSurAndalucia.es
+cgtnespañol.es | ELEGIDO EPGShare ES1:CGTN.Español.es | CANDIDATOS EPGShare ES1:CGTN.Español.es ; IPTV-EPG España:CGTNEspanol.es
+classicaes.es | ELEGIDO IPTV-org Movistar+:CLASSD | CANDIDATOS IPTV-org Movistar+:CLASSD ; IPTV-EPG España:Classica.es
+cnbces.es | ELEGIDO IPTV-org Movistar+:NBC | CANDIDATOS IPTV-org Movistar+:NBC ; EPGShare ES1:CNBC.Europe.es
+cosmo.es | ELEGIDO EPGShare ES1:COSMO.es | CANDIDATOS EPGShare ES1:COSMO.es ; IPTV-EPG España:COSMO.es
+euronews.es | ELEGIDO EPGShare ES1:Euronews.es | CANDIDATOS EPGShare ES1:Euronews.es ; IPTV-EPG España:Euronews.es
+la7.es | ELEGIDO EPGShare ES1:La.7.es | CANDIDATOS EPGShare ES1:La.7.es ; IPTV-EPG España:La7.es
+mplusacción.es | ELEGIDO IPTV-org Movistar+:CPACCI | CANDIDATOS IPTV-org Movistar+:CPACCI ; EPGShare ES1:M+.Acción.es ; IPTV-EPG España:M+Accion.es
+mplusclásicoses.es | ELEGIDO IPTV-org Movistar+:MCLAS | CANDIDATOS IPTV-org Movistar+:MCLAS ; EPGShare ES1:M+.Clásicos.es ; IPTV-EPG España:M+Clasicos.es
+mpluscomediaes.es | ELEGIDO IPTV-org Movistar+:CPCOME | CANDIDATOS IPTV-org Movistar+:CPCOME ; EPGShare ES1:M+.Comedia.es ; IPTV-EPG España:M+Comedia.es
+mdramaes.es | ELEGIDO IPTV-org Movistar+:CPCOLE | CANDIDATOS IPTV-org Movistar+:CPCOLE ; EPGShare ES1:M+.Drama.es ; IPTV-EPG España:M+Drama.es
+mplusestrenos.es | ELEGIDO IPTV-org Movistar+:MV1 | CANDIDATOS IPTV-org Movistar+:MV1 ; EPGShare ES1:M+.Estrenos.es ; IPTV-EPG España:M+Estrenos.es
+mezzolive.es | ELEGIDO EPGShare ES1:Mezzo.Live.es | CANDIDATOS EPGShare ES1:Mezzo.Live.es ; IPTV-EPG España:MezzoLive.es
+MTV00s.es | ELEGIDO EPGShare ES1:MTV.00s.es | CANDIDATOS EPGShare ES1:MTV.00s.es ; IPTV-EPG España:MTV00s.es
+navarratves.es | ELEGIDO EPGShare ES1:Navarra.Televisión.es | CANDIDATOS EPGShare ES1:Navarra.Televisión.es ; IPTV-EPG España:NavarraTelevision.es
+telemadridintes.es | ELEGIDO IPTV-org Orange TV:11195 | CANDIDATOS IPTV-org Orange TV:11195 ; EPGShare ES1:Telemadrid.Internacional.es ; EPGShare ES1:Telemadrid.es
+tv3cat.es | ELEGIDO EPGShare ES1:TV3.CAT.es | CANDIDATOS EPGShare ES1:TV3.CAT.es ; EPGShare ES1:TV3CAT.es ; IPTV-EPG España:TV3Cat.es
+TV3.es | ELEGIDO EPGShare ES1:TV3.es | CANDIDATOS EPGShare ES1:TV3.es ; IPTV-EPG España:TV3.es
+tv5monde.es | ELEGIDO EPGShare ES1:TV5MONDE.es | CANDIDATOS EPGShare ES1:TV5MONDE.es ; IPTV-EPG España:TV5MONDE.es
+mlaliga2.es | ELEGIDO IPTV-org Movistar+:MLIG1 | CANDIDATOS IPTV-org Movistar+:MLIG1 ; IPTV-org Orange TV:LaLiga1porMovistarPlusPlus.es@SD
+mlaliga3.es | ELEGIDO IPTV-org Movistar+:MLIG2 | CANDIDATOS IPTV-org Movistar+:MLIG2 ; IPTV-org Orange TV:LaLigaTV2porMovistarPlusPlus.es@SD
+mdeportes2.es | ELEGIDO IPTV-org Movistar+:ARTHUR | CANDIDATOS IPTV-org Movistar+:ARTHUR ; EPGShare ES1:M+.Deportes.2.es ; IPTV-EPG España:M+Deportes2.es
+mdeportes3.es | ELEGIDO IPTV-org Movistar+:USOP2 | CANDIDATOS IPTV-org Movistar+:USOP2 ; EPGShare ES1:M+.Deportes.3.es ; IPTV-EPG España:M+Deportes3.es
+mligadecampeones.es | ELEGIDO IPTV-org Movistar+:CHAPIO | CANDIDATOS IPTV-org Movistar+:CHAPIO ; IPTV-org Orange TV:LigadeCampeonesporMovistarPlusPlus.es@SD ; EPGShare ES1:M+.Liga.de.Campeones.es ; IPTV-EPG España:M+LigadeCampeones.es
+galiciatv.es | ELEGIDO IPTV-org Orange TV:GaliciaTVEuropa.es@SD | CANDIDATOS IPTV-org Orange TV:GaliciaTVEuropa.es@SD ; EPGShare ES1:TVG.es
+movistarplus.es | ELEGIDO EPGShare ES1:Movistar.Plus+.es | CANDIDATOS EPGShare ES1:Movistar.Plus+.es ; IPTV-EPG España:MovistarPlus+.es
+vosyfy.es | ELEGIDO IPTV-org Movistar+:SCI-FI | CANDIDATOS IPTV-org Movistar+:SCI-FI ; IPTV-org Orange TV:Syfy.es@SD ; EPGShare ES1:Syfy.es ; IPTV-EPG España:SYFY.es
+elgaragetves.es | ELEGIDO IPTV-org Movistar+:GARAGE | CANDIDATOS IPTV-org Movistar+:GARAGE ; EPGShare ES1:El.Garage.TV.es ; IPTV-EPG España:ElGarageTV.es
+tvgtvgaliciaes.es | ELEGIDO IPTV-org Orange TV:GaliciaTVEuropa.es@SD | CANDIDATOS IPTV-org Orange TV:GaliciaTVEuropa.es@SD ; EPGShare ES1:TVG.es
+cinefeelgoodverditves.es | ELEGIDO IPTV-org Orange TV:CineFeelGood.es@SD | CANDIDATOS IPTV-org Orange TV:CineFeelGood.es@SD ; EPGShare ES1:Cine.Feel.Good.es
+telesur.es | ELEGIDO EPGShare ES1:teleSUR.es | CANDIDATOS EPGShare ES1:teleSUR.es ; IPTV-EPG España:Telesur.es
+movistarlaliga4.es | ELEGIDO IPTV-org Movistar+:MLIG3 | CANDIDATOS IPTV-org Movistar+:MLIG3 ; IPTV-org Orange TV:LaLigaTV3porMovistarPlusPlus.es@SD
+vodarktv.es | ELEGIDO EPGShare ES1:Dark.es | CANDIDATOS EPGShare ES1:Dark.es ; IPTV-EPG España:DARK.es
+voodsea.es | ELEGIDO IPTV-org Orange TV:Odisea.es@SD | CANDIDATOS IPTV-org Orange TV:Odisea.es@SD ; EPGShare ES1:Odisea.es ; IPTV-EPG España:Odisea.es
+votv3cast.es | ELEGIDO IPTV-org Movistar+:TVC | CANDIDATOS IPTV-org Movistar+:TVC ; IPTV-org Orange TV:TV3CAT.es@SD ; EPGShare ES1:TV3.CAT.es ; EPGShare ES1:TV3.es ; EPGShare ES1:TV3CAT.es ; IPTV-EPG España:TV3.es
