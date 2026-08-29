@@ -48,6 +48,8 @@ cosmo.es -> COSMO.es | EPGShare ES1 | exact/alias
 cuatro.es -> Cuatro.es | EPGShare ES1 | exact/alias
 dazn1.es -> DAZN1.es | IPTV-EPG España | exact/alias
 dazn2.es -> DAZN2.es | IPTV-EPG España | exact/alias
+dazn3.es -> DAZN3.es | IPTV-EPG España | exact/alias
+dazn4.es -> DAZN4.es | IPTV-EPG España | exact/alias
 daznf1.es -> DAZNF1.es | IPTV-EPG España | exact/alias
 daznlaliga.es -> DAZN.LALIGA.es | EPGShare ES1 | fuzzy
 daznlaliga2.es -> DAZNLaLiga2.es | IPTV-EPG España | exact/alias
@@ -86,6 +88,7 @@ iberaliatv.es -> IberaliaTV.es | IPTV-EPG España | exact/alias
 LA1.es -> LA1.es | IPTV-EPG España | exact/alias
 la2.es -> LA2.es | IPTV-EPG España | exact/alias
 la7.es -> La7.es | IPTV-EPG España | exact/alias
+laligahypermotion3.es -> LALIGA.TV.HYPERMOTION.3.es | EPGShare ES1 | fuzzy
 laotra.es -> LaOtra.es | IPTV-EPG España | exact/alias
 LaResistencia.es -> LaResistencia.es | IPTV-EPG España | exact/alias
 lasexta.es -> laSexta.es | EPGShare ES1 | exact/alias
@@ -93,7 +96,6 @@ mdeportes1.es -> M+Deportes1.es | IPTV-EPG España | fuzzy
 mdeportes2.es -> M+.Deportes.2.es | EPGShare ES1 | exact/alias
 mdeportes3.es -> M+.Deportes.3.es | EPGShare ES1 | exact/alias
 mdeportes4.es -> M+Deportes4.es | IPTV-EPG España | fuzzy
-mdeportes5.es -> M+Deportes5.es | IPTV-EPG España | fuzzy
 mdramaes.es -> M+.Drama.es | EPGShare ES1 | exact/alias
 mega.es -> Mega.es | EPGShare ES1 | exact/alias
 mezzo.es -> Mezzo.es | IPTV-EPG España | exact/alias
