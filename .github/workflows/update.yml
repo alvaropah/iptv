@@ -1,0 +1,44 @@
+name: Actualizar playlist IPTV
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests pyyaml
+
+      - name: Generar playlist
+        env:
+          XTREAM_HOST: ${{ secrets.XTREAM_HOST }}
+          XTREAM_USERNAME: ${{ secrets.XTREAM_USERNAME }}
+          XTREAM_PASSWORD: ${{ secrets.XTREAM_PASSWORD }}
+        run: python generator.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u
+          if git diff --cached --quiet; then
+            echo "No hay cambios en la playlist."
+          else
+            git commit -m "Actualizar playlist IPTV"
+            git push
+          fi
