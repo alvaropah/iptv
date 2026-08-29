@@ -20,28 +20,10 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Descargar motor EPG de IPTV-org
-        run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-src
-
-      - name: Instalar dependencias EPG
-        working-directory: epg-src
-        run: npm ci --omit=optional
-
-      - name: Preparar canales
+      - name: Generar EPG personalizado
         run: python build_epg.py
 
-      - name: Generar EPG
-        working-directory: epg-src
-        run: npm run grab -- --channels=../custom.channels.xml --output=../guide.xml --lang=es --maxConnections=5
-
-      - name: Mostrar faltantes
-        run: |
-          echo "=== tvg-id sin fuente EPG ==="
-          if [ -s epg_missing.txt ]; then cat epg_missing.txt; else echo "Ninguno"; fi
-          echo "=== guide.xml ==="
-          test -s guide.xml && ls -lh guide.xml
-
-      - name: Guardar guide.xml
+      - name: Guardar guide.xml y faltantes
         run: |
           git config user.name "epg-bot"
           git config user.email "actions@github.com"

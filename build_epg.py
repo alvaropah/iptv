@@ -1,74 +1,78 @@
 #!/usr/bin/env python3
 import re
+import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 M3U = Path("mi_playlist_final.m3u")
-EPG_REPO = Path("epg-src")
-CHANNELS_OUT = Path("custom.channels.xml")
+SOURCE = "https://raw.githubusercontent.com/dracohe/COLOR/master/guide_IPTV_COLOR.xml"
+OUT = Path("guide.xml")
 
-CHANNEL_FILES = [
-    EPG_REPO / "sites" / "orangetv.orange.es" / "orangetv.orange.es.channels.xml",
-    EPG_REPO / "sites" / "movistarplus.es" / "movistarplus.es.channels.xml",
-    EPG_REPO / "sites" / "guia.tv" / "guia.tv.channels.xml",
-    EPG_REPO / "sites" / "programacion-tv.elpais.com" / "programacion-tv.elpais.com.channels.xml",
-    EPG_REPO / "sites" / "mi.tv" / "mi.tv_es.channels.xml",
-    EPG_REPO / "sites" / "pluto.tv" / "pluto.tv_es.channels.xml",
-]
-
-def get_wanted():
+def wanted_ids():
     text = M3U.read_text(encoding="utf-8", errors="ignore")
     ids = set(re.findall(r'tvg-id="([^"]+)"', text, re.I))
-    return {x.casefold(): x for x in ids}
+    return {x.casefold(): x for x in ids if x.strip()}
 
 def main():
-    wanted = get_wanted()
+    wanted = wanted_ids()
     print(f"Encontrados {len(wanted)} tvg-id únicos en {M3U.name}")
+    print(f"Descargando EPG: {SOURCE}")
 
-    root = ET.Element("channels")
-    found = {}
+    req = urllib.request.Request(SOURCE, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        data = r.read()
 
-    for path in CHANNEL_FILES:
-        if not path.exists():
-            print(f"Fuente no disponible: {path}")
+    root = ET.fromstring(data)
+    out = ET.Element("tv", {
+        "generator-info-name": "Custom EPG for alvaropah/iptv",
+        "generator-info-url": "https://github.com/alvaropah/iptv"
+    })
+
+    matched = set()
+
+    # Copy only channels whose id exactly matches one of the user's tvg-id.
+    for ch in root.findall("channel"):
+        cid = ch.get("id", "")
+        exact = wanted.get(cid.casefold())
+        if not exact or exact.casefold() in matched:
             continue
-        try:
-            src = ET.parse(path).getroot()
-        except Exception as e:
-            print(f"Error leyendo {path}: {e}")
+        newch = ET.Element("channel", dict(ch.attrib))
+        newch.set("id", exact)
+        for child in ch:
+            newch.append(child)
+        out.append(newch)
+        matched.add(exact.casefold())
+
+    # Copy programmes belonging to the matched channels.
+    programme_count = 0
+    for p in root.findall("programme"):
+        cid = p.get("channel", "")
+        exact = wanted.get(cid.casefold())
+        if not exact or exact.casefold() not in matched:
             continue
+        np = ET.Element("programme", dict(p.attrib))
+        np.set("channel", exact)
+        for child in p:
+            np.append(child)
+        out.append(np)
+        programme_count += 1
 
-        hits = 0
-        for ch in src.findall("channel"):
-            xmltv_id = ch.get("xmltv_id", "")
-            exact = wanted.get(xmltv_id.casefold())
-            if not exact or exact.casefold() in found:
-                continue
-
-            newch = ET.Element("channel", {
-                "site": ch.get("site", ""),
-                "site_id": ch.get("site_id", ""),
-                "lang": ch.get("lang", "es"),
-                "xmltv_id": exact,
-            })
-            newch.text = ch.text or exact
-            root.append(newch)
-            found[exact.casefold()] = exact
-            hits += 1
-
-        print(f"{path.parent.name}: {hits} coincidencias")
-
-    ET.indent(root, space="  ")
-    ET.ElementTree(root).write(CHANNELS_OUT, encoding="utf-8", xml_declaration=True)
-
-    missing = [v for k, v in wanted.items() if k not in found]
+    missing = sorted(
+        [v for k, v in wanted.items() if k not in matched],
+        key=str.casefold
+    )
     Path("epg_missing.txt").write_text(
-        "\n".join(sorted(missing, key=str.casefold)) + ("\n" if missing else ""),
+        "\n".join(missing) + ("\n" if missing else ""),
         encoding="utf-8"
     )
 
-    print(f"\nCanales preparados para EPG: {len(found)}/{len(wanted)}")
-    print(f"Sin fuente EPG encontrada: {len(missing)}")
+    ET.indent(out, space="  ")
+    ET.ElementTree(out).write(OUT, encoding="utf-8", xml_declaration=True)
+
+    print(f"EPG generado: {len(matched)}/{len(wanted)} canales")
+    print(f"Programas: {programme_count}")
+    print(f"Sin EPG: {len(missing)}")
+    print("Archivo: guide.xml")
 
 if __name__ == "__main__":
     main()
