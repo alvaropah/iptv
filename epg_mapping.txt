@@ -104,7 +104,6 @@ mlaliga2.es -> MLIG1 | IPTV-org Movistar+ | exact/alias
 mlaliga3.es -> MLIG2 | IPTV-org Movistar+ | exact/alias
 mligadecampeones.es -> M+.Liga.de.Campeones.es | EPGShare ES1 | exact/alias
 motorvisiontv.es -> Motorvision.de@SD | IPTV-org Orange TV | exact/alias
-movistarclásicoses.es -> M+.Clásicos.es | EPGShare ES1 | exact/alias
 movistardcine.es -> MovistarCine.es | IPTV-EPG España | fuzzy
 movistardeporteses.es -> M+.Deportes.es | EPGShare ES1 | exact/alias
 movistardocumentaleses.es -> M+.Documentales.es | EPGShare ES1 | exact/alias
