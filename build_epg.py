@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import gzip
 import re
-import unicodedata
 import urllib.request
 import xml.etree.ElementTree as ET
+import unicodedata
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -12,13 +12,17 @@ OUT = Path("guide.xml")
 MISSING = Path("epg_missing.txt")
 MAPPING = Path("epg_mapping.txt")
 
+# Keep the two sources that gave the best result in v4, and add the
+# current iptv-org exported guides for Movistar+ and Orange TV.
 SOURCES = [
     ("EPGShare ES1", "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"),
     ("IPTV-EPG España", "https://iptv-epg.org/files/epg-es.xml"),
+    ("IPTV-org Movistar+", "https://iptv-org.github.io/epg/guides/es/movistarplus.es.xml"),
+    ("IPTV-org Orange TV", "https://iptv-org.github.io/epg/guides/es/orangetv.orange.es.xml"),
 ]
 
-# For channels whose tvg-id is not written like the EPG provider's
-# display name, give the matcher explicit alternatives.
+# Only high-confidence aliases. They are deliberately limited so the v6
+# cannot replace a working v4 match with a speculative one.
 ALIASES = {
     "movistarclásicoses.es": ["M+. Clásicos", "M+ Clásicos", "Movistar Clásicos"],
     "movistardcine.es": ["M+. Cine", "M+ Cine", "Movistar Cine"],
@@ -46,50 +50,39 @@ ALIASES = {
     "mplusgolfes.es": ["M+ Golf", "M+. Golf", "Movistar Golf"],
     "mplusligadecampeones2.es": ["M+ Liga de Campeones 2", "M+. Liga de Campeones 2"],
     "mplusligadecampeones4es.es": ["M+ Liga de Campeones 4", "M+. Liga de Campeones 4"],
-    "daznmotogpes.es": ["DAZN MotoGP", "DAZN Moto GP"],
-    "clanes.es": ["Clan TVE", "Clan", "Clan TV"],
-    "canalhollywood.es": ["Canal Hollywood", "C. Hollywood"],
-    "cnbces.es": ["CNBC Europe", "CNBC"],
-    "cnninternational.es": ["CNN International"],
-    "cnnintes.es": ["CNN International"],
-    "cocina.es": ["Canal Cocina", "Cocina"],
-    "canaldecasa.es": ["Canal Decasa", "Decasa"],
-    "discoveryes.es": ["Discovery Channel", "Discovery"],
-    "discoverychannel.es": ["Discovery Channel", "Discovery"],
-    "dwenespañoles.es": ["DW Español", "DW Español"],
-    "elconfidenciales.es": ["El Confidencial"],
-    "elgaragetves.es": ["El Garage TV", "El Garage"],
-    "elpaíses.es": ["El País"],
-    "fdf.es": ["Factoría de Ficción", "FDF"],
-    "filmcoes.es": ["Film&Co", "Filmco"],
-    "galiciatv.es": ["TV Galicia", "Galicia TV", "TVG"],
-    "tvgaliciaes.es": ["TV Galicia", "Galicia TV", "TVG"],
-    "tvgtvgaliciaes.es": ["TV Galicia", "Galicia TV", "TVG"],
-    "gh24h1.es": ["GH 24H 1", "Gran Hermano 24H 1", "GH24H1"],
-    "gh24h2.es": ["GH 24H 2", "Gran Hermano 24H 2", "GH24H2"],
-    "goltv.es": ["GOL TV", "Gol"],
-    "hittv.es": ["Hit TV", "HIT TV"],
-    "itaavanzadoes.es": ["Italiano Avanzado"],
-    "itaintermedioes.es": ["Italiano Intermedio"],
-    "itaprincipiantees.es": ["Italiano Principiante"],
-    "la8mediterráneoes.es": ["La 8 Mediterráneo", "La8 Mediterráneo"],
-    "laligahypermotiontv.es": ["LALIGA HYPERMOTION TV"],
-    "laligahypermotiontv2.es": ["LALIGA HYPERMOTION TV 2"],
-    "laligahypermotiontv3.es": ["LALIGA HYPERMOTION TV 3"],
-    "maxavances.es": ["Max Avances", "Max"],
-    "mdeportes2.es": ["M+ Deportes 2", "Movistar Deportes 2"],
-    "mdeportes3.es": ["M+ Deportes 3", "Movistar Deportes 3"],
-    "mdramaes.es": ["M+ Drama", "Movistar Drama"],
     "mlaliga2.es": ["M+ LALIGA 2", "M+. LALIGA 2"],
     "mlaliga3.es": ["M+ LALIGA 3", "M+. LALIGA 3"],
     "mligadecampeones.es": ["M+ Liga de Campeones", "M+. Liga de Campeones"],
+    "mdeportes2.es": ["M+ Deportes 2", "Movistar Deportes 2"],
+    "mdeportes3.es": ["M+ Deportes 3", "Movistar Deportes 3"],
+    "mdramaes.es": ["M+ Drama", "Movistar Drama"],
+    "daznmotogpes.es": ["DAZN MotoGP", "DAZN Moto GP"],
+    "clanes.es": ["Clan", "Clan TVE", "Clan.es"],
+    "classicaes.es": ["Classica", "Classica.es"],
+    "cnbces.es": ["CNBC Europe", "CNBC"],
+    "cnninternational.es": ["CNN International", "CNN Internacional"],
+    "cnnintes.es": ["CNN International", "CNN Internacional"],
+    "cocina.es": ["Canal Cocina", "Cocina"],
+    "canaldecasa.es": ["Canal Decasa", "Decasa"],
+    "discoveryes.es": ["Discovery Channel", "Discovery"],
+    "dwenespañoles.es": ["Deutsche Welle", "DW Español"],
+    "elconfidenciales.es": ["El Confidencial"],
+    "elgaragetves.es": ["El Garage TV", "El Garage"],
+    "elpaíses.es": ["El País"],
+    "fdf.es": ["FDF", "Factoría de Ficción"],
+    "galiciatv.es": ["TV Galicia", "TVG", "Galicia TV"],
+    "tvgaliciaes.es": ["TV Galicia", "TVG", "Galicia TV"],
+    "tvgtvgaliciaes.es": ["TV Galicia", "TVG", "Galicia TV"],
+    "goltv.es": ["GOL TV", "GOL"],
+    "hittv.es": ["Hit TV", "HIT TV"],
+    "laligahypermotiontv.es": ["LALIGA HYPERMOTION TV"],
+    "laligahypermotiontv2.es": ["LALIGA HYPERMOTION TV 2"],
+    "laligahypermotiontv3.es": ["LALIGA HYPERMOTION TV 3"],
     "motorvisiontv.es": ["Motorvision TV", "MotorVision"],
-    "mundo_serieses.es": ["Mundo Series"],
-    "mundoserieses.es": ["Mundo Series"],
     "natgeowildes.es": ["Nat Geo Wild", "National Geographic Wild"],
     "navarratves.es": ["Navarra TV", "Navarra Televisión"],
     "pocoyóes.es": ["Pocoyó", "Pocoyo"],
-    "redbulltv.es": ["Red Bull TV", "RedBull TV"],
+    "redbulltv.es": ["Red Bull TV", "Red Bull"],
     "runtimeacciónes.es": ["Runtime Acción"],
     "runtimeclásicoses.es": ["Runtime Clásicos"],
     "runtimecomediaes.es": ["Runtime Comedia"],
@@ -102,31 +95,38 @@ ALIASES = {
     "squirreles.es": ["Squirrel"],
     "surfchanneles.es": ["Surf Channel"],
     "tdp.es": ["Teledeporte", "TDP"],
-    "telemadridintes.es": ["Telemadrid Internacional", "Telemadrid Int"],
+    "telemadridintes.es": ["Telemadrid Internacional", "Telemadrid"],
+    "trtworld.es": ["TRT World"],
+    "tveinternacional.es.plus1": ["TVE Internacional"],
+    "votv3cast.es": ["TV3", "TV3 Cataluña", "TV3 Cat"],
+    "324es.es": ["3/24", "324"],
+    "acontrapluscine.es": ["A Contracorriente", "A Contracorriente Cine"],
+    "amcselektes.es": ["AMC Selekt"],
+    "amcwestern.es": ["AMC Western", "AMC Westerns"],
+    "aragóntves.es": ["Aragón TV"],
+    "aragóntvintes.es": ["Aragón TV Internacional", "Aragón TV Int"],
+    "bbcnews.es": ["BBC News"],
+    "bemadtv.es": ["Be Mad", "bemad"],
+    "canalextremadurasates.es": ["Canal Extremadura"],
+    "canalparlamentoes.es": ["Canal Parlamento"],
+    "canalsurandalucíaes.es": ["Canal Sur Andalucía", "Canal Sur"],
+    "cinefeelgoodverditves.es": ["Cine Feel Good", "Cines Verdi TV"],
+    "gh24h1.es": ["GH 24H 1", "Gran Hermano 24H 1"],
+    "gh24h2.es": ["GH 24H 2", "Gran Hermano 24H 2"],
+    "itaavanzadoes.es": ["Italiano Avanzado"],
+    "itaintermedioes.es": ["Italiano Intermedio"],
+    "itaprincipiantees.es": ["Italiano Principiante"],
+    "la8mediterráneoes.es": ["La 8 Mediterráneo", "La8 Mediterráneo"],
+    "maxavances.es": ["Max Avances", "Max"],
+    "mundoserieses.es": ["Mundo Series"],
     "tpa7.es": ["TPA 7", "Asturias 7"],
     "tpa8es.es": ["TPA 8", "Asturias 8"],
     "tracelatina.es": ["Trace Latina", "TRACE Latina"],
-    "trtworld.es": ["TRT World"],
-    "tveinternacional.es.plus1": ["TVE Internacional", "TVE Internacional +1"],
     "vivircongatoses.es": ["Vivir con Gatos"],
     "viznertv.es": ["Vizner TV"],
     "vodarktv.es": ["Dark", "VOD Dark"],
     "voodsea.es": ["Odisea", "VOD Odisea"],
     "vosyfy.es": ["Syfy", "VOD Syfy"],
-    "votv3cast.es": ["TV3", "TV3 Cataluña", "TV3 Cat"],
-    "324es.es": ["3/24", "324"],
-    "acontrapluscine.es": ["A Contracorriente", "A Contracorriente Cine"],
-    "alquiler1es.es": ["Alquiler 1", "Taquilla 1"],
-    "amcselektes.es": ["AMC Selekt"],
-    "amcwestern.es": ["AMC Western"],
-    "aragóntves.es": ["Aragón TV"],
-    "aragóntvintes.es": ["Aragón TV Internacional", "Aragón TV Int"],
-    "bbcnews.es": ["BBC News"],
-    "bemadtv.es": ["Be Mad", "bemad"],
-    "canalextremadurasates.es": ["Canal Extremadura SAT"],
-    "canalparlamentoes.es": ["Canal Parlamento"],
-    "canalsurandalucíaes.es": ["Canal Sur Andalucía"],
-    "cinefeelgoodverditves.es": ["Cine Feel Good"],
 }
 
 def norm(s):
@@ -137,7 +137,6 @@ def norm(s):
     s = re.sub(r"\bmovistar\s*plus\b", "movistar", s)
     s = re.sub(r"\bm\s*\+\b", "mplus", s)
     s = re.sub(r"\bm\s*\.\b", "mplus", s)
-    s = re.sub(r"\bmovistar\b", "movistar", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
@@ -149,7 +148,7 @@ def fetch(url):
         data = gzip.decompress(data)
     return ET.fromstring(data)
 
-def playlist():
+def read_m3u():
     text = M3U.read_text(encoding="utf-8", errors="ignore")
     result = {}
     for line in text.splitlines():
@@ -162,51 +161,47 @@ def playlist():
         if not uid:
             continue
         name = line.split(",", 1)[1].strip() if "," in line else uid
-        result[norm(uid)] = {"id": uid, "name": name}
+        result.setdefault(norm(uid), {"id": uid, "name": name})
     return result
 
-def channel_names(ch):
-    out = []
-    if ch.text:
-        out.append(ch.text)
-    out.extend(x.text for x in ch.findall("display-name") if x.text)
-    return out
+def names(ch):
+    vals = [ch.get("id", "")]
+    vals += [x.text for x in ch.findall("display-name") if x.text]
+    return {norm(x) for x in vals if x}
 
-def candidate_names(info):
+def targets(info):
     vals = [info["id"], info["name"]]
     vals += ALIASES.get(info["id"], [])
     return {norm(x) for x in vals if x}
 
-def match_channel(ch, wanted):
-    source_vals = {norm(ch.get("id", ""))}
-    source_vals |= {norm(x) for x in channel_names(ch) if x}
-    source_vals.discard("")
-
+def find_match(ch, wanted):
+    src = names(ch)
+    if not src:
+        return None, 0, ""
     # Exact normalized ID/name/alias.
-    for k, info in wanted.items():
-        if source_vals & candidate_names(info):
-            return k, 1.0, "exact"
-
-    # Conservative fuzzy matching against explicit aliases and display name.
-    best = (None, 0.0)
-    for k, info in wanted.items():
-        targets = candidate_names(info)
-        for sv in source_vals:
-            for tv in targets:
-                score = SequenceMatcher(None, sv, tv).ratio()
-                if score > best[1]:
-                    best = (k, score)
-
-    if best[1] >= 0.93:
-        return best[0], best[1], "fuzzy"
+    for key, info in wanted.items():
+        if src & targets(info):
+            return key, 1.0, "exact/alias"
+    # Only very high-confidence fuzzy match.
+    best_key, best_score = None, 0
+    for key, info in wanted.items():
+        for a in src:
+            for b in targets(info):
+                score = SequenceMatcher(None, a, b).ratio()
+                if score > best_score:
+                    best_key, best_score = key, score
+    if best_score >= 0.96:
+        return best_key, best_score, "fuzzy"
     return None, 0, ""
 
 def main():
-    wanted = playlist()
+    wanted = read_m3u()
     print(f"Encontrados {len(wanted)} tvg-id únicos en {M3U.name}")
 
+    # Mapping is accumulated in source priority order. Once a source has
+    # supplied a match, a later source cannot overwrite it.
     mappings = {}
-    sources = []
+    source_roots = []
 
     for source_name, url in SOURCES:
         print(f"\nFuente: {source_name}")
@@ -218,48 +213,51 @@ def main():
 
         hits = 0
         for ch in root.findall("channel"):
-            key, score, method = match_channel(ch, wanted)
-            if key is None:
+            key, score, method = find_match(ch, wanted)
+            if key is None or key in mappings:
                 continue
-            if key not in mappings or score > mappings[key]["score"]:
-                mappings[key] = {
-                    "user_id": wanted[key]["id"],
-                    "source_id": ch.get("id", ""),
-                    "channel": ch,
-                    "score": score,
-                    "method": method,
-                    "source": source_name,
-                }
-                hits += 1
+            mappings[key] = {
+                "user_id": wanted[key]["id"],
+                "source_id": ch.get("id", ""),
+                "channel": ch,
+                "source": source_name,
+                "score": score,
+                "method": method,
+            }
+            hits += 1
 
-        sources.append((source_name, root))
-        print(f"  Coincidencias: {hits}")
+        source_roots.append((source_name, root))
+        print(f"  Coincidencias nuevas: {hits}")
 
     out = ET.Element("tv", {
-        "generator-info-name": "Custom EPG for alvaropah/iptv v5",
+        "generator-info-name": "Custom EPG for alvaropah/iptv v6",
         "generator-info-url": "https://github.com/alvaropah/iptv",
     })
 
     for item in sorted(mappings.values(), key=lambda x: x["user_id"].casefold()):
-        ch = item["channel"]
         newch = ET.Element("channel", {"id": item["user_id"]})
-        for child in ch:
+        for child in item["channel"]:
             newch.append(child)
         out.append(newch)
 
-    # Index source_id -> our final tvg-id.
-    source_map = {}
-    for item in mappings.values():
-        source_map.setdefault((item["source"], item["source_id"]), item["user_id"])
-
+    source_map = {
+        (item["source"], item["source_id"]): item["user_id"]
+        for item in mappings.values()
+    }
     seen = set()
     programs = 0
-    for source_name, root in sources:
+
+    for source_name, root in source_roots:
         for p in root.findall("programme"):
             user_id = source_map.get((source_name, p.get("channel", "")))
             if not user_id:
                 continue
-            key = (user_id.casefold(), p.get("start",""), p.get("stop",""), "".join(p.itertext())[:400])
+            key = (
+                user_id.casefold(),
+                p.get("start", ""),
+                p.get("stop", ""),
+                "".join(p.itertext())[:500],
+            )
             if key in seen:
                 continue
             seen.add(key)
@@ -270,8 +268,10 @@ def main():
             out.append(np)
             programs += 1
 
-    missing = [info["id"] for k, info in wanted.items() if k not in mappings]
-    missing.sort(key=str.casefold)
+    missing = sorted(
+        [info["id"] for k, info in wanted.items() if k not in mappings],
+        key=str.casefold
+    )
     MISSING.write_text("\n".join(missing) + ("\n" if missing else ""), encoding="utf-8")
 
     mapping_lines = []
