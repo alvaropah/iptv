@@ -23,10 +23,10 @@ jobs:
       - name: Generar EPG personalizado
         run: python build_epg.py
 
-      - name: Guardar guide.xml y faltantes
+      - name: Guardar EPG y reportes
         run: |
           git config user.name "epg-bot"
           git config user.email "actions@github.com"
-          git add guide.xml epg_missing.txt
+          git add guide.xml epg_missing.txt epg_mapping.txt
           git diff --cached --quiet || git commit -m "Actualizar EPG"
           git push
