@@ -1,23 +1,27 @@
 #!/usr/bin/env python3
 """
-Genera playlist.m3u conservando canales.m3u al principio y añadiendo
-películas/series seleccionadas desde una cuenta Xtream Codes.
+Generador/sincronizador de playlist IPTV.
 
-Requiere variables de entorno:
-  XTREAM_HOST
-  XTREAM_USERNAME
-  XTREAM_PASSWORD
+Objetivo:
+- Conserva canales.m3u como lista maestra y no lo modifica.
+- Descarga la M3U completa de Xtream.
+- Filtra únicamente las categorías definidas en config.yml.
+- Añade ese contenido después de los canales.
+- Mantiene una lista final M3U limpia, sin separadores artificiales.
+- Usa los GitHub Secrets XTREAM_HOST, XTREAM_USERNAME y XTREAM_PASSWORD.
+- En cada ejecución reconstruye la parte automática a partir de la fuente actual.
+  Esto evita duplicados y elimina contenido que el proveedor haya retirado.
 
-Requiere:
-  pip install requests pyyaml
+La parte de canales siempre procede de canales.m3u.
 """
 
 from __future__ import annotations
 
 import os
+import re
 import sys
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import urlsplit, urlunsplit
 
 import requests
 import yaml
@@ -27,268 +31,271 @@ CONFIG_FILE = ROOT / "config.yml"
 CHANNELS_FILE = ROOT / "canales.m3u"
 OUTPUT_FILE = ROOT / "playlist.m3u"
 
-TIMEOUT = 60
-SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": "iptv-playlist-generator/1.0"})
+TIMEOUT = 120
+MAX_REDIRECTS = 5
 
 
 def required_env(name: str) -> str:
     value = os.environ.get(name, "").strip()
     if not value:
-        raise RuntimeError(f"Falta el GitHub Secret/variable de entorno: {name}")
+        raise RuntimeError(f"Falta el GitHub Secret: {name}")
     return value
 
 
-def api_get(host: str, username: str, password: str, action: str, **extra):
-    params = {
-        "username": username,
-        "password": password,
-        "action": action,
-        **extra,
-    }
-    r = SESSION.get(f"{host}/player_api.php", params=params, timeout=TIMEOUT)
-    r.raise_for_status()
-    data = r.json()
-
-    # Algunas implementaciones devuelven un objeto con auth cuando falla.
-    if isinstance(data, dict) and "user_info" in data:
-        auth = data["user_info"].get("auth")
-        if str(auth) == "0":
-            raise RuntimeError("Xtream ha rechazado las credenciales.")
-    return data
+def normalize_host(host: str) -> str:
+    host = host.strip().rstrip("/")
+    if not host.startswith(("http://", "https://")):
+        host = "https://" + host
+    return host
 
 
-def clean_attr(value) -> str:
-    return str(value or "").replace('"', "'").replace("\r", " ").replace("\n", " ").strip()
+def load_config() -> dict:
+    if not CONFIG_FILE.exists():
+        raise FileNotFoundError("No existe config.yml.")
 
-
-def category_map(items):
-    return {
-        clean_attr(x.get("category_name")): str(x.get("category_id"))
-        for x in items
-        if x.get("category_name") is not None and x.get("category_id") is not None
-    }
-
-
-def quote_path_part(value: str) -> str:
-    return quote(str(value), safe="")
-
-
-def series_episode_url(host, username, password, episode):
-    ext = clean_attr(episode.get("container_extension")) or "mkv"
-    stream_id = episode.get("id")
-    return (
-        f"{host}/series/{quote_path_part(username)}/{quote_path_part(password)}/"
-        f"{stream_id}.{quote_path_part(ext)}"
-    )
-
-
-def movie_url(host, username, password, movie):
-    ext = clean_attr(movie.get("container_extension")) or "mkv"
-    stream_id = movie.get("stream_id")
-    return (
-        f"{host}/movie/{quote_path_part(username)}/{quote_path_part(password)}/"
-        f"{stream_id}.{quote_path_part(ext)}"
-    )
-
-
-def load_config():
     with CONFIG_FILE.open("r", encoding="utf-8") as f:
         cfg = yaml.safe_load(f) or {}
+
     return {
         "series_categories": cfg.get("series_categories") or [],
         "movie_categories": cfg.get("movie_categories") or [],
     }
 
 
-def read_channels():
+def read_channels() -> str:
     if not CHANNELS_FILE.exists():
-        raise FileNotFoundError(
-            "No existe canales.m3u en la raíz del repositorio."
-        )
+        raise FileNotFoundError("No existe canales.m3u en la raíz del repositorio.")
+
     text = CHANNELS_FILE.read_text(encoding="utf-8-sig")
+
+    # Eliminamos únicamente posibles cabeceras #EXTM3U para añadir una sola.
+    lines = [
+        line for line in text.splitlines()
+        if line.strip().upper() != "#EXTM3U"
+    ]
+
+    return "#EXTM3U\n" + "\n".join(lines).rstrip() + "\n"
+
+
+def extract_group_title(extinf: str) -> str | None:
+    """
+    Obtiene group-title="..." de una línea #EXTINF.
+    Admite comillas simples o dobles y caracteres Unicode.
+    """
+    match = re.search(
+        r'group-title\s*=\s*(["\'])(.*?)\1',
+        extinf,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+    return match.group(2)
+
+
+def parse_m3u(text: str) -> list[tuple[str, str]]:
+    """
+    Devuelve pares (#EXTINF, URL) conservando exactamente las líneas.
+    Solo procesa entradas M3U completas.
+    """
     lines = text.splitlines()
+    entries = []
 
-    # Conservamos la lista exactamente, salvo cabeceras #EXTM3U duplicadas.
-    body = [line for line in lines if line.strip().upper() != "#EXTM3U"]
-    return "#EXTM3U\n" + "\n".join(body).rstrip() + "\n"
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip("\ufeff")
 
+        if line.upper().startswith("#EXTINF"):
+            extinf = lines[i]
+            j = i + 1
 
-def build_series(host, username, password, selected_names, series_categories):
-    wanted = set(selected_names)
-    by_name = category_map(series_categories)
+            # Una entrada M3U normalmente tiene la URL inmediatamente después.
+            # Saltamos líneas vacías, pero no eliminamos metadatos.
+            while j < len(lines) and not lines[j].strip():
+                j += 1
 
-    missing = sorted(wanted - set(by_name))
-    if missing:
-        print("AVISO: categorías de series no encontradas:")
-        for name in missing:
-            print(f"  - {name}")
-
-    result = []
-    total_series = 0
-    total_episodes = 0
-
-    for category_name in selected_names:
-        category_id = by_name.get(category_name)
-        if category_id is None:
-            continue
-
-        series_list = api_get(
-            host, username, password, "get_series", category_id=category_id
-        )
-        if not isinstance(series_list, list):
-            continue
-
-        for series in series_list:
-            total_series += 1
-            series_id = series.get("series_id")
-            series_name = clean_attr(series.get("name"))
-            logo = clean_attr(series.get("cover") or series.get("stream_icon"))
-
-            if not series_id:
+            if j < len(lines) and not lines[j].startswith("#"):
+                entries.append((extinf, lines[j]))
+                i = j + 1
                 continue
 
-            info = api_get(
-                host, username, password, "get_series_info", series_id=series_id
-            )
-            episodes_by_season = (info or {}).get("episodes", {}) if isinstance(info, dict) else {}
+        i += 1
 
-            # Ordenamos temporadas y episodios numéricamente.
-            for season_key in sorted(
-                episodes_by_season,
-                key=lambda x: int(x) if str(x).isdigit() else str(x),
-            ):
-                episodes = episodes_by_season.get(season_key) or []
-                episodes = sorted(
-                    episodes,
-                    key=lambda e: (
-                        int(e.get("episode_num", 0) or 0),
-                        clean_attr(e.get("title")).lower(),
-                    ),
-                )
-
-                try:
-                    season_num = int(season_key)
-                except (TypeError, ValueError):
-                    season_num = 0
-
-                for ep in episodes:
-                    ep_num = ep.get("episode_num", "")
-                    ep_title = clean_attr(ep.get("title")) or f"Episodio {ep_num}"
-                    display = f"{series_name} S{season_num:02d}E{int(ep_num):02d} - {ep_title}" if str(ep_num).isdigit() else f"{series_name} - {ep_title}"
-
-                    attrs = [
-                        'tvg-name="' + clean_attr(display) + '"',
-                        'tvg-logo="' + logo + '"',
-                        'group-title="' + category_name + '"',
-                    ]
-                    result.append("#EXTINF:-1 " + " ".join(attrs) + "," + display)
-                    result.append(series_episode_url(host, username, password, ep))
-                    total_episodes += 1
-
-    print(f"Series encontradas: {total_series}")
-    print(f"Episodios generados: {total_episodes}")
-    return result
+    return entries
 
 
-def build_movies(host, username, password, selected_names, movie_categories):
-    wanted = set(selected_names)
-    by_name = category_map(movie_categories)
+def download_xtream_m3u(host: str, username: str, password: str) -> str:
+    """
+    Descarga la M3U del proveedor directamente.
+    No guardamos la URL con credenciales en el repositorio.
+    """
+    url = f"{host}/get.php"
 
-    missing = sorted(wanted - set(by_name))
-    if missing:
-        print("AVISO: categorías de películas no encontradas:")
-        for name in missing:
-            print(f"  - {name}")
+    params = {
+        "username": username,
+        "password": password,
+        "type": "m3u_plus",
+        "output": "ts",
+    }
 
-    result = []
-    total_movies = 0
+    print("Descargando M3U de Xtream...")
 
-    for category_name in selected_names:
-        category_id = by_name.get(category_name)
-        if category_id is None:
-            continue
+    response = requests.get(
+        url,
+        params=params,
+        timeout=TIMEOUT,
+        allow_redirects=True,
+        headers={"User-Agent": "iptv-playlist-generator/2.0"},
+    )
+    response.raise_for_status()
 
-        movies = api_get(
-            host, username, password, "get_vod_streams", category_id=category_id
+    content = response.content.decode("utf-8-sig", errors="replace")
+
+    if "#EXTM3U" not in content[:5000].upper():
+        preview = content[:300].replace("\n", " ")
+        raise RuntimeError(
+            "La respuesta del proveedor no parece ser una M3U válida. "
+            f"Respuesta inicial: {preview}"
         )
-        if not isinstance(movies, list):
+
+    print(
+        f"M3U descargada: {len(content) / 1024 / 1024:.2f} MiB"
+    )
+
+    return content
+
+
+def selected_categories(config: dict) -> tuple[set[str], set[str]]:
+    series = {
+        str(x).strip()
+        for x in config["series_categories"]
+        if str(x).strip()
+    }
+    movies = {
+        str(x).strip()
+        for x in config["movie_categories"]
+        if str(x).strip()
+    }
+    return series, movies
+
+
+def filter_entries(
+    entries: list[tuple[str, str]],
+    wanted_categories: set[str],
+) -> tuple[list[tuple[str, str]], dict[str, int], int]:
+    """
+    Filtra por group-title exacto.
+
+    Importante:
+    NO modifica las URLs ni los #EXTINF.
+    Por tanto, si Xtream proporciona URLs con usuario/contraseña,
+    esas URLs se conservan tal cual en la playlist final.
+    """
+    selected = []
+    counts: dict[str, int] = {}
+    missing_candidates = set()
+
+    for extinf, url in entries:
+        group = extract_group_title(extinf)
+
+        if group is None:
             continue
 
-        for movie in movies:
-            name = clean_attr(movie.get("name"))
-            logo = clean_attr(movie.get("stream_icon"))
-            if not name or movie.get("stream_id") is None:
-                continue
+        if group in wanted_categories:
+            selected.append((extinf, url))
+            counts[group] = counts.get(group, 0) + 1
 
-            attrs = [
-                'tvg-name="' + name + '"',
-                'tvg-logo="' + logo + '"',
-                'group-title="' + category_name + '"',
-            ]
-            result.append("#EXTINF:-1 " + " ".join(attrs) + "," + name)
-            result.append(movie_url(host, username, password, movie))
-            total_movies += 1
-
-    print(f"Películas generadas: {total_movies}")
-    return result
+    return selected, counts, len(selected)
 
 
-def main():
-    host = required_env("XTREAM_HOST").rstrip("/")
+def entries_to_text(entries: list[tuple[str, str]]) -> str:
+    if not entries:
+        return ""
+
+    lines = []
+    for extinf, url in entries:
+        lines.append(extinf)
+        lines.append(url)
+
+    return "\n".join(lines)
+
+
+def main() -> None:
+    host = normalize_host(required_env("XTREAM_HOST"))
     username = required_env("XTREAM_USERNAME")
     password = required_env("XTREAM_PASSWORD")
-    cfg = load_config()
 
-    # Verificación de autenticación.
-    account = api_get(host, username, password, "")
-    if not isinstance(account, dict):
-        raise RuntimeError("Respuesta inesperada de Xtream.")
+    config = load_config()
+    series_categories, movie_categories = selected_categories(config)
+    wanted_categories = series_categories | movie_categories
 
-    series_categories = api_get(host, username, password, "get_series_categories")
-    movie_categories = api_get(host, username, password, "get_vod_categories")
-
-    if not isinstance(series_categories, list):
-        raise RuntimeError("Xtream no devolvió una lista válida de categorías de series.")
-    if not isinstance(movie_categories, list):
-        raise RuntimeError("Xtream no devolvió una lista válida de categorías VOD.")
-
-    channels = read_channels()
-
-    generated = []
-    generated.append("")
-    generated.append("# ===== SERIES GENERADAS AUTOMÁTICAMENTE =====")
-    generated.extend(
-        build_series(
-            host,
-            username,
-            password,
-            cfg["series_categories"],
-            series_categories,
+    if not wanted_categories:
+        raise RuntimeError(
+            "No hay ninguna categoría seleccionada en config.yml."
         )
-    )
-    generated.append("")
-    generated.append("# ===== PELÍCULAS GENERADAS AUTOMÁTICAMENTE =====")
-    generated.extend(
-        build_movies(
-            host,
-            username,
-            password,
-            cfg["movie_categories"],
-            movie_categories,
-        )
+
+    print(f"Categorías de series configuradas: {len(series_categories)}")
+    print(f"Categorías de películas configuradas: {len(movie_categories)}")
+    print(f"Categorías totales a filtrar: {len(wanted_categories)}")
+
+    channels_text = read_channels()
+    source_m3u = download_xtream_m3u(host, username, password)
+    source_entries = parse_m3u(source_m3u)
+
+    if not source_entries:
+        raise RuntimeError("No se encontraron entradas #EXTINF en la M3U de Xtream.")
+
+    print(f"Entradas totales en Xtream: {len(source_entries):,}")
+
+    selected, counts, selected_total = filter_entries(
+        source_entries,
+        wanted_categories,
     )
 
-    final_text = channels.rstrip() + "\n" + "\n".join(generated).rstrip() + "\n"
+    # Diagnóstico: categorías configuradas que no aparecen en la M3U.
+    found_categories = set(counts)
+    missing = sorted(wanted_categories - found_categories)
+
+    if missing:
+        print("\nAVISO: estas categorías configuradas no aparecen en la M3U:")
+        for category in missing:
+            print(f"  - {category}")
+
+    print(f"\nEntradas seleccionadas: {selected_total:,}")
+
+    # Separa estadísticas sin alterar el orden original de Xtream.
+    series_total = 0
+    movie_total = 0
+
+    for extinf, _ in selected:
+        group = extract_group_title(extinf)
+        if group in series_categories:
+            series_total += 1
+        elif group in movie_categories:
+            movie_total += 1
+
+    print(f"Entradas de series: {series_total:,}")
+    print(f"Entradas de películas: {movie_total:,}")
+
+    # Conservamos el orden de canales.m3u y después el orden que entrega Xtream.
+    generated_text = entries_to_text(selected)
+
+    if generated_text:
+        final_text = channels_text.rstrip() + "\n" + generated_text.rstrip() + "\n"
+    else:
+        final_text = channels_text
+
     OUTPUT_FILE.write_text(final_text, encoding="utf-8")
 
-    print(f"Playlist generada: {OUTPUT_FILE}")
-    print(f"Tamaño: {OUTPUT_FILE.stat().st_size / 1024 / 1024:.2f} MiB")
+    size_mib = OUTPUT_FILE.stat().st_size / 1024 / 1024
+
+    print("\nPlaylist generada correctamente.")
+    print(f"Archivo: {OUTPUT_FILE.name}")
+    print(f"Tamaño final: {size_mib:.2f} MiB")
 
 
 if __name__ == "__main__":
     try:
         main()
     except Exception as exc:
-        print(f"ERROR: {exc}", file=sys.stderr)
+        print(f"\nERROR: {exc}", file=sys.stderr)
         sys.exit(1)
