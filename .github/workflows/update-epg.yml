@@ -11,6 +11,7 @@ permissions:
 jobs:
   epg:
     runs-on: ubuntu-latest
+
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -20,38 +21,44 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Descargar motor EPG IPTV-org
+      - name: Descargar motor IPTV-org
         uses: actions/checkout@v4
         with:
           repository: iptv-org/epg
           path: epg-src
           fetch-depth: 1
 
-      - name: Instalar dependencias EPG
+      - name: Instalar dependencias IPTV-org
         working-directory: epg-src
         run: npm ci --omit=optional
+
+      - name: Preparar carpeta EPG local
+        run: mkdir -p epg-local
 
       - name: Generar EPG Movistar+
         working-directory: epg-src
         continue-on-error: true
         run: |
-          mkdir -p ../epg-local
           npm run grab -- --sites=movistarplus.es --lang=es --output=../epg-local/movistarplus.xml --maxConnections=5
 
       - name: Generar EPG Orange TV
         working-directory: epg-src
         continue-on-error: true
         run: |
-          mkdir -p ../epg-local
           npm run grab -- --sites=orangetv.orange.es --lang=es --output=../epg-local/orangetv.xml --maxConnections=5
 
-      - name: Generar EPG personalizado
+      - name: Mostrar EPG local disponible
+        run: |
+          echo "=== epg-local ==="
+          ls -lh epg-local || true
+
+      - name: Generar EPG personalizado v8
         run: python build_epg.py
 
-      - name: Guardar EPG y reportes
+      - name: Guardar resultados
         run: |
           git config user.name "epg-bot"
           git config user.email "actions@github.com"
-          git add guide.xml epg_missing.txt epg_mapping.txt
-          git diff --cached --quiet || git commit -m "Actualizar EPG"
+          git add guide.xml epg_missing.txt epg_mapping.txt epg_duplicate_warnings.txt
+          git diff --cached --quiet || git commit -m "Actualizar EPG v8"
           git push
