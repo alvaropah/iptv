@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-Generador/sincronizador IPTV — diagnóstico + filtrado seguro por tipo.
+Generador/sincronizador IPTV v4.
 
-IMPORTANTE:
-- canales.m3u nunca se modifica.
-- La clasificación de Series y Películas se obtiene de Xtream API.
-- Las categorías se comparan por nombre exacto.
-- Las categorías con el mismo nombre pueden existir en SERIES y VOD
-  sin mezclarse.
-- La primera ejecución imprime un diagnóstico detallado de categorías.
-- La playlist final conserva las URLs originales de Xtream, incluidas
-  las credenciales necesarias para reproducir el contenido.
+- canales.m3u se conserva íntegramente y siempre va primero.
+- Series y películas se filtran desde la M3U de Xtream.
+- Series/VOD se separan por el tipo de URL (/series/ y /movie/).
+- Las categorías VOD se colocan EXACTAMENTE en el orden de config.yml.
+- Dentro de cada categoría se conserva el orden entregado por Xtream.
+- El diagnóstico detallado puede activarse con DIAGNOSTIC_MODE=true.
+- En modo normal no hace el diagnóstico completo.
+- No usa get_series_info por cada serie: solo descarga la M3U una vez
+  y consulta las categorías de la API.
 """
 
 from __future__ import annotations
@@ -29,8 +29,9 @@ CHANNELS_FILE = ROOT / "canales.m3u"
 OUTPUT_FILE = ROOT / "playlist.m3u"
 
 TIMEOUT = 120
+
 session = requests.Session()
-session.headers.update({"User-Agent": "iptv-playlist-generator/3.0"})
+session.headers.update({"User-Agent": "iptv-playlist-generator/4.0"})
 
 
 def required_env(name: str) -> str:
@@ -48,56 +49,71 @@ def normalize_host(host: str) -> str:
 
 
 def load_config() -> dict:
+    if not CONFIG_FILE.exists():
+        raise FileNotFoundError("No existe config.yml.")
+
     with CONFIG_FILE.open("r", encoding="utf-8") as f:
         cfg = yaml.safe_load(f) or {}
 
     return {
         "series_categories": [
-            str(x).strip() for x in (cfg.get("series_categories") or []) if str(x).strip()
+            str(x).strip()
+            for x in (cfg.get("series_categories") or [])
+            if str(x).strip()
         ],
         "movie_categories": [
-            str(x).strip() for x in (cfg.get("movie_categories") or []) if str(x).strip()
+            str(x).strip()
+            for x in (cfg.get("movie_categories") or [])
+            if str(x).strip()
         ],
     }
 
 
 def xtream_api(host: str, username: str, password: str, action: str | None = None):
-    params = {"username": username, "password": password}
+    params = {
+        "username": username,
+        "password": password,
+    }
+
     if action:
         params["action"] = action
 
-    r = session.get(
+    response = session.get(
         f"{host}/player_api.php",
         params=params,
         timeout=TIMEOUT,
     )
-    r.raise_for_status()
+    response.raise_for_status()
 
     try:
-        return r.json()
+        return response.json()
     except ValueError as exc:
         raise RuntimeError(
-            f"Xtream devolvió una respuesta que no es JSON para {action or 'login'}."
+            f"Xtream no devolvió JSON válido para {action or 'login'}."
         ) from exc
 
 
-def category_names(items) -> list[str]:
+def category_names(items) -> set[str]:
     if not isinstance(items, list):
-        return []
+        return set()
 
-    return [
-        str(x.get("category_name", "")).strip()
-        for x in items
-        if isinstance(x, dict) and str(x.get("category_name", "")).strip()
-    ]
+    return {
+        str(item.get("category_name", "")).strip()
+        for item in items
+        if isinstance(item, dict)
+        and str(item.get("category_name", "")).strip()
+    }
 
 
-def print_category_diagnostic(config: dict, series_api, movie_api):
+def run_diagnostic(config: dict, series_api, movie_api):
+    """
+    Diagnóstico opcional. Se ejecuta solo si DIAGNOSTIC_MODE=true.
+    """
     requested_series = config["series_categories"]
     requested_movies = config["movie_categories"]
 
-    available_series = set(category_names(series_api))
-    available_movies = set(category_names(movie_api))
+    available_series = category_names(series_api)
+    available_movies = category_names(movie_api)
 
     found_series = [x for x in requested_series if x in available_series]
     missing_series = [x for x in requested_series if x not in available_series]
@@ -109,7 +125,7 @@ def print_category_diagnostic(config: dict, series_api, movie_api):
     print("DIAGNÓSTICO DE CATEGORÍAS XTREAM")
     print("=" * 72)
 
-    print(f"\nSERIES")
+    print("\nSERIES")
     print(f"  Configuradas: {len(requested_series)}")
     print(f"  Encontradas:  {len(found_series)}")
     print(f"  No encontradas: {len(missing_series)}")
@@ -119,7 +135,7 @@ def print_category_diagnostic(config: dict, series_api, movie_api):
         for name in missing_series:
             print(f"     - {name}")
 
-    print(f"\nPELÍCULAS / VOD")
+    print("\nPELÍCULAS / VOD")
     print(f"  Configuradas: {len(requested_movies)}")
     print(f"  Encontradas:  {len(found_movies)}")
     print(f"  No encontradas: {len(missing_movies)}")
@@ -129,74 +145,40 @@ def print_category_diagnostic(config: dict, series_api, movie_api):
         for name in missing_movies:
             print(f"     - {name}")
 
-    # Mostrar categorías del proveedor relacionadas con términos de
-    # categorías que no se han encontrado. Sirve para detectar cambios
-    # de nomenclatura del proveedor.
-    missing_all = missing_series + missing_movies
-    candidate_terms = set()
-
-    for name in missing_all:
-        # Palabras suficientemente significativas.
-        words = re.findall(r"[A-ZÁÉÍÓÚÜÑ0-9+]{4,}", name.upper())
-        candidate_terms.update(words)
-
-    candidates = []
-    for name in sorted(available_series | available_movies):
-        upper = name.upper()
-        if any(term in upper for term in candidate_terms):
-            candidates.append(name)
-
-    print("\n" + "-" * 72)
-    print("CATEGORÍAS DEL PROVEEDOR QUE PUEDEN ESTAR RELACIONADAS")
-    print("-" * 72)
-
-    if candidates:
-        for name in candidates:
-            kinds = []
-            if name in available_series:
-                kinds.append("SERIES")
-            if name in available_movies:
-                kinds.append("VOD")
-            print(f"  - {name}  [{', '.join(kinds)}]")
-    else:
-        print("  No se encontraron coincidencias aproximadas.")
-
     print("\n" + "-" * 72)
     print("CATEGORÍAS DUPLICADAS ENTRE SERIES Y VOD")
     print("-" * 72)
 
     duplicated = sorted(available_series & available_movies)
+
     if duplicated:
         for name in duplicated:
-            selected_s = name in requested_series
-            selected_m = name in requested_movies
             print(
                 f"  - {name}"
-                f" | configurada SERIES={'SI' if selected_s else 'NO'}"
-                f" | configurada VOD={'SI' if selected_m else 'NO'}"
+                f" | configurada SERIES={'SI' if name in requested_series else 'NO'}"
+                f" | configurada VOD={'SI' if name in requested_movies else 'NO'}"
             )
     else:
         print("  No hay categorías con el mismo nombre en ambos tipos.")
 
     print("=" * 72 + "\n")
 
-    return {
-        "available_series": available_series,
-        "available_movies": available_movies,
-        "missing_series": missing_series,
-        "missing_movies": missing_movies,
-    }
-
 
 def read_channels() -> str:
     if not CHANNELS_FILE.exists():
-        raise FileNotFoundError("No existe canales.m3u en la raíz del repositorio.")
+        raise FileNotFoundError(
+            "No existe canales.m3u en la raíz del repositorio."
+        )
 
     text = CHANNELS_FILE.read_text(encoding="utf-8-sig")
+
+    # Quitamos únicamente posibles #EXTM3U duplicados.
     lines = [
-        line for line in text.splitlines()
+        line
+        for line in text.splitlines()
         if line.strip().upper() != "#EXTM3U"
     ]
+
     return "#EXTM3U\n" + "\n".join(lines).rstrip() + "\n"
 
 
@@ -206,13 +188,11 @@ def extract_attr(extinf: str, attr: str) -> str | None:
         extinf,
         flags=re.IGNORECASE,
     )
-    return match.group(2) if match else None
+
+    return match.group(2).strip() if match else None
 
 
 def parse_m3u(text: str) -> list[tuple[str, str]]:
-    """
-    Lee entradas M3U conservando #EXTINF y URL exactamente.
-    """
     lines = text.splitlines()
     entries = []
     i = 0
@@ -238,7 +218,7 @@ def parse_m3u(text: str) -> list[tuple[str, str]]:
 def download_xtream_m3u(host: str, username: str, password: str) -> str:
     print("Descargando M3U de Xtream...")
 
-    r = session.get(
+    response = session.get(
         f"{host}/get.php",
         params={
             "username": username,
@@ -248,9 +228,10 @@ def download_xtream_m3u(host: str, username: str, password: str) -> str:
         },
         timeout=TIMEOUT,
     )
-    r.raise_for_status()
 
-    content = r.content.decode("utf-8-sig", errors="replace")
+    response.raise_for_status()
+
+    content = response.content.decode("utf-8-sig", errors="replace")
 
     if "#EXTM3U" not in content[:5000].upper():
         raise RuntimeError(
@@ -258,91 +239,118 @@ def download_xtream_m3u(host: str, username: str, password: str) -> str:
         )
 
     print(f"M3U descargada: {len(content) / 1024 / 1024:.2f} MiB")
+
     return content
 
 
-def normalize_category(value: str | None) -> str:
-    return (value or "").strip()
-
-
-def classify_entry(extinf: str, url: str) -> str:
+def classify_entry(url: str) -> str:
     """
-    Clasificación de respaldo basada en la URL.
-
-    En Xtream, normalmente:
-      /series/  -> SERIES
-      /movie/   -> VOD
-
-    Se usa SOLO para separar tipos; la categoría sigue siendo
-    comprobada contra las listas de categorías de Xtream.
+    Xtream normalmente utiliza:
+      /series/ -> Series
+      /movie/  -> VOD
     """
-    path = url.lower()
+    lower_url = url.lower()
 
-    if "/series/" in path:
+    if "/series/" in lower_url:
         return "series"
-    if "/movie/" in path:
+
+    if "/movie/" in lower_url:
         return "movie"
 
-    # Algunos proveedores pueden usar otros patrones. No asumimos.
     return "unknown"
 
 
-def filter_by_api_categories(
+def filter_and_order(
     entries: list[tuple[str, str]],
-    requested_series: set[str],
-    requested_movies: set[str],
-    available_series: set[str],
-    available_movies: set[str],
+    series_categories: list[str],
+    movie_categories: list[str],
 ):
     """
-    Filtra de forma segura:
-      1. Detecta si la URL es /series/ o /movie/.
-      2. Solo permite la categoría si pertenece al conjunto correspondiente.
+    Construye dos mapas de listas.
 
-    Esto resuelve el caso de categorías con el mismo nombre en Series y VOD.
+    La clave es la categoría exacta y el valor conserva el orden original
+    de Xtream.
+
+    Después se reconstruyen siguiendo el orden de config.yml.
     """
-    selected = []
-    counts_series: dict[str, int] = {}
-    counts_movies: dict[str, int] = {}
+
+    wanted_series = set(series_categories)
+    wanted_movies = set(movie_categories)
+
+    series_by_category: dict[str, list[tuple[str, str]]] = {
+        category: [] for category in series_categories
+    }
+
+    movies_by_category: dict[str, list[tuple[str, str]]] = {
+        category: [] for category in movie_categories
+    }
 
     for extinf, url in entries:
-        group = normalize_category(extract_attr(extinf, "group-title"))
-        if not group:
+        category = extract_attr(extinf, "group-title")
+
+        if not category:
             continue
 
-        kind = classify_entry(extinf, url)
+        kind = classify_entry(url)
 
-        if kind == "series":
-            if group in requested_series and group in available_series:
-                selected.append((extinf, url))
-                counts_series[group] = counts_series.get(group, 0) + 1
+        if kind == "series" and category in wanted_series:
+            series_by_category[category].append((extinf, url))
 
-        elif kind == "movie":
-            if group in requested_movies and group in available_movies:
-                selected.append((extinf, url))
-                counts_movies[group] = counts_movies.get(group, 0) + 1
+        elif kind == "movie" and category in wanted_movies:
+            movies_by_category[category].append((extinf, url))
 
-    return selected, counts_series, counts_movies
+    ordered = []
 
+    # SERIES: exactamente el orden de config.yml.
+    for category in series_categories:
+        ordered.extend(series_by_category[category])
 
-def print_counts(title: str, counts: dict[str, int], requested: list[str]):
-    print(f"\n{title}")
-    total = 0
+    # PELÍCULAS/VOD: exactamente el orden de config.yml.
+    for category in movie_categories:
+        ordered.extend(movies_by_category[category])
 
-    for name in requested:
-        count = counts.get(name, 0)
-        total += count
-        marker = "✅" if count else "⚠️"
-        print(f"  {marker} {name}: {count:,}")
-
-    print(f"  TOTAL: {total:,}")
+    return ordered, series_by_category, movies_by_category
 
 
 def entries_to_text(entries: list[tuple[str, str]]) -> str:
     lines = []
+
     for extinf, url in entries:
-        lines.extend([extinf, url])
+        lines.append(extinf)
+        lines.append(url)
+
     return "\n".join(lines)
+
+
+def print_summary(
+    series_categories: list[str],
+    movie_categories: list[str],
+    series_by_category: dict[str, list],
+    movies_by_category: dict[str, list],
+):
+    print("\nRESUMEN DE CONTENIDO SELECCIONADO")
+    print("-" * 72)
+
+    print("\nSERIES:")
+    series_total = 0
+
+    for category in series_categories:
+        count = len(series_by_category[category])
+        series_total += count
+        print(f"  {category}: {count:,}")
+
+    print(f"  TOTAL SERIES: {series_total:,}")
+
+    print("\nPELÍCULAS / VOD:")
+    movie_total = 0
+
+    for category in movie_categories:
+        count = len(movies_by_category[category])
+        movie_total += count
+        print(f"  {category}: {count:,}")
+
+    print(f"  TOTAL PELÍCULAS: {movie_total:,}")
+    print(f"\nTOTAL CONTENIDO VOD: {series_total + movie_total:,}")
 
 
 def main():
@@ -352,72 +360,130 @@ def main():
 
     config = load_config()
 
-    print("Autenticando contra Xtream API...")
+    series_categories = config["series_categories"]
+    movie_categories = config["movie_categories"]
+
+    print(f"Categorías de series configuradas: {len(series_categories)}")
+    print(f"Categorías de películas configuradas: {len(movie_categories)}")
+
+    print("\nAutenticando contra Xtream API...")
     auth = xtream_api(host, username, password)
 
     if not isinstance(auth, dict):
         raise RuntimeError("Respuesta inesperada de Xtream al autenticar.")
 
     user_info = auth.get("user_info", {})
-    if isinstance(user_info, dict) and str(user_info.get("auth", "1")) == "0":
+
+    if (
+        isinstance(user_info, dict)
+        and str(user_info.get("auth", "1")) == "0"
+    ):
         raise RuntimeError("Xtream ha rechazado las credenciales.")
 
     print("Autenticación correcta.")
 
     print("Consultando categorías reales de Xtream...")
-    series_api = xtream_api(host, username, password, "get_series_categories")
-    movie_api = xtream_api(host, username, password, "get_vod_categories")
+    series_api = xtream_api(
+        host,
+        username,
+        password,
+        "get_series_categories",
+    )
 
-    diagnostic = print_category_diagnostic(config, series_api, movie_api)
+    movie_api = xtream_api(
+        host,
+        username,
+        password,
+        "get_vod_categories",
+    )
 
-    print("Leyendo canales.m3u...")
+    available_series = category_names(series_api)
+    available_movies = category_names(movie_api)
+
+    # En modo normal no imprimimos el diagnóstico completo, pero sí
+    # comprobamos las categorías. Esto evita generar una playlist vacía
+    # por un cambio accidental de configuración.
+    missing_series = [
+        x for x in series_categories if x not in available_series
+    ]
+    missing_movies = [
+        x for x in movie_categories if x not in available_movies
+    ]
+
+    diagnostic_mode = (
+        os.environ.get("DIAGNOSTIC_MODE", "").strip().lower()
+        in {"1", "true", "yes", "on"}
+    )
+
+    if diagnostic_mode:
+        run_diagnostic(config, series_api, movie_api)
+
+    if missing_series:
+        print(
+            f"AVISO: {len(missing_series)} categorías de series "
+            "no aparecen en la API."
+        )
+        for name in missing_series:
+            print(f"  - {name}")
+
+    if missing_movies:
+        print(
+            f"AVISO: {len(missing_movies)} categorías VOD "
+            "no aparecen en la API."
+        )
+        for name in missing_movies:
+            print(f"  - {name}")
+
+    print("\nLeyendo canales.m3u...")
     channels = read_channels()
 
     source = download_xtream_m3u(host, username, password)
     entries = parse_m3u(source)
 
+    if not entries:
+        raise RuntimeError(
+            "No se encontraron entradas #EXTINF en la M3U de Xtream."
+        )
+
     print(f"Entradas totales en Xtream: {len(entries):,}")
 
-    selected, series_counts, movie_counts = filter_by_api_categories(
+    ordered, series_by_category, movies_by_category = filter_and_order(
         entries,
-        set(config["series_categories"]),
-        set(config["movie_categories"]),
-        diagnostic["available_series"],
-        diagnostic["available_movies"],
+        series_categories,
+        movie_categories,
     )
 
-    print_counts(
-        "ENTRADAS POR CATEGORÍA — SERIES",
-        series_counts,
-        config["series_categories"],
+    print_summary(
+        series_categories,
+        movie_categories,
+        series_by_category,
+        movies_by_category,
     )
 
-    print_counts(
-        "ENTRADAS POR CATEGORÍA — PELÍCULAS/VOD",
-        movie_counts,
-        config["movie_categories"],
-    )
+    print(f"\nEntradas seleccionadas: {len(ordered):,}")
 
-    series_total = sum(series_counts.values())
-    movie_total = sum(movie_counts.values())
-
-    print(f"\nEntradas seleccionadas: {len(selected):,}")
-    print(f"Entradas de series: {series_total:,}")
-    print(f"Entradas de películas: {movie_total:,}")
-
-    # Canales primero, contenido Xtream después.
-    generated = entries_to_text(selected)
+    generated = entries_to_text(ordered)
 
     if generated:
-        final_text = channels.rstrip() + "\n" + generated.rstrip() + "\n"
+        final_text = (
+            channels.rstrip()
+            + "\n"
+            + generated.rstrip()
+            + "\n"
+        )
     else:
         final_text = channels
 
-    OUTPUT_FILE.write_text(final_text, encoding="utf-8")
+    OUTPUT_FILE.write_text(
+        final_text,
+        encoding="utf-8",
+    )
+
+    size_mib = OUTPUT_FILE.stat().st_size / 1024 / 1024
 
     print("\nPlaylist generada correctamente.")
     print(f"Archivo: {OUTPUT_FILE.name}")
-    print(f"Tamaño final: {OUTPUT_FILE.stat().st_size / 1024 / 1024:.2f} MiB")
+    print(f"Tamaño final: {size_mib:.2f} MiB")
 
 
 if __name__ == "__main__":
