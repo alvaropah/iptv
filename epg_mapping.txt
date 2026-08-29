@@ -9,6 +9,7 @@ amcwestern.es -> 11281 | IPTV-org Orange TV | exact/alias
 andaluciatv.es -> AndaluciaTV.es | IPTV-EPG España | exact/alias
 antena3.es -> Antena.3.es | EPGShare ES1 | exact/alias
 aragontv.es -> AragonTV.es | IPTV-EPG España | exact/alias
+aragóntves.es -> AragonTV.es | IPTV-EPG España | exact/alias
 atreseries.es -> Atreseries.es | EPGShare ES1 | exact/alias
 axn.es -> AXN.es | EPGShare ES1 | exact/alias
 axnmovies.es -> AXN.Movies.es | EPGShare ES1 | exact/alias
@@ -74,6 +75,7 @@ factoríadeficción.es -> FactoriadeFiccion.es | IPTV-EPG España | exact/alias
 fdf.es -> FDFIC | IPTV-org Movistar+ | exact/alias
 fox.es -> FOX.es | EPGShare ES1 | exact/alias
 france24.es -> France.24.es | EPGShare ES1 | exact/alias
+galiciatv.es -> GaliciaTVEuropa.es@SD | IPTV-org Orange TV | exact/alias
 gol.es -> GOL.es | IPTV-EPG España | exact/alias
 golplay.es -> GOL.PLAY.es | EPGShare ES1 | exact/alias
 historia.es -> Historia.es | IPTV-EPG España | exact/alias
@@ -97,6 +99,8 @@ mdramaes.es -> CPCOLE | IPTV-org Movistar+ | exact/alias
 mega.es -> Mega.es | EPGShare ES1 | exact/alias
 mezzo.es -> Mezzo.es | IPTV-EPG España | exact/alias
 mezzolive.es -> Mezzo.Live.es | EPGShare ES1 | exact/alias
+mlaliga2.es -> MLIG1 | IPTV-org Movistar+ | exact/alias
+mlaliga3.es -> MLIG2 | IPTV-org Movistar+ | exact/alias
 mligadecampeones.es -> CHAPIO | IPTV-org Movistar+ | exact/alias
 motoadv.es -> Moto.ADV.es | EPGShare ES1 | exact/alias
 movistarclásicoses.es -> MCLAS | IPTV-org Movistar+ | exact/alias
@@ -118,7 +122,9 @@ movistarplus.es -> Movistar.Plus+.es | EPGShare ES1 | exact/alias
 movistarpluses.es.plus2 -> MovistarPlus+2.es | IPTV-EPG España | exact/alias
 movistarvamos2es.es -> VAM2SD | IPTV-org Movistar+ | exact/alias
 mplusacción.es -> CPACCI | IPTV-org Movistar+ | exact/alias
+mplusclásicoses.es -> MCLAS | IPTV-org Movistar+ | exact/alias
 mpluscomediaes.es -> CPCOME | IPTV-org Movistar+ | exact/alias
+mplusdeporteses.es -> CPDEP | IPTV-org Movistar+ | exact/alias
 mplusestrenos.es -> MV1 | IPTV-org Movistar+ | exact/alias
 mplusgolf2.es -> GOLF2 | IPTV-org Movistar+ | exact/alias
 mplusgolfes.es -> GOLF+ | IPTV-org Movistar+ | exact/alias
@@ -158,15 +164,16 @@ telemadridintes.es -> 11195 | IPTV-org Orange TV | exact/alias
 telesur.es -> teleSUR.es | EPGShare ES1 | exact/alias
 ten.es -> TEN.es | EPGShare ES1 | exact/alias
 tnt.es -> TNT.es | IPTV-EPG España | exact/alias
-tracelatina.es -> TraceLatina.fr@SD | IPTV-org Orange TV | exact/alias
 trece.es -> TRECE.es | EPGShare ES1 | exact/alias
 TV3.es -> TV3.es | EPGShare ES1 | exact/alias
 tv3cat.es -> TV3.CAT.es | EPGShare ES1 | exact/alias
 tv5monde.es -> TV5MONDE.es | EPGShare ES1 | exact/alias
 tvcanaria.es -> TVCanaria.es | IPTV-EPG España | exact/alias
+tveinternacional.es -> TVEInternacional.es | IPTV-EPG España | exact/alias
 tveinternacional.es.plus1 -> TVEInternacional.es | IPTV-EPG España | exact/alias
 tvg2.es -> tvG2.es | EPGShare ES1 | exact/alias
 tvgaliciaes.es -> GaliciaTVEuropa.es@SD | IPTV-org Orange TV | exact/alias
+tvgtvgaliciaes.es -> GaliciaTVEuropa.es@SD | IPTV-org Orange TV | exact/alias
 ubeat.es -> Ubeat.es | EPGShare ES1 | exact/alias
 vamos.es -> #Vamos.es | EPGShare ES1 | exact/alias
 vintv.es -> VinTV.es | EPGShare ES1 | exact/alias
