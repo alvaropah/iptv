@@ -938,30 +938,6 @@
     <icon src="https://cdn.sincroguia.tv/storage/channels/68-square.jpg" />
     <url>http://www.sincroguia-tv</url>
   </channel>
-  <programme start="20260829160000 +0000" stop="20260829170000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
-  <programme start="20260829170000 +0000" stop="20260829173000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
-  <programme start="20260829173000 +0000" stop="20260829180000 +0000" channel="bbcnews.es">
-    <title lang="es">Focus on Africa: The Conversation</title>
-    <desc lang="es">Focus on Africa: The Conversation.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP4343955" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF4343955.jpg</image>
-  </programme>
-  <programme start="20260829180000 +0000" stop="20260829183000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
   <programme start="20260829183000 +0000" stop="20260829190000 +0000" channel="bbcnews.es">
     <title lang="es">Tech Now</title>
     <desc lang="es">Tech Now explores the latest innovation and technology shaping our lives. Bringing you the inside track on global trends and advancements happening in the tech space today.</desc>
@@ -1554,13 +1530,29 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1367503" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1367503.jpg</image>
   </programme>
-  <programme start="20260829163000 +0000" stop="20260829182000 +0000" channel="fdf.es">
-    <title lang="es">La que se avecina</title>
-    <desc lang="es">Profundamente deprimido, Bruno se ve incapaz de proseguir con las obligaciones de su mandato, y convoca una junta extraordinaria en la que sale Menchu elegida. Sobrepasado por las tareas que le encomienda la nueva mandataria, Coque, aconsejado por Chusa, abandona sus obligaciones y fuerza un despido con indemnización. Por otra parte, la vida familiar de los Cuquis se ve amenazada cuando una jueza otorga la custodia de sus hijos a Teodoro, obligando a Maite a abandonar su vivienda. Además, la presión de su editor por la publicación de un nuevo libro le obliga tomar decisiones desesperadas. Berta decide separarse de Antonio, que deberá hacerse cargo de las tareas domésticas. Vicente, tras la boda, insta a Fermín a buscar trabajo, que emprende un nuevo camino como tarotista. El padre de Lola atiende a sus clientes en casa, donde trata de ponerles en contacto con sus difuntos fallecidos.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP1649811" />
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1649811.jpg</image>
+  <programme start="20260831170000 +0000" stop="20260831173000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260831173000 +0000" stop="20260831180000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260831180000 +0000" stop="20260831183000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260831183000 +0000" stop="20260831190000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
   </programme>
   <programme start="20260829182000 +0000" stop="20260829202000 +0000" channel="fdf.es">
     <title lang="es">La que se avecina</title>
@@ -1846,19 +1838,11 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP933744" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF933744.jpg</image>
   </programme>
-  <programme start="20260829153000 +0000" stop="20260829174500 +0000" channel="goltv.es">
-    <title lang="es">Manchester City TV</title>
-    <desc lang="es">Un vistazo a los mejores contenidos de la televisión propia del Manchester City. El canal ofrece partidos, ruedas de prensa, entrevistas y noticias relacionadas con el club inglés.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4389184" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4389184.jpg</image>
-  </programme>
-  <programme start="20260829174500 +0000" stop="20260829185000 +0000" channel="goltv.es">
-    <title lang="es">El último duelo</title>
-    <desc lang="es">El Mundial de 2026 podría ser el último en el que coincidan Cristiano Ronaldo y Lionel Messi. Con este telón de fondo, este documental realiza un viaje al origen de la rivalidad que protagonizó el fútbol moderno y convirtió LaLiga en un fenómeno global. “El último duelo” revive los años en los que ambos jugadores coincidieron en el campeonato español, cuando su enfrentamiento elevó la competición a una nueva dimensión internacional. Con la llegada de Cristiano Ronaldo al Real Madrid CF y la consolidación del FC Barcelona de Pep Guardiola, cada Clásico se convirtió en un acontecimiento mundial. Dos estilos opuestos, dos personalidades únicas y una rivalidad que definió toda una era. A través de material de archivo exclusivo y testimonios de quienes lo vivieron de cerca, este documental explora cómo Messi y Cristiano cambiaron para siempre el fútbol… justo cuando el próximo Mundial podría marcar el cierre definitivo de su historia compartida.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4309866" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4478921.jpg</image>
+  <programme start="20260831173800 +0000" stop="20260831191100 +0000" channel="fdf.es">
+    <title lang="es">La que se avecina</title>
+    <desc lang="es">Brillante parodia de la vida cotidiana de cualquier comunidad de vecinos a través de unos personajes que se relacionan con desconfianza y alimentan con su maldad intrínseca unas tramas surrealistas llenas de obsesiones personales y vecinales.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP933744" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF933744.jpg</image>
   </programme>
   <programme start="20260829185000 +0000" stop="20260829190500 +0000" channel="goltv.es">
     <title lang="es">Resúmenes LALIGA EA Sports</title>
@@ -2558,6 +2542,22 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4381402.jpg</image>
   </programme>
+  <programme start="20260831170000 +0000" stop="20260831184500 +0000" channel="goltv.es">
+    <title lang="es">Mundial de Clubes Juvenil Trofeo Al-Ándalus</title>
+    <desc lang="es">La provincia de Córdoba acoge la XVII edición de este torneo internacional de fútbol base. Participan equipos como el Real Madrid, Bayer Leverkusen, Wolverhampton, Real Sociedad, Dinamo de Zagreb, Betis o Racing de Avellaneda.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4389190" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4389190.jpg</image>
+  </programme>
+  <programme start="20260831184500 +0000" stop="20260831190000 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes DAZN LaLiga EA Sports</title>
+    <desc lang="es">Resumen con lo más destacado de cada uno de los partidos de Primera División.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4381402" />
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4381402.jpg</image>
+  </programme>
   <programme start="20260829100000 +0000" stop="20260829220000 +0000" channel="mlaliga2.es">
     <title lang="es">M+ LALIGA 2</title>
     <desc lang="es">M+ LALIGA 2</desc>
@@ -2618,7 +2618,7 @@
     <title lang="es">M+ LALIGA 4</title>
     <desc lang="es">M+ LALIGA 4</desc>
   </programme>
-  <programme start="20260829165400 +0000" stop="20260829190000 +0000" channel="movistarlaliga.es">
+  <programme start="20260829165400 +0000" stop="20260829190800 +0000" channel="movistarlaliga.es">
     <title lang="es">LALIGA EA SPORTS</title>
     <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490648" />
@@ -2626,7 +2626,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4345854.jpg</image>
   </programme>
-  <programme start="20260829190000 +0000" stop="20260829192400 +0000" channel="movistarlaliga.es">
+  <programme start="20260829190800 +0000" stop="20260829192000 +0000" channel="movistarlaliga.es">
     <title lang="es">La Casa del Fútbol Previa</title>
     <desc lang="es">Previa Liga Española. 1ª División.</desc>
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4495671" />
@@ -2634,7 +2634,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4495673.jpg</image>
   </programme>
-  <programme start="20260829192400 +0000" stop="20260829213000 +0000" channel="movistarlaliga.es">
+  <programme start="20260829192000 +0000" stop="20260829213000 +0000" channel="movistarlaliga.es">
     <title lang="es">LALIGA EA SPORTS</title>
     <desc lang="es">Con los dos equipos cogiendo su fisonomía definitiva y el mercado de fichajes a punto de cerrar Sevilla y Atlético aspiran a lo máximo en el Pizjuán. Los hispalenses son conscientes de la necesidad de blindarse como locales y los madrileños saben que sumar fuera es crucial para pelear el título.</desc>
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490646" />
@@ -2888,7 +2888,7 @@
   </programme>
   <programme start="20260831101000 +0000" stop="20260831120500 +0000" channel="movistarlaliga.es">
     <title lang="es">LALIGA EA SPORTS</title>
-    <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
+    <desc lang="es">Celta y Athletic se miden con el objetivo de sumar su primera victoria del curso. Los vigueses vienen de ceder en casa ante Osasuna y el Athlétic ante el Barcelona.</desc>
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490662" />
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -2934,17 +2934,21 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3952073.jpg</image>
   </programme>
-  <programme start="20260829165000 +0000" stop="20260829174500 +0000" channel="natgeowildes.es">
-    <title lang="es">Cocodrilos al descubierto</title>
-    <desc lang="es">Un cocodrilo es mucho más que unas mandíbulas aterradoras y espectaculares ataques de emboscada. Como uno de los depredadores más sigilosos del mundo natural, más de la mitad de su vida la pasa oculto, bajo el agua. Nos unimos a una expedición de buceo en el Delta del Okavango para descubrir su verdadera -e inesperada- naturaleza.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP2121498" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4038976.jpg</image>
+  <programme start="20260831170000 +0000" stop="20260831172400 +0000" channel="movistarlaliga.es">
+    <title lang="es">La Casa del Fútbol Previa</title>
+    <desc lang="es">Previa Liga Española. 1ª División.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4495671" />
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4495673.jpg</image>
   </programme>
-  <programme start="20260829174500 +0000" stop="20260829184000 +0000" channel="natgeowildes.es">
-    <title lang="es">El reino costero de los hipopótamos</title>
-    <desc lang="es">El reino costero de los hipopótamos.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4357313" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4357313.jpg</image>
+  <programme start="20260831172400 +0000" stop="20260831193000 +0000" channel="movistarlaliga.es">
+    <title lang="es">LALIGA EA SPORTS</title>
+    <desc lang="es">El Getafe visita El Sadar en busca de sus segunda victoria consecutiva. Los de Bordalás llegan a un acampo difiíl, donde Osasuna empató su primer partido.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490654" />
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4488998.jpg</image>
   </programme>
   <programme start="20260829184000 +0000" stop="20260829193500 +0000" channel="natgeowildes.es">
     <title lang="es">Amazonia americana</title>
@@ -3399,6 +3403,22 @@
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489248.jpg</image>
+  </programme>
+  <programme start="20260831174500 +0000" stop="20260831184000 +0000" channel="natgeowildes.es">
+    <title lang="es">Critter fixers: Veterinarios rurales</title>
+    <desc lang="es">Los veterinarios de Critter Fixer le amputan la cola a un gato, operan a un perro de una enorme hernia, tratan a una rata mascota que tiene un extraño sarpullido y le sacan a un perro un par de calzoncillos que se ha comido. También visitan su rancho para ver cómo está su ganado, y ven algo en la clínica que nunca han encontrado en sus carreras: ¡un hermafrodita!</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4069427" />
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4069427.jpg</image>
+  </programme>
+  <programme start="20260831184000 +0000" stop="20260831193500 +0000" channel="natgeowildes.es">
+    <title lang="es">Critter fixers: Veterinarios rurales</title>
+    <desc lang="es">Los veterinarios de Critter Fixer ayudan al dueño de una perra primeriza con sus cachorros y ayudan a un pavo real dolorido. El veterinario Hodges intenta eliminar los gigantescos cálculos de la vejiga de un perro pequeñito, ayuda a un conejillo de indias con problemas de respiración, trata los hocicos de unas serpientes de hocico de cerdo y cura a una marmota adolescente en un rescate. Los veterinarios vuelan para realizar una rara amputación a un búho.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4085717" />
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4085717.jpg</image>
   </programme>
   <programme start="20260828194500 +0000" stop="20260828220000 +0000" channel="runtimeclásicoses.es">
     <title lang="es">Charada</title>
