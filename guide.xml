@@ -4,10 +4,6 @@
     <display-name>ES - 24 Horas</display-name>
     <icon src="https://iptv-epg.org/images/RICwOJNzA-2MIIs7_BEujckhpqtG5YGw4eblXppGvbz_utO4Wgxz7ildUdfm4Hht25ZZ_cAyNTOPvPymgc1-VcQY8DlEs0Xj6fpF1QOGeg" />
   </channel>
-  <channel id="LA1.es">
-    <display-name>ES - LA 1</display-name>
-    <icon src="https://iptv-epg.org/images/-e9BBX-PiYxl13sR92G20ZLU4GaZFA_JpNay_MztbMVSldi9SmRxbdMiV-SGKsnG8dnyqchURa4nUVKcHpNaEev3ck4mG1uNeTqS" />
-  </channel>
   <channel id="LaResistencia.es">
     <display-name>ES - La Resistencia</display-name>
     <icon src="https://iptv-epg.org/images/Nqq8tosJDgDGAMORfErcjAidY2W4muKBg7d3hEvAEy4iZ08zLUN_jsJDamsncZ_n7kgwh-lw-kUcH8dBbZmYNJkHLfARB9eH5nMn2_eAz7X5-l2ipQ" />
@@ -215,6 +211,10 @@
   <channel id="iberaliatv.es">
     <display-name>ES - Iberalia TV</display-name>
     <icon src="https://iptv-epg.org/images/vG7-OwoOU0ORxF24qqrzTcontkVFkXpGtrWHUJx7W3duZ_mZYzL2e2i-7Cg9sRKuiRGEcueDDzj8b5qFZCV4ehrYAlkZMwCGqwpl0AJl5ghjcQ" />
+  </channel>
+  <channel id="la1.es">
+    <display-name>ES - LA 1</display-name>
+    <icon src="https://iptv-epg.org/images/-e9BBX-PiYxl13sR92G20ZLU4GaZFA_JpNay_MztbMVSldi9SmRxbdMiV-SGKsnG8dnyqchURa4nUVKcHpNaEev3ck4mG1uNeTqS" />
   </channel>
   <channel id="la2.es">
     <display-name>ES - LA 2</display-name>
@@ -1549,1134 +1549,6 @@ Magazine matinal de la 1 en el que se reúne información de actualidad social. 
     <desc lang="es">Un noticiario que prima la información de ámbito internacional y especialmente la que se produce o tiene relación con la América Iberoamericana. El espacio, eso sí, tampoco se olvida de la actualidad nacional española. Incluye previsión meteorológica de todo el planeta.</desc>
     <icon src="https://iptv-epg.org/images/yo0_wttk7Rro3lyJp8la1NeNtUuFYMgrhDpMmv5NF7iT0YLL_VhVuO5pr4_FLCFx4Og6vv6prFI-ZrZMQuvE8IYxtZ97JhU37GaJiFmU-Ej6CxdCNaXjRw" />
     <title lang="es">Telediario Internacional</title>
-  </programme>
-  <programme start="20260828083500 +0000" stop="20260828125500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
-    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
-    <title lang="es">Mañaneros 360</title>
-  </programme>
-  <programme start="20260828125500 +0000" stop="20260828133000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
-    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
-    <title lang="es">Telediario 1</title>
-  </programme>
-  <programme start="20260828133000 +0000" stop="20260828133500 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260828133500 +0000" stop="20260828134000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260828134000 +0000" stop="20260828135000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
-    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
-    <title lang="es">Informativo territorial 2</title>
-  </programme>
-  <programme start="20260828135000 +0000" stop="20260828154500 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">S2026
-El ciclismo completa el calendario 2026 de grandes rondas con la disputa de la Vuelta. La carrera inicia su recorrido el 22 de agosto en Mónaco. La meta final, el 13 de septiembre, se cruzará en Granada. El danés Jonas Vingegaard fue el vencedor en la edición de 2025.</desc>
-    <episode-num>S2026</episode-num>
-    <icon src="https://iptv-epg.org/images/ObKad79kaXiWb5LJD0QdLsQ-uGYxqXDNs4RtzIfENQYPlsAx_Y8ayQSUHc08C773a5S28e20Y-SiqRPIYMgoU-aEOtNYs85UTSFquYJrIFPXyBLQ" />
-    <title lang="es">La Vuelta : Etapa 7 - Vall d'Alba - Aramón Valdelinares</title>
-    <live />
-  </programme>
-  <programme start="20260828154500 +0000" stop="20260828163500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Rocío Suárez de Puga</actor>
-      <actor>Manuela Velasco</actor>
-      <actor>José Manuel Seda</actor>
-      <actor>Marina Sabadell</actor>
-      <actor>Mari Paz Sayago</actor>
-      <actor>Chechu Salgado</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
-    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
-    <title lang="es">Valle Salvaje</title>
-  </programme>
-  <programme start="20260828163500 +0000" stop="20260828173500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Joaquín Climent</actor>
-      <actor>María Castro</actor>
-      <actor>Eva Martín</actor>
-      <actor>Ana Garcés</actor>
-      <actor>Arturo Sancho</actor>
-    </credits>
-    <date>2023</date>
-    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
-    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
-    <title lang="es">La Promesa</title>
-  </programme>
-  <programme start="20260828173500 +0000" stop="20260828182500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Jesús Cintora</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
-    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
-    <title lang="es">Malas lenguas</title>
-  </programme>
-  <programme start="20260828182500 +0000" stop="20260828185500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
-    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
-    <title lang="es">Aquí la Tierra</title>
-  </programme>
-  <programme start="20260828185500 +0000" stop="20260828194000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
-    <title lang="es">Telediario 2</title>
-  </programme>
-  <programme start="20260828194000 +0000" stop="20260828194500 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
-    <title lang="es">Deportes 2</title>
-  </programme>
-  <programme start="20260828194500 +0000" stop="20260828204000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2023</date>
-    <desc lang="es">Bailar pegados
-Un tierno viaje por las mejores baladas y temas lentos de la música que habitan el archivo de Televisión Española. Solistas y grupo míticos de la talla de Chicago, The Cristians, Joe Cocker, Bonnie Tyler, Frank Sinatra, The Cramberries, Santana, etc.</desc>
-    <icon src="https://iptv-epg.org/images/62ex-mhwMU11lDRRpbGsIvxAfro-AwJ4Zzgq6BHvtT1F_qd7nhbP4hJMo6z0HX9LWVdtO2JY0m1mzw9DW4Ze9l8-k865w802YbFOyKcx7ZW9JLpNembwPg" />
-    <title lang="es">Viaje al centro de la tele: La noche temática</title>
-  </programme>
-  <programme start="20260828204000 +0000" stop="20260828214000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2023</date>
-    <desc lang="es">Distancias cortas
-Un viaje embriagador a través de una selección de las mejores baladas cantadas en castellano. Con temas como En carne viva, Te he echado de menos, En el muelle de San Blas, Escondidos, La chica de ayer, El hombre del piano.</desc>
-    <icon src="https://iptv-epg.org/images/DB3InOo2C46XNBiQ9yhOUXd1aj1VdpYWSKiKBK7opPRW2d3Dd7zIyaML3stT6eeOvw54W7aoYYVWc1kDOrMYT2MN_JefrOAvubE82Fmj4DS8F4Z_u-4tqw" />
-    <title lang="es">Viaje al centro de la tele: La noche temática</title>
-  </programme>
-  <programme start="20260828214000 +0000" stop="20260828224000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2023</date>
-    <desc lang="es">Con coreografías
-Trepidante viaje por las canciones que nos han hecho mover el cuerpo porque venían con la coreografía puesta. Temas súper populares  como Aserejé, la Lambada, Waka waka, la Yenka, Saturday night, No rompas más, Gangman style, y otras muchas.</desc>
-    <icon src="https://iptv-epg.org/images/IiJvGtIta31cyoWZX00b6Jmra9Mn-XFaHBsVw4LgYbaOxoPdWTkIvw6lJlxxkXvSvUuG6ZhHA0JsTA-dwkKrJPzccr886f_xQK1TAOHnXwrG94I6_RsZgQ" />
-    <title lang="es">Viaje al centro de la tele: La noche temática</title>
-  </programme>
-  <programme start="20260828224000 +0000" stop="20260828233500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2023</date>
-    <desc lang="es">¿Quedamos en la disco?
-Un energético viaje alrededor de los grandes éxitos que reventaron las pistas de baile en las discotecas de los 80 y los 90. Con solistas y grupos de la talla de Cher,  Rocky Sharpe &amp; the Replays, Village People, George Michael, Gibson Brothers, Durán Durán y más.</desc>
-    <icon src="https://iptv-epg.org/images/X_RvW1KhEymygQYYWTHNOiWbHzE3bOiYfhQKB4cI3-8l7N57Hg3THVowXaNeJb6L4aXsV4NuBhxgOqPjoVDmsEAiCjjDKStEQFg3ofHxbu_U7rcHyECnIQ" />
-    <title lang="es">Viaje al centro de la tele: La noche temática: ¿Quedamos en la disco</title>
-  </programme>
-  <programme start="20260828233500 +0000" stop="20260829040000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260829040000 +0000" stop="20260829050000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260829050000 +0000" stop="20260829075000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260829075000 +0000" stop="20260829085500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2021</date>
-    <desc lang="es">En nuestro corazón (Primera parte)
-Un homenaje a todos aquellos rostros conocidos que nos han dejado recientemente: Pau Donés, Rosa María Sardá, Eduard Punset, Camilo Sesto, Chicho Ibáñez Serrador, Luis Eduardo Aute, Monserrat Caballé, Marie Frediksoon, Charles Aznavour, Maradona y Alex Lecquio.</desc>
-    <icon src="https://iptv-epg.org/images/8mQZRv6fb2cbTVgfF3YaWEYw1xWrMgN_i2daeQ-yvjSDYF_jych4IS5O7ncBPngdHj6_zPehBe5AXXMoxhBrv-P1CTXnQVHQZzWhIiYLLt10dXtmHopfyw" />
-    <title lang="es">Viaje al centro de la tele exprés</title>
-  </programme>
-  <programme start="20260829085500 +0000" stop="20260829100000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Pedro Santos</director>
-    </credits>
-    <date>2020</date>
-    <desc lang="es">Más setenta y pop
-Segunda parte de un viaje musical por los grupos y solistas españoles y extranjeros  que triunfaron en la década de los setenta. Tequila, Los Diablos, Tony Ronald,  Miguel Ríos, Víctor Manuel y Ana Belén.</desc>
-    <icon src="https://iptv-epg.org/images/LQJFs8uIFsGUriUKQx0C_3bTGf9hJXoES9gCQ_c7Mtsrj3d4ptlYpwjJmmg6CVbZkyaiJqLY5gqJ8sBqb0O1aWzE4DLZd2nsyFo8EyKWzX6E6etR8peUJQ" />
-    <title lang="es">Viaje al centro de la tele</title>
-  </programme>
-  <programme start="20260829100000 +0000" stop="20260829110500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2021</date>
-    <desc lang="es">Que te vaya bonito (Primera parte)
-Primera parte de un viaje a través de la crónica social centrado en las rupturas de las parejas de famosos. Cantantes, actores y actrices, presentadores y presentadoras, deportistas.</desc>
-    <icon src="https://iptv-epg.org/images/LfgkMS1mfyXIpboElPD0cAX9CQJ8XJWq2bh7kL0pgU4_Aqju8TZqjizGYXqC60weWj4Z3EbsVQqO-JHzLr65xOibs4tfo-G3hSZF8CB4oH7FbMLifrmH0g" />
-    <title lang="es">Viaje al centro de la tele exprés</title>
-  </programme>
-  <programme start="20260829110500 +0000" stop="20260829125500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">E69
-Anne Igartiburu y Javier de Hoyos hacen un repaso a la actualidad de la crónica social, con los nombres propios más importantes de la semana y estando en directo en todos los acontecimientos y eventos que se produzcan.</desc>
-    <episode-num>E69</episode-num>
-    <icon src="https://iptv-epg.org/images/nN39JMNWAcKc-eA_hze0sruHp0O4Xn85W-gCtwvv1ZWmrzwXL-e-xV_s_r40NuY-Bpvk_nF-zZlMlVCy5cmfoiKXc4aEpRtU2ax3_PqsQjTKF-JLK_OZqA" />
-    <title lang="es">D Corazón</title>
-  </programme>
-  <programme start="20260829125500 +0000" stop="20260829134500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Informativo de Televisión Española de los fines de semana.Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
-    <icon src="https://iptv-epg.org/images/4cKu9jDMqLh6fxoZe9FRiI9ogwtUQD6c40gzySUsJPBL7BkQpy565zaw1YfqfY0MUCtimt4b2Yn7zUepai61ei-q-ybzL_MmGhUClLh6VjA4FpkYNsSzaQ" />
-    <title lang="es">Telediario 1 Fin de Semana</title>
-  </programme>
-  <programme start="20260829134500 +0000" stop="20260829135000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260829135000 +0000" stop="20260829135500 +0000" channel="LA1.es">
-    <category lang="es">Ocio y Aficiones</category>
-    <date>2026</date>
-    <desc lang="es">Emisión en directo de los sorteos de la Lotería Primitiva y la Lotería Nacional. La Primitiva es el juego más popular de las Loterías y Apuestas del Estado, mientras que la Nacional se basa en el sistema de décimos de cinco números.</desc>
-    <icon src="https://iptv-epg.org/images/3hDQl1JKej2750JSZuqIQ6ul25RwdYOo1oRojIM9cAgBopV8qG4q56SvcMru3j9eV4W81bsyIm3WkFqHDb-azRWknW3YSNxV66ah8cExnarLC7I9kF2JpA" />
-    <title lang="es">La suerte en tus manos</title>
-  </programme>
-  <programme start="20260829135500 +0000" stop="20260829154500 +0000" channel="LA1.es">
-    <category lang="es">Cine</category>
-    <credits>
-      <director>Frank Coraci</director>
-      <actor>Adam Sandler</actor>
-      <actor>Drew Barrymore</actor>
-      <actor>Kevin Nealon</actor>
-      <actor>Dan Patrick</actor>
-      <actor>Terry Crews</actor>
-      <actor>Tim Herlihy</actor>
-    </credits>
-    <date>2014</date>
-    <desc lang="es">Lauren, madre divorciada con dos hijos, y Jim, padre viudo con tres hijas, se conocen en una desastrosa cita a ciegas en la que ambos sólo sacan una cosa en claro: no desean volver a verse nunca más.</desc>
-    <icon src="https://iptv-epg.org/images/j8rwBGiQ_UtDw6aO3JsRvklXbuqrghwL8TW2OS9xehZVxCNL_YCkCbyr8ERm2-UY5bfg6U6dPQi9BAyRMkCfoM6a-rb4cr8ziTVBvdlE6W-tOG8dJ7EcQw" />
-    <title lang="es">Juntos y revueltos</title>
-  </programme>
-  <programme start="20260829154500 +0000" stop="20260829172000 +0000" channel="LA1.es">
-    <category lang="es">Cine</category>
-    <credits>
-      <director>Kevin Smith</director>
-      <actor>Will Smith</actor>
-      <actor>Liv Tyler</actor>
-      <actor>Jennifer Lopez</actor>
-      <actor>Ben Affleck</actor>
-      <actor>Matt Damon</actor>
-      <actor>Jason Biggs</actor>
-      <actor>George Carlin</actor>
-      <actor>Raquel Castro</actor>
-      <actor>Betty Aberlin</actor>
-      <actor>Matt McFarland</actor>
-      <actor>Sarah Stafford</actor>
-      <actor>Paulie Litt</actor>
-      <actor>Christian Fan</actor>
-      <actor>Victor Chavez</actor>
-    </credits>
-    <date>2004</date>
-    <desc lang="es">La química entre Ben Affleck ("Dogma", "Paycheck", "Daredevil", "Pánico Nuclear") y Liv Tyler (Trilogía de "El señor de los Anillos", "Armageddon") se hace patente en esta comedia con tintes dramáticos sobre un hombre que lo daba todo por perdido cuando tenía todo para poder ser feliz.</desc>
-    <icon src="https://iptv-epg.org/images/xhg1-SJE2SOPpy2b7s9PyQRxSNUCbwy3DzdvD4avC5EZma5WsCrwrcsaAsYkbhwpq1SJdfrUr4y1qvqox9TlbbQ1YEgDl4Y9MbSzVrHyAENtdfGD8BmY" />
-    <title lang="es">Jersey Girl (Una chica de Jersey)</title>
-  </programme>
-  <programme start="20260829172000 +0000" stop="20260829185500 +0000" channel="LA1.es">
-    <category lang="es">Cine</category>
-    <credits>
-      <director>Josh Gordon</director>
-      <director>Will Speck</director>
-      <actor>Jennifer Aniston</actor>
-      <actor>Jason Bateman</actor>
-      <actor>Jeff Goldblum</actor>
-      <actor>Juliette Lewis</actor>
-      <actor>Patrick Wilson</actor>
-      <actor>Bryce Robinson</actor>
-      <actor>Thomas Robinson</actor>
-    </credits>
-    <date>2010</date>
-    <desc lang="es">Cuando Kassie cumple los 40 decide no esperar más y recurre a la inseminación artificial para tener un bebé. Siete años más tarde, regresa a Nueva York y se reencuentra con su amigo Wally, un hombre neurótico e inseguro, que se siente fuertemente vinculado al hijo de Kassie.</desc>
-    <icon src="https://iptv-epg.org/images/8aWp9bG21VXZj94r7PvKsIWJmwZQJNXY5ZgDTlJavQRPjRNePy_NEd1rVb1o_j44tPDy6FT7LAQK-QeKA_RUDzvitElqI3eQQRZ_JdFWPHXOIAuu5WvB" />
-    <title lang="es">Un pequeño cambio</title>
-  </programme>
-  <programme start="20260829185500 +0000" stop="20260829192500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2017</date>
-    <desc lang="es">Informativo de Televisión Española de los fines de semana. Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
-    <icon src="https://iptv-epg.org/images/d9-PqShI77ALbRFntDuNtNaSl7wiG_KOflyN0xX8U0UYlxW2cZur6RklwBc8SSjvwTqulhU9LaMQi9uQUVylW3SZPeJg5_0LbdMTNojxb0517gMgDWThYw" />
-    <title lang="es">Telediario 2 Fin de Semana</title>
-  </programme>
-  <programme start="20260829192500 +0000" stop="20260829193000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
-    <title lang="es">Deportes 2</title>
-  </programme>
-  <programme start="20260829193000 +0000" stop="20260829200500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <credits>
-      <director>Jenaro Castro Muiña</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">El programa más veterano de la televisión nacional, y el más antiguo de su género en Europa, ofrece la emisión de reportajes de la actualidad internacional, nacional, social o cultural. A veces, los reportajes pueden llegar a tener hasta media hora de duración.</desc>
-    <icon src="https://iptv-epg.org/images/kObFKT5PZ5XhAFsyFA7lOalsnUyncVZeTsaqS_GdYCL7qJTPA2Hr5iYpgT9kzK0hgCDjcNIOaiVujL6PEpysvOPc7mxr199toL1cXXIG-t99szcVJD3LUg" />
-    <title lang="es">Informe Semanal</title>
-  </programme>
-  <programme start="20260829200500 +0000" stop="20260829205500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Mattia Bisonni</actor>
-      <actor>Dora Romano</actor>
-      <actor>Ludovica Nasti</actor>
-      <actor>Gaia Girace</actor>
-      <actor>Elisa del Genio</actor>
-      <actor>Margherita Mazzucco</actor>
-    </credits>
-    <date>2018</date>
-    <desc lang="es">S1 E4 — El desbordamiento
-Lila se convierte en una hermosa joven y todos los chicos del barrio se sienten atraídos por ella. Lila rechaza incluso a Marcello Solara y a Stefano Carracci. Elena empieza a salir con un compañero de clase, pero sueña con Nino Sarratore.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/iDCrrPfsxXFlf2MbskJLk5_5NQDbVlkcxdtPLbUQun8j7-MMGGvF1dgeSG9nXDKhgBeHQE1VqZX1DXX8Try3wqKu2t5st4VVVMNMykCcnk0XjW9q" />
-    <title lang="es">La amiga estupenda</title>
-  </programme>
-  <programme start="20260829205500 +0000" stop="20260829215000 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Mattia Bisonni</actor>
-      <actor>Dora Romano</actor>
-      <actor>Ludovica Nasti</actor>
-      <actor>Gaia Girace</actor>
-      <actor>Elisa del Genio</actor>
-      <actor>Margherita Mazzucco</actor>
-    </credits>
-    <date>2018</date>
-    <desc lang="es">S1 E5 — Los zapatos
-Elena rompe con Gino. Lila diseña unos zapatos con su hermano, pero su padre no tiene pensado apoyarla. Marcello está enamorado de ella y consigue ganarse a Rino y a Fernando Cerullo antes de pedirle matrimonio a Lila.</desc>
-    <episode-num>S1 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/dikxBaAOIjQxCg8NfNEPybsIfig3_aKySp6L_0j3fPgXGzApBrPX88vvtXiGLFjSA2tlojYv7OByxITLB-t-5K6i_DTwheIlGzb9HzcShCDjTQhT" />
-    <title lang="es">La amiga estupenda</title>
-  </programme>
-  <programme start="20260829215000 +0000" stop="20260829225000 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Mattia Bisonni</actor>
-      <actor>Dora Romano</actor>
-      <actor>Ludovica Nasti</actor>
-      <actor>Gaia Girace</actor>
-      <actor>Elisa del Genio</actor>
-      <actor>Margherita Mazzucco</actor>
-    </credits>
-    <date>2018</date>
-    <desc lang="es">S1 E6 — La isla
-Elena se encuentra a los Sarratore en Ischia, donde pasa tiempo con Nino. Allí se dan un inocente beso. El día del quince cumpleaños de Elena, el padre de Nino se abalanza sobre ella y la besa apasionadamente. Elena huye de la isla.</desc>
-    <episode-num>S1 E6</episode-num>
-    <icon src="https://iptv-epg.org/images/QBxrjZ62WPtIsI9FHG5oBjSIPrbMyChREkI1mSRSNOMpCaSsxeZ3auUuD99mNL4w5VT5dGYuSfqeoof4YwwIl0cfxaQBszNtzAriyT9QG_3oeiSE" />
-    <title lang="es">La amiga estupenda</title>
-  </programme>
-  <programme start="20260829225000 +0000" stop="20260830003500 +0000" channel="LA1.es">
-    <category lang="es">Cine</category>
-    <credits>
-      <director>Nigel Cole</director>
-      <actor>Sally Hawkins</actor>
-      <actor>Miranda Richardson</actor>
-      <actor>Bob Hoskins</actor>
-      <actor>Geraldine James</actor>
-      <actor>Rosamund Pike</actor>
-      <actor>Jaime Winstone</actor>
-      <actor>Andrea Riseborough</actor>
-    </credits>
-    <date>2010</date>
-    <desc lang="es">Una sola mujer puede marcar la diferencia. En 1968, para protestar por la diferencia de sueldos entre ellas y los hombres de la empresa, casi 200 trabajadoras de la Ford Dagenham se declararon en huelga. Este hecho histórico, que acabó teniendo como resultado la Equal Pay Act, es en el que se basa "Pago justo".</desc>
-    <icon src="https://iptv-epg.org/images/RsLYhVjgGk3qJCwnQfsM91-BVxOSNy114PoE7gUEGes9pVHhIwfsQphFr_rraM9GKtMc_FXEUm3IJZIeLp3Z7sWV_-nKaPqzffOsQYhp54b4w4JFGKYi7A" />
-    <title lang="es">Pago justo</title>
-  </programme>
-  <programme start="20260830003500 +0000" stop="20260830040000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260830040000 +0000" stop="20260830050000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260830050000 +0000" stop="20260830083000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260830083000 +0000" stop="20260830091000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2021</date>
-    <desc lang="es">Una mirada al pasado para recuperar alguno de los mejores momentos de la historia de Televisión Española. La nostalgia, el humor y la ironía son los ingredientes principales de un formato amenizado por el grafismo y las viñetas inconfundibles de Antonio Fraguas Forges.</desc>
-    <icon src="https://iptv-epg.org/images/zJ8N-ziEnV72axu8CHIlJhf5aNdvtpdvFmfcRbcCgtV-z8TBhFK1SpS82-PCoHsOeikCDpx0R60x6bI7IEdU1YC6DBrSPvjOZqHmpS6NYJewUYtK6F186A" />
-    <title lang="es">Viaje al centro de la tele exprés</title>
-  </programme>
-  <programme start="20260830091000 +0000" stop="20260830100500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Pedro Santos</director>
-    </credits>
-    <date>2019</date>
-    <desc lang="es">Una mirada al pasado para recuperar alguno de los mejores momentos de la historia de Televisión Española. La nostalgia, el humor y la ironía son los ingredientes principales de un formato amenizado por el grafismo y las viñetas inconfundibles de Antonio Fraguas Forges.</desc>
-    <icon src="https://iptv-epg.org/images/cXbegsdgVjzeI2IM8tKx81glBlyW54vkTIHuIghsW3to3Aaf7urZDzCMtiOXM5JqRQKLBb4zle0V0fnR13yoNqtC9YduSsvHRSxlGEbhq10lbdn8VCs8bA" />
-    <title lang="es">Viaje al centro de la tele</title>
-  </programme>
-  <programme start="20260830100500 +0000" stop="20260830110500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Pedro Santos</director>
-    </credits>
-    <date>2016</date>
-    <desc lang="es">Una mirada al pasado para recuperar alguno de los mejores momentos de la historia de Televisión Española. La nostalgia, el humor y la ironía son los ingredientes principales de un formato amenizado por el grafismo y las viñetas inconfundibles de Antonio Fraguas Forges.</desc>
-    <icon src="https://iptv-epg.org/images/CEYZW_Men8YUq283ii3Sh5g84U_Xi1lFRogS2dEZIhtMD956sZAn9djj1S9808OWN81TGAp0WtXxEmLVoVn7FOj2Fec3RZ81sfwdyDx5RVzrfCvHEJwS7g" />
-    <title lang="es">Viaje al centro de la tele</title>
-  </programme>
-  <programme start="20260830110500 +0000" stop="20260830125500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">Anne Igartiburu y Javier de Hoyos hacen un repaso a la actualidad de la crónica social, con los nombres propios más importantes de la semana y estando en directo en todos los acontecimientos y eventos que se produzcan.</desc>
-    <icon src="https://iptv-epg.org/images/aeLZClAfzxVa0tzwcYBbSYq2wdk5bLit2mNA2Jt53b98mmnJqK8swxxG6vvyNRD9FTuUtvoWpAo6UXCNQ1hP_ux5WSi293u9eY0LosyMDo7erLcbY-N86g" />
-    <title lang="es">D Corazón</title>
-  </programme>
-  <programme start="20260830125500 +0000" stop="20260830134500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Informativo de Televisión Española de los fines de semana.Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
-    <icon src="https://iptv-epg.org/images/4cKu9jDMqLh6fxoZe9FRiI9ogwtUQD6c40gzySUsJPBL7BkQpy565zaw1YfqfY0MUCtimt4b2Yn7zUepai61ei-q-ybzL_MmGhUClLh6VjA4FpkYNsSzaQ" />
-    <title lang="es">Telediario 1 Fin de Semana</title>
-  </programme>
-  <programme start="20260830134500 +0000" stop="20260830135000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260830135000 +0000" stop="20260830135500 +0000" channel="LA1.es">
-    <category lang="es">Ocio y Aficiones</category>
-    <date>2026</date>
-    <desc lang="es">Emisión en directo de los sorteos de la Lotería Primitiva y la Lotería Nacional. La Primitiva es el juego más popular de las Loterías y Apuestas del Estado, mientras que la Nacional se basa en el sistema de décimos de cinco números.</desc>
-    <icon src="https://iptv-epg.org/images/3hDQl1JKej2750JSZuqIQ6ul25RwdYOo1oRojIM9cAgBopV8qG4q56SvcMru3j9eV4W81bsyIm3WkFqHDb-azRWknW3YSNxV66ah8cExnarLC7I9kF2JpA" />
-    <title lang="es">La suerte en tus manos</title>
-  </programme>
-  <programme start="20260830135500 +0000" stop="20260830152500 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260830152500 +0000" stop="20260830170500 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260830170500 +0000" stop="20260830183500 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260830183500 +0000" stop="20260830185500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
-    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
-    <title lang="es">Aquí la Tierra</title>
-  </programme>
-  <programme start="20260830185500 +0000" stop="20260830195000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2017</date>
-    <desc lang="es">Informativo de Televisión Española de los fines de semana. Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
-    <icon src="https://iptv-epg.org/images/d9-PqShI77ALbRFntDuNtNaSl7wiG_KOflyN0xX8U0UYlxW2cZur6RklwBc8SSjvwTqulhU9LaMQi9uQUVylW3SZPeJg5_0LbdMTNojxb0517gMgDWThYw" />
-    <title lang="es">Telediario 2 Fin de Semana</title>
-  </programme>
-  <programme start="20260830195000 +0000" stop="20260830200000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
-    <title lang="es">Deportes 2</title>
-  </programme>
-  <programme start="20260830200000 +0000" stop="20260830215500 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260830215500 +0000" stop="20260830232500 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260830232500 +0000" stop="20260831010500 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260831010500 +0000" stop="20260831040000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260831040000 +0000" stop="20260831055000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
-    <title lang="es">Telediario Matinal</title>
-  </programme>
-  <programme start="20260831055000 +0000" stop="20260831083500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Silvia Intxaurrondo</director>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
-    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
-    <title lang="es">La hora de La 1: La hora de la actualidad</title>
-  </programme>
-  <programme start="20260831083500 +0000" stop="20260831125500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
-    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
-    <title lang="es">Mañaneros 360</title>
-  </programme>
-  <programme start="20260831125500 +0000" stop="20260831133500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
-    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
-    <title lang="es">Telediario 1</title>
-  </programme>
-  <programme start="20260831133500 +0000" stop="20260831134000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260831134000 +0000" stop="20260831134500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
-    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
-    <title lang="es">El tiempo</title>
-  </programme>
-  <programme start="20260831134500 +0000" stop="20260831135500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
-    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
-    <title lang="es">Informativo territorial 2</title>
-  </programme>
-  <programme start="20260831135500 +0000" stop="20260831154500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Óscar Cornejo</director>
-      <director>Ana Isabel Peces</director>
-      <actor>Rosa Villacastín</actor>
-      <actor>Ada Colau</actor>
-      <actor>Marta Flich</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
-    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
-    <title lang="es">Directo al grano</title>
-  </programme>
-  <programme start="20260831154500 +0000" stop="20260831163500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Rocío Suárez de Puga</actor>
-      <actor>Manuela Velasco</actor>
-      <actor>José Manuel Seda</actor>
-      <actor>Marina Sabadell</actor>
-      <actor>Mari Paz Sayago</actor>
-      <actor>Chechu Salgado</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
-    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
-    <title lang="es">Valle Salvaje</title>
-  </programme>
-  <programme start="20260831163500 +0000" stop="20260831173500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Joaquín Climent</actor>
-      <actor>María Castro</actor>
-      <actor>Eva Martín</actor>
-      <actor>Ana Garcés</actor>
-      <actor>Arturo Sancho</actor>
-    </credits>
-    <date>2023</date>
-    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
-    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
-    <title lang="es">La Promesa</title>
-  </programme>
-  <programme start="20260831173500 +0000" stop="20260831182500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Jesús Cintora</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
-    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
-    <title lang="es">Malas lenguas</title>
-  </programme>
-  <programme start="20260831182500 +0000" stop="20260831185500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
-    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
-    <title lang="es">Aquí la Tierra</title>
-  </programme>
-  <programme start="20260831185500 +0000" stop="20260831194000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
-    <title lang="es">Telediario 2</title>
-  </programme>
-  <programme start="20260831194000 +0000" stop="20260831194500 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
-    <title lang="es">Deportes 2</title>
-  </programme>
-  <programme start="20260831194500 +0000" stop="20260831210000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
-    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
-    <title lang="es">El Grand Prix del Verano</title>
-  </programme>
-  <programme start="20260831210000 +0000" stop="20260901000500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">La cocina se convierte en el campo de batalla para quince aspirantes a chefs profesionales. Su habilidad ante los fogones les servirá para convencer a un jurado profesional que valorará la exquisitez de sus platos y la presteza para elaborarlos y servirlos.</desc>
-    <icon src="https://iptv-epg.org/images/XVRsP7kg3BmDPwyCHfLDRSN3TCmmfsczxKiliardXwOdH_zIOf-jfCXz4R9FnHdqVR1UURMl6NLS4Yh08OQfrOr8FWLcWPJb9cvkua2daRjRvZHDqvFA5Q" />
-    <title lang="es">MasterChef</title>
-  </programme>
-  <programme start="20260901000500 +0000" stop="20260901025500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">La cocina se convierte en el campo de batalla para quince aspirantes a chefs profesionales. Su habilidad ante los fogones les servirá para convencer a un jurado profesional que valorará la exquisitez de sus platos y la presteza para elaborarlos y servirlos.</desc>
-    <icon src="https://iptv-epg.org/images/XVRsP7kg3BmDPwyCHfLDRSN3TCmmfsczxKiliardXwOdH_zIOf-jfCXz4R9FnHdqVR1UURMl6NLS4Yh08OQfrOr8FWLcWPJb9cvkua2daRjRvZHDqvFA5Q" />
-    <title lang="es">MasterChef</title>
-  </programme>
-  <programme start="20260901025500 +0000" stop="20260901040000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260901040000 +0000" stop="20260901055000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
-    <title lang="es">Telediario Matinal</title>
-  </programme>
-  <programme start="20260901055000 +0000" stop="20260901083500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Silvia Intxaurrondo</director>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
-    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
-    <title lang="es">La hora de La 1: La hora de la actualidad</title>
-  </programme>
-  <programme start="20260901083500 +0000" stop="20260901125500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
-    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
-    <title lang="es">Mañaneros 360</title>
-  </programme>
-  <programme start="20260901125500 +0000" stop="20260901133500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
-    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
-    <title lang="es">Telediario 1</title>
-  </programme>
-  <programme start="20260901133500 +0000" stop="20260901134000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260901134000 +0000" stop="20260901134500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
-    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
-    <title lang="es">El tiempo</title>
-  </programme>
-  <programme start="20260901134500 +0000" stop="20260901135500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
-    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
-    <title lang="es">Informativo territorial 2</title>
-  </programme>
-  <programme start="20260901135500 +0000" stop="20260901154500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Óscar Cornejo</director>
-      <director>Ana Isabel Peces</director>
-      <actor>Rosa Villacastín</actor>
-      <actor>Ada Colau</actor>
-      <actor>Marta Flich</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
-    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
-    <title lang="es">Directo al grano</title>
-  </programme>
-  <programme start="20260901154500 +0000" stop="20260901163500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Rocío Suárez de Puga</actor>
-      <actor>Manuela Velasco</actor>
-      <actor>José Manuel Seda</actor>
-      <actor>Marina Sabadell</actor>
-      <actor>Mari Paz Sayago</actor>
-      <actor>Chechu Salgado</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
-    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
-    <title lang="es">Valle Salvaje</title>
-  </programme>
-  <programme start="20260901163500 +0000" stop="20260901173500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Joaquín Climent</actor>
-      <actor>María Castro</actor>
-      <actor>Eva Martín</actor>
-      <actor>Ana Garcés</actor>
-      <actor>Arturo Sancho</actor>
-    </credits>
-    <date>2023</date>
-    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
-    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
-    <title lang="es">La Promesa</title>
-  </programme>
-  <programme start="20260901173500 +0000" stop="20260901182500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Jesús Cintora</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
-    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
-    <title lang="es">Malas lenguas</title>
-  </programme>
-  <programme start="20260901182500 +0000" stop="20260901185500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
-    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
-    <title lang="es">Aquí la Tierra</title>
-  </programme>
-  <programme start="20260901185500 +0000" stop="20260901194000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
-    <title lang="es">Telediario 2</title>
-  </programme>
-  <programme start="20260901194000 +0000" stop="20260901194500 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
-    <title lang="es">Deportes 2</title>
-  </programme>
-  <programme start="20260901194500 +0000" stop="20260901210000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
-    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
-    <title lang="es">El Grand Prix del Verano</title>
-  </programme>
-  <programme start="20260901210000 +0000" stop="20260901224000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Henar Álvarez</director>
-      <director>Javier Durán</director>
-      <director>Alberto Fernández</director>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">La cómica y escritora Henar Álvarez presenta desde su trono un programa de entrevistas gamberras y reivindicativas en el que se escuchan voces de mujeres que tienen mucho que contar. Manny Calavera es la banda de música encargada de poner ritmo al show.</desc>
-    <icon src="https://iptv-epg.org/images/ZIj7fMwXcJuO3I_cScqxfirHRWRjMm0_0iVTRLqUtg3-ojy11YKI-nNOCeVHICZiCsthU1z28PuyWtOWSnr27a5B8PveZsas5WqVZvfacETgfrS5MqT77Q" />
-    <title lang="es">Al cielo con ella</title>
-  </programme>
-  <programme start="20260901224000 +0000" stop="20260901234000 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260901234000 +0000" stop="20260902021500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <credits>
-      <director>Xabier Fortes</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Informativo diario nocturno que ofrece un análisis profundo y plural de la actualidad de la jornada.</desc>
-    <icon src="https://iptv-epg.org/images/_Dn7445ftqN4ScAPdcE6sYVz7gOY2ZM6CepDIXhD7V8yx8sS3UqoDoUaRagQwfXQs7iv3KAbHm2h4VkdQj_8NUngX5x2NNZen8hHeImOhTtm-cIHPeHcQQ" />
-    <title lang="es">La noche en 24 horas</title>
-  </programme>
-  <programme start="20260902021500 +0000" stop="20260902040000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260902040000 +0000" stop="20260902055000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
-    <title lang="es">Telediario Matinal</title>
-  </programme>
-  <programme start="20260902055000 +0000" stop="20260902083500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Silvia Intxaurrondo</director>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
-    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
-    <title lang="es">La hora de La 1: La hora de la actualidad</title>
-  </programme>
-  <programme start="20260902083500 +0000" stop="20260902125500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
-    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
-    <title lang="es">Mañaneros 360</title>
-  </programme>
-  <programme start="20260902125500 +0000" stop="20260902133500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
-    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
-    <title lang="es">Telediario 1</title>
-  </programme>
-  <programme start="20260902133500 +0000" stop="20260902134000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260902134000 +0000" stop="20260902134500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
-    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
-    <title lang="es">El tiempo</title>
-  </programme>
-  <programme start="20260902134500 +0000" stop="20260902135500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
-    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
-    <title lang="es">Informativo territorial 2</title>
-  </programme>
-  <programme start="20260902135500 +0000" stop="20260902154500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Óscar Cornejo</director>
-      <director>Ana Isabel Peces</director>
-      <actor>Rosa Villacastín</actor>
-      <actor>Ada Colau</actor>
-      <actor>Marta Flich</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
-    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
-    <title lang="es">Directo al grano</title>
-  </programme>
-  <programme start="20260902154500 +0000" stop="20260902163500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Rocío Suárez de Puga</actor>
-      <actor>Manuela Velasco</actor>
-      <actor>José Manuel Seda</actor>
-      <actor>Marina Sabadell</actor>
-      <actor>Mari Paz Sayago</actor>
-      <actor>Chechu Salgado</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
-    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
-    <title lang="es">Valle Salvaje</title>
-  </programme>
-  <programme start="20260902163500 +0000" stop="20260902173500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Joaquín Climent</actor>
-      <actor>María Castro</actor>
-      <actor>Eva Martín</actor>
-      <actor>Ana Garcés</actor>
-      <actor>Arturo Sancho</actor>
-    </credits>
-    <date>2023</date>
-    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
-    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
-    <title lang="es">La Promesa</title>
-  </programme>
-  <programme start="20260902173500 +0000" stop="20260902182500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Jesús Cintora</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
-    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
-    <title lang="es">Malas lenguas</title>
-  </programme>
-  <programme start="20260902182500 +0000" stop="20260902185500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
-    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
-    <title lang="es">Aquí la Tierra</title>
-  </programme>
-  <programme start="20260902185500 +0000" stop="20260902194000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
-    <title lang="es">Telediario 2</title>
-  </programme>
-  <programme start="20260902194000 +0000" stop="20260902194500 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
-    <title lang="es">Deportes 2</title>
-  </programme>
-  <programme start="20260902194500 +0000" stop="20260902210000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
-    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
-    <title lang="es">El Grand Prix del Verano</title>
-  </programme>
-  <programme start="20260902210000 +0000" stop="20260902221500 +0000" channel="LA1.es">
-    <category lang="es">Documentales</category>
-    <date>2026</date>
-    <desc lang="es">El doctor Pedro Cavadas viaja a Tanzania para afrontar uno de los mayores retos de su carrera: operar a más de 100 pacientes con apenas recursos y en condiciones muy precarias en 10 días.</desc>
-    <icon src="https://iptv-epg.org/images/JXdccHzU7u_pGeKfnZVvGs1JbldMaagIcc4ui1ZpXXwiCDAzzee68XFK_1WcepRrLwqHJ_nw435dCy-0n2zka3La272qtcdJ2ZAV-HHalxuKgigsScDVJQ" />
-    <title lang="es">Operación África</title>
-  </programme>
-  <programme start="20260902221500 +0000" stop="20260902234500 +0000" channel="LA1.es">
-    <category lang="es">Documentales</category>
-    <date>2026</date>
-    <desc lang="es">El doctor Pedro Cavadas viaja a Tanzania para afrontar uno de los mayores retos de su carrera: operar a más de 100 pacientes con apenas recursos y en condiciones muy precarias en 10 días.</desc>
-    <icon src="https://iptv-epg.org/images/JXdccHzU7u_pGeKfnZVvGs1JbldMaagIcc4ui1ZpXXwiCDAzzee68XFK_1WcepRrLwqHJ_nw435dCy-0n2zka3La272qtcdJ2ZAV-HHalxuKgigsScDVJQ" />
-    <title lang="es">Operación África</title>
-  </programme>
-  <programme start="20260902234500 +0000" stop="20260903022000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <credits>
-      <director>Xabier Fortes</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Informativo diario nocturno que ofrece un análisis profundo y plural de la actualidad de la jornada.</desc>
-    <icon src="https://iptv-epg.org/images/_Dn7445ftqN4ScAPdcE6sYVz7gOY2ZM6CepDIXhD7V8yx8sS3UqoDoUaRagQwfXQs7iv3KAbHm2h4VkdQj_8NUngX5x2NNZen8hHeImOhTtm-cIHPeHcQQ" />
-    <title lang="es">La noche en 24 horas</title>
-  </programme>
-  <programme start="20260903022000 +0000" stop="20260903040000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
-    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
-    <title lang="es">Noticias 24H</title>
-  </programme>
-  <programme start="20260903040000 +0000" stop="20260903055000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
-    <title lang="es">Telediario Matinal</title>
-  </programme>
-  <programme start="20260903055000 +0000" stop="20260903083500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Silvia Intxaurrondo</director>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
-    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
-    <title lang="es">La hora de La 1: La hora de la actualidad</title>
-  </programme>
-  <programme start="20260903083500 +0000" stop="20260903125500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
-    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
-    <title lang="es">Mañaneros 360</title>
-  </programme>
-  <programme start="20260903125500 +0000" stop="20260903133500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
-    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
-    <title lang="es">Telediario 1</title>
-  </programme>
-  <programme start="20260903133500 +0000" stop="20260903134000 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
-    <title lang="es">Deportes 1</title>
-  </programme>
-  <programme start="20260903134000 +0000" stop="20260903134500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2014</date>
-    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
-    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
-    <title lang="es">El tiempo</title>
-  </programme>
-  <programme start="20260903134500 +0000" stop="20260903135500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2023</date>
-    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
-    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
-    <title lang="es">Informativo territorial 2</title>
-  </programme>
-  <programme start="20260903135500 +0000" stop="20260903154500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Óscar Cornejo</director>
-      <director>Ana Isabel Peces</director>
-      <actor>Rosa Villacastín</actor>
-      <actor>Ada Colau</actor>
-      <actor>Marta Flich</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
-    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
-    <title lang="es">Directo al grano</title>
-  </programme>
-  <programme start="20260903154500 +0000" stop="20260903163500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Rocío Suárez de Puga</actor>
-      <actor>Manuela Velasco</actor>
-      <actor>José Manuel Seda</actor>
-      <actor>Marina Sabadell</actor>
-      <actor>Mari Paz Sayago</actor>
-      <actor>Chechu Salgado</actor>
-    </credits>
-    <date>2026</date>
-    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
-    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
-    <title lang="es">Valle Salvaje</title>
-  </programme>
-  <programme start="20260903163500 +0000" stop="20260903173500 +0000" channel="LA1.es">
-    <category lang="es">Series</category>
-    <credits>
-      <actor>Joaquín Climent</actor>
-      <actor>María Castro</actor>
-      <actor>Eva Martín</actor>
-      <actor>Ana Garcés</actor>
-      <actor>Arturo Sancho</actor>
-    </credits>
-    <date>2023</date>
-    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
-    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
-    <title lang="es">La Promesa</title>
-  </programme>
-  <programme start="20260903173500 +0000" stop="20260903183000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <credits>
-      <director>Jesús Cintora</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
-    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
-    <title lang="es">Malas lenguas</title>
-  </programme>
-  <programme start="20260903183000 +0000" stop="20260903185500 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2025</date>
-    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
-    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
-    <title lang="es">Aquí la Tierra</title>
-  </programme>
-  <programme start="20260903185500 +0000" stop="20260903194000 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <date>2021</date>
-    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
-    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
-    <title lang="es">Telediario 2</title>
-  </programme>
-  <programme start="20260903194000 +0000" stop="20260903194500 +0000" channel="LA1.es">
-    <category lang="es">Deportes</category>
-    <category lang="es">Sports</category>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
-    <title lang="es">Deportes 2</title>
-  </programme>
-  <programme start="20260903194500 +0000" stop="20260903210000 +0000" channel="LA1.es">
-    <category lang="es">Entretenimiento</category>
-    <date>2026</date>
-    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
-    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
-    <title lang="es">El Grand Prix del Verano</title>
-  </programme>
-  <programme start="20260903210000 +0000" stop="20260903224000 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260903224000 +0000" stop="20260904001000 +0000" channel="LA1.es">
-    <desc lang="es">Cine.</desc>
-    <title lang="es">Cine</title>
-  </programme>
-  <programme start="20260904001000 +0000" stop="20260904024500 +0000" channel="LA1.es">
-    <category lang="es">Información</category>
-    <credits>
-      <director>Xabier Fortes</director>
-    </credits>
-    <date>2025</date>
-    <desc lang="es">Informativo diario nocturno que ofrece un análisis profundo y plural de la actualidad de la jornada.</desc>
-    <icon src="https://iptv-epg.org/images/_Dn7445ftqN4ScAPdcE6sYVz7gOY2ZM6CepDIXhD7V8yx8sS3UqoDoUaRagQwfXQs7iv3KAbHm2h4VkdQj_8NUngX5x2NNZen8hHeImOhTtm-cIHPeHcQQ" />
-    <title lang="es">La noche en 24 horas</title>
   </programme>
   <programme start="20260828083500 +0000" stop="20260828125500 +0000" channel="LaResistencia.es">
     <category lang="es">Entretenimiento</category>
@@ -111916,6 +110788,1134 @@ En este tercer episodio de la cuarta temporada de ''Cazadores Sin Fronteras'', d
     <desc lang="es">Iberalia.</desc>
     <icon src="https://iptv-epg.org/images/DvoomHnA9PA5dUB90bxY3evPJNgGe4CgwF2zo7ityki3u9pDTTy_ddsHB5801y4R4BdVsPUZqU0WBUD-yRabxSFmhhsVt2ycrHPOS_IbEyvjsESGAsmK4g5MAQ" />
     <title lang="es">Iberalia</title>
+  </programme>
+  <programme start="20260828083500 +0000" stop="20260828125500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
+    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
+    <title lang="es">Mañaneros 360</title>
+  </programme>
+  <programme start="20260828125500 +0000" stop="20260828133000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
+    <title lang="es">Telediario 1</title>
+  </programme>
+  <programme start="20260828133000 +0000" stop="20260828133500 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260828133500 +0000" stop="20260828134000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260828134000 +0000" stop="20260828135000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
+    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
+    <title lang="es">Informativo territorial 2</title>
+  </programme>
+  <programme start="20260828135000 +0000" stop="20260828154500 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">S2026
+El ciclismo completa el calendario 2026 de grandes rondas con la disputa de la Vuelta. La carrera inicia su recorrido el 22 de agosto en Mónaco. La meta final, el 13 de septiembre, se cruzará en Granada. El danés Jonas Vingegaard fue el vencedor en la edición de 2025.</desc>
+    <episode-num>S2026</episode-num>
+    <icon src="https://iptv-epg.org/images/ObKad79kaXiWb5LJD0QdLsQ-uGYxqXDNs4RtzIfENQYPlsAx_Y8ayQSUHc08C773a5S28e20Y-SiqRPIYMgoU-aEOtNYs85UTSFquYJrIFPXyBLQ" />
+    <title lang="es">La Vuelta : Etapa 7 - Vall d'Alba - Aramón Valdelinares</title>
+    <live />
+  </programme>
+  <programme start="20260828154500 +0000" stop="20260828163500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Rocío Suárez de Puga</actor>
+      <actor>Manuela Velasco</actor>
+      <actor>José Manuel Seda</actor>
+      <actor>Marina Sabadell</actor>
+      <actor>Mari Paz Sayago</actor>
+      <actor>Chechu Salgado</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
+    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
+    <title lang="es">Valle Salvaje</title>
+  </programme>
+  <programme start="20260828163500 +0000" stop="20260828173500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Joaquín Climent</actor>
+      <actor>María Castro</actor>
+      <actor>Eva Martín</actor>
+      <actor>Ana Garcés</actor>
+      <actor>Arturo Sancho</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
+    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
+    <title lang="es">La Promesa</title>
+  </programme>
+  <programme start="20260828173500 +0000" stop="20260828182500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Jesús Cintora</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
+    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
+    <title lang="es">Malas lenguas</title>
+  </programme>
+  <programme start="20260828182500 +0000" stop="20260828185500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
+    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
+    <title lang="es">Aquí la Tierra</title>
+  </programme>
+  <programme start="20260828185500 +0000" stop="20260828194000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
+    <title lang="es">Telediario 2</title>
+  </programme>
+  <programme start="20260828194000 +0000" stop="20260828194500 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
+    <title lang="es">Deportes 2</title>
+  </programme>
+  <programme start="20260828194500 +0000" stop="20260828204000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2023</date>
+    <desc lang="es">Bailar pegados
+Un tierno viaje por las mejores baladas y temas lentos de la música que habitan el archivo de Televisión Española. Solistas y grupo míticos de la talla de Chicago, The Cristians, Joe Cocker, Bonnie Tyler, Frank Sinatra, The Cramberries, Santana, etc.</desc>
+    <icon src="https://iptv-epg.org/images/62ex-mhwMU11lDRRpbGsIvxAfro-AwJ4Zzgq6BHvtT1F_qd7nhbP4hJMo6z0HX9LWVdtO2JY0m1mzw9DW4Ze9l8-k865w802YbFOyKcx7ZW9JLpNembwPg" />
+    <title lang="es">Viaje al centro de la tele: La noche temática</title>
+  </programme>
+  <programme start="20260828204000 +0000" stop="20260828214000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2023</date>
+    <desc lang="es">Distancias cortas
+Un viaje embriagador a través de una selección de las mejores baladas cantadas en castellano. Con temas como En carne viva, Te he echado de menos, En el muelle de San Blas, Escondidos, La chica de ayer, El hombre del piano.</desc>
+    <icon src="https://iptv-epg.org/images/DB3InOo2C46XNBiQ9yhOUXd1aj1VdpYWSKiKBK7opPRW2d3Dd7zIyaML3stT6eeOvw54W7aoYYVWc1kDOrMYT2MN_JefrOAvubE82Fmj4DS8F4Z_u-4tqw" />
+    <title lang="es">Viaje al centro de la tele: La noche temática</title>
+  </programme>
+  <programme start="20260828214000 +0000" stop="20260828224000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2023</date>
+    <desc lang="es">Con coreografías
+Trepidante viaje por las canciones que nos han hecho mover el cuerpo porque venían con la coreografía puesta. Temas súper populares  como Aserejé, la Lambada, Waka waka, la Yenka, Saturday night, No rompas más, Gangman style, y otras muchas.</desc>
+    <icon src="https://iptv-epg.org/images/IiJvGtIta31cyoWZX00b6Jmra9Mn-XFaHBsVw4LgYbaOxoPdWTkIvw6lJlxxkXvSvUuG6ZhHA0JsTA-dwkKrJPzccr886f_xQK1TAOHnXwrG94I6_RsZgQ" />
+    <title lang="es">Viaje al centro de la tele: La noche temática</title>
+  </programme>
+  <programme start="20260828224000 +0000" stop="20260828233500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2023</date>
+    <desc lang="es">¿Quedamos en la disco?
+Un energético viaje alrededor de los grandes éxitos que reventaron las pistas de baile en las discotecas de los 80 y los 90. Con solistas y grupos de la talla de Cher,  Rocky Sharpe &amp; the Replays, Village People, George Michael, Gibson Brothers, Durán Durán y más.</desc>
+    <icon src="https://iptv-epg.org/images/X_RvW1KhEymygQYYWTHNOiWbHzE3bOiYfhQKB4cI3-8l7N57Hg3THVowXaNeJb6L4aXsV4NuBhxgOqPjoVDmsEAiCjjDKStEQFg3ofHxbu_U7rcHyECnIQ" />
+    <title lang="es">Viaje al centro de la tele: La noche temática: ¿Quedamos en la disco</title>
+  </programme>
+  <programme start="20260828233500 +0000" stop="20260829040000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260829040000 +0000" stop="20260829050000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260829050000 +0000" stop="20260829075000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260829075000 +0000" stop="20260829085500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2021</date>
+    <desc lang="es">En nuestro corazón (Primera parte)
+Un homenaje a todos aquellos rostros conocidos que nos han dejado recientemente: Pau Donés, Rosa María Sardá, Eduard Punset, Camilo Sesto, Chicho Ibáñez Serrador, Luis Eduardo Aute, Monserrat Caballé, Marie Frediksoon, Charles Aznavour, Maradona y Alex Lecquio.</desc>
+    <icon src="https://iptv-epg.org/images/8mQZRv6fb2cbTVgfF3YaWEYw1xWrMgN_i2daeQ-yvjSDYF_jych4IS5O7ncBPngdHj6_zPehBe5AXXMoxhBrv-P1CTXnQVHQZzWhIiYLLt10dXtmHopfyw" />
+    <title lang="es">Viaje al centro de la tele exprés</title>
+  </programme>
+  <programme start="20260829085500 +0000" stop="20260829100000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Pedro Santos</director>
+    </credits>
+    <date>2020</date>
+    <desc lang="es">Más setenta y pop
+Segunda parte de un viaje musical por los grupos y solistas españoles y extranjeros  que triunfaron en la década de los setenta. Tequila, Los Diablos, Tony Ronald,  Miguel Ríos, Víctor Manuel y Ana Belén.</desc>
+    <icon src="https://iptv-epg.org/images/LQJFs8uIFsGUriUKQx0C_3bTGf9hJXoES9gCQ_c7Mtsrj3d4ptlYpwjJmmg6CVbZkyaiJqLY5gqJ8sBqb0O1aWzE4DLZd2nsyFo8EyKWzX6E6etR8peUJQ" />
+    <title lang="es">Viaje al centro de la tele</title>
+  </programme>
+  <programme start="20260829100000 +0000" stop="20260829110500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2021</date>
+    <desc lang="es">Que te vaya bonito (Primera parte)
+Primera parte de un viaje a través de la crónica social centrado en las rupturas de las parejas de famosos. Cantantes, actores y actrices, presentadores y presentadoras, deportistas.</desc>
+    <icon src="https://iptv-epg.org/images/LfgkMS1mfyXIpboElPD0cAX9CQJ8XJWq2bh7kL0pgU4_Aqju8TZqjizGYXqC60weWj4Z3EbsVQqO-JHzLr65xOibs4tfo-G3hSZF8CB4oH7FbMLifrmH0g" />
+    <title lang="es">Viaje al centro de la tele exprés</title>
+  </programme>
+  <programme start="20260829110500 +0000" stop="20260829125500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">E69
+Anne Igartiburu y Javier de Hoyos hacen un repaso a la actualidad de la crónica social, con los nombres propios más importantes de la semana y estando en directo en todos los acontecimientos y eventos que se produzcan.</desc>
+    <episode-num>E69</episode-num>
+    <icon src="https://iptv-epg.org/images/nN39JMNWAcKc-eA_hze0sruHp0O4Xn85W-gCtwvv1ZWmrzwXL-e-xV_s_r40NuY-Bpvk_nF-zZlMlVCy5cmfoiKXc4aEpRtU2ax3_PqsQjTKF-JLK_OZqA" />
+    <title lang="es">D Corazón</title>
+  </programme>
+  <programme start="20260829125500 +0000" stop="20260829134500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Informativo de Televisión Española de los fines de semana.Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
+    <icon src="https://iptv-epg.org/images/4cKu9jDMqLh6fxoZe9FRiI9ogwtUQD6c40gzySUsJPBL7BkQpy565zaw1YfqfY0MUCtimt4b2Yn7zUepai61ei-q-ybzL_MmGhUClLh6VjA4FpkYNsSzaQ" />
+    <title lang="es">Telediario 1 Fin de Semana</title>
+  </programme>
+  <programme start="20260829134500 +0000" stop="20260829135000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260829135000 +0000" stop="20260829135500 +0000" channel="la1.es">
+    <category lang="es">Ocio y Aficiones</category>
+    <date>2026</date>
+    <desc lang="es">Emisión en directo de los sorteos de la Lotería Primitiva y la Lotería Nacional. La Primitiva es el juego más popular de las Loterías y Apuestas del Estado, mientras que la Nacional se basa en el sistema de décimos de cinco números.</desc>
+    <icon src="https://iptv-epg.org/images/3hDQl1JKej2750JSZuqIQ6ul25RwdYOo1oRojIM9cAgBopV8qG4q56SvcMru3j9eV4W81bsyIm3WkFqHDb-azRWknW3YSNxV66ah8cExnarLC7I9kF2JpA" />
+    <title lang="es">La suerte en tus manos</title>
+  </programme>
+  <programme start="20260829135500 +0000" stop="20260829154500 +0000" channel="la1.es">
+    <category lang="es">Cine</category>
+    <credits>
+      <director>Frank Coraci</director>
+      <actor>Adam Sandler</actor>
+      <actor>Drew Barrymore</actor>
+      <actor>Kevin Nealon</actor>
+      <actor>Dan Patrick</actor>
+      <actor>Terry Crews</actor>
+      <actor>Tim Herlihy</actor>
+    </credits>
+    <date>2014</date>
+    <desc lang="es">Lauren, madre divorciada con dos hijos, y Jim, padre viudo con tres hijas, se conocen en una desastrosa cita a ciegas en la que ambos sólo sacan una cosa en claro: no desean volver a verse nunca más.</desc>
+    <icon src="https://iptv-epg.org/images/j8rwBGiQ_UtDw6aO3JsRvklXbuqrghwL8TW2OS9xehZVxCNL_YCkCbyr8ERm2-UY5bfg6U6dPQi9BAyRMkCfoM6a-rb4cr8ziTVBvdlE6W-tOG8dJ7EcQw" />
+    <title lang="es">Juntos y revueltos</title>
+  </programme>
+  <programme start="20260829154500 +0000" stop="20260829172000 +0000" channel="la1.es">
+    <category lang="es">Cine</category>
+    <credits>
+      <director>Kevin Smith</director>
+      <actor>Will Smith</actor>
+      <actor>Liv Tyler</actor>
+      <actor>Jennifer Lopez</actor>
+      <actor>Ben Affleck</actor>
+      <actor>Matt Damon</actor>
+      <actor>Jason Biggs</actor>
+      <actor>George Carlin</actor>
+      <actor>Raquel Castro</actor>
+      <actor>Betty Aberlin</actor>
+      <actor>Matt McFarland</actor>
+      <actor>Sarah Stafford</actor>
+      <actor>Paulie Litt</actor>
+      <actor>Christian Fan</actor>
+      <actor>Victor Chavez</actor>
+    </credits>
+    <date>2004</date>
+    <desc lang="es">La química entre Ben Affleck ("Dogma", "Paycheck", "Daredevil", "Pánico Nuclear") y Liv Tyler (Trilogía de "El señor de los Anillos", "Armageddon") se hace patente en esta comedia con tintes dramáticos sobre un hombre que lo daba todo por perdido cuando tenía todo para poder ser feliz.</desc>
+    <icon src="https://iptv-epg.org/images/xhg1-SJE2SOPpy2b7s9PyQRxSNUCbwy3DzdvD4avC5EZma5WsCrwrcsaAsYkbhwpq1SJdfrUr4y1qvqox9TlbbQ1YEgDl4Y9MbSzVrHyAENtdfGD8BmY" />
+    <title lang="es">Jersey Girl (Una chica de Jersey)</title>
+  </programme>
+  <programme start="20260829172000 +0000" stop="20260829185500 +0000" channel="la1.es">
+    <category lang="es">Cine</category>
+    <credits>
+      <director>Josh Gordon</director>
+      <director>Will Speck</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Jason Bateman</actor>
+      <actor>Jeff Goldblum</actor>
+      <actor>Juliette Lewis</actor>
+      <actor>Patrick Wilson</actor>
+      <actor>Bryce Robinson</actor>
+      <actor>Thomas Robinson</actor>
+    </credits>
+    <date>2010</date>
+    <desc lang="es">Cuando Kassie cumple los 40 decide no esperar más y recurre a la inseminación artificial para tener un bebé. Siete años más tarde, regresa a Nueva York y se reencuentra con su amigo Wally, un hombre neurótico e inseguro, que se siente fuertemente vinculado al hijo de Kassie.</desc>
+    <icon src="https://iptv-epg.org/images/8aWp9bG21VXZj94r7PvKsIWJmwZQJNXY5ZgDTlJavQRPjRNePy_NEd1rVb1o_j44tPDy6FT7LAQK-QeKA_RUDzvitElqI3eQQRZ_JdFWPHXOIAuu5WvB" />
+    <title lang="es">Un pequeño cambio</title>
+  </programme>
+  <programme start="20260829185500 +0000" stop="20260829192500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2017</date>
+    <desc lang="es">Informativo de Televisión Española de los fines de semana. Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
+    <icon src="https://iptv-epg.org/images/d9-PqShI77ALbRFntDuNtNaSl7wiG_KOflyN0xX8U0UYlxW2cZur6RklwBc8SSjvwTqulhU9LaMQi9uQUVylW3SZPeJg5_0LbdMTNojxb0517gMgDWThYw" />
+    <title lang="es">Telediario 2 Fin de Semana</title>
+  </programme>
+  <programme start="20260829192500 +0000" stop="20260829193000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
+    <title lang="es">Deportes 2</title>
+  </programme>
+  <programme start="20260829193000 +0000" stop="20260829200500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <credits>
+      <director>Jenaro Castro Muiña</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">El programa más veterano de la televisión nacional, y el más antiguo de su género en Europa, ofrece la emisión de reportajes de la actualidad internacional, nacional, social o cultural. A veces, los reportajes pueden llegar a tener hasta media hora de duración.</desc>
+    <icon src="https://iptv-epg.org/images/kObFKT5PZ5XhAFsyFA7lOalsnUyncVZeTsaqS_GdYCL7qJTPA2Hr5iYpgT9kzK0hgCDjcNIOaiVujL6PEpysvOPc7mxr199toL1cXXIG-t99szcVJD3LUg" />
+    <title lang="es">Informe Semanal</title>
+  </programme>
+  <programme start="20260829200500 +0000" stop="20260829205500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Mattia Bisonni</actor>
+      <actor>Dora Romano</actor>
+      <actor>Ludovica Nasti</actor>
+      <actor>Gaia Girace</actor>
+      <actor>Elisa del Genio</actor>
+      <actor>Margherita Mazzucco</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">S1 E4 — El desbordamiento
+Lila se convierte en una hermosa joven y todos los chicos del barrio se sienten atraídos por ella. Lila rechaza incluso a Marcello Solara y a Stefano Carracci. Elena empieza a salir con un compañero de clase, pero sueña con Nino Sarratore.</desc>
+    <episode-num>S1 E4</episode-num>
+    <icon src="https://iptv-epg.org/images/iDCrrPfsxXFlf2MbskJLk5_5NQDbVlkcxdtPLbUQun8j7-MMGGvF1dgeSG9nXDKhgBeHQE1VqZX1DXX8Try3wqKu2t5st4VVVMNMykCcnk0XjW9q" />
+    <title lang="es">La amiga estupenda</title>
+  </programme>
+  <programme start="20260829205500 +0000" stop="20260829215000 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Mattia Bisonni</actor>
+      <actor>Dora Romano</actor>
+      <actor>Ludovica Nasti</actor>
+      <actor>Gaia Girace</actor>
+      <actor>Elisa del Genio</actor>
+      <actor>Margherita Mazzucco</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">S1 E5 — Los zapatos
+Elena rompe con Gino. Lila diseña unos zapatos con su hermano, pero su padre no tiene pensado apoyarla. Marcello está enamorado de ella y consigue ganarse a Rino y a Fernando Cerullo antes de pedirle matrimonio a Lila.</desc>
+    <episode-num>S1 E5</episode-num>
+    <icon src="https://iptv-epg.org/images/dikxBaAOIjQxCg8NfNEPybsIfig3_aKySp6L_0j3fPgXGzApBrPX88vvtXiGLFjSA2tlojYv7OByxITLB-t-5K6i_DTwheIlGzb9HzcShCDjTQhT" />
+    <title lang="es">La amiga estupenda</title>
+  </programme>
+  <programme start="20260829215000 +0000" stop="20260829225000 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Mattia Bisonni</actor>
+      <actor>Dora Romano</actor>
+      <actor>Ludovica Nasti</actor>
+      <actor>Gaia Girace</actor>
+      <actor>Elisa del Genio</actor>
+      <actor>Margherita Mazzucco</actor>
+    </credits>
+    <date>2018</date>
+    <desc lang="es">S1 E6 — La isla
+Elena se encuentra a los Sarratore en Ischia, donde pasa tiempo con Nino. Allí se dan un inocente beso. El día del quince cumpleaños de Elena, el padre de Nino se abalanza sobre ella y la besa apasionadamente. Elena huye de la isla.</desc>
+    <episode-num>S1 E6</episode-num>
+    <icon src="https://iptv-epg.org/images/QBxrjZ62WPtIsI9FHG5oBjSIPrbMyChREkI1mSRSNOMpCaSsxeZ3auUuD99mNL4w5VT5dGYuSfqeoof4YwwIl0cfxaQBszNtzAriyT9QG_3oeiSE" />
+    <title lang="es">La amiga estupenda</title>
+  </programme>
+  <programme start="20260829225000 +0000" stop="20260830003500 +0000" channel="la1.es">
+    <category lang="es">Cine</category>
+    <credits>
+      <director>Nigel Cole</director>
+      <actor>Sally Hawkins</actor>
+      <actor>Miranda Richardson</actor>
+      <actor>Bob Hoskins</actor>
+      <actor>Geraldine James</actor>
+      <actor>Rosamund Pike</actor>
+      <actor>Jaime Winstone</actor>
+      <actor>Andrea Riseborough</actor>
+    </credits>
+    <date>2010</date>
+    <desc lang="es">Una sola mujer puede marcar la diferencia. En 1968, para protestar por la diferencia de sueldos entre ellas y los hombres de la empresa, casi 200 trabajadoras de la Ford Dagenham se declararon en huelga. Este hecho histórico, que acabó teniendo como resultado la Equal Pay Act, es en el que se basa "Pago justo".</desc>
+    <icon src="https://iptv-epg.org/images/RsLYhVjgGk3qJCwnQfsM91-BVxOSNy114PoE7gUEGes9pVHhIwfsQphFr_rraM9GKtMc_FXEUm3IJZIeLp3Z7sWV_-nKaPqzffOsQYhp54b4w4JFGKYi7A" />
+    <title lang="es">Pago justo</title>
+  </programme>
+  <programme start="20260830003500 +0000" stop="20260830040000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260830040000 +0000" stop="20260830050000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260830050000 +0000" stop="20260830083000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260830083000 +0000" stop="20260830091000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2021</date>
+    <desc lang="es">Una mirada al pasado para recuperar alguno de los mejores momentos de la historia de Televisión Española. La nostalgia, el humor y la ironía son los ingredientes principales de un formato amenizado por el grafismo y las viñetas inconfundibles de Antonio Fraguas Forges.</desc>
+    <icon src="https://iptv-epg.org/images/zJ8N-ziEnV72axu8CHIlJhf5aNdvtpdvFmfcRbcCgtV-z8TBhFK1SpS82-PCoHsOeikCDpx0R60x6bI7IEdU1YC6DBrSPvjOZqHmpS6NYJewUYtK6F186A" />
+    <title lang="es">Viaje al centro de la tele exprés</title>
+  </programme>
+  <programme start="20260830091000 +0000" stop="20260830100500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Pedro Santos</director>
+    </credits>
+    <date>2019</date>
+    <desc lang="es">Una mirada al pasado para recuperar alguno de los mejores momentos de la historia de Televisión Española. La nostalgia, el humor y la ironía son los ingredientes principales de un formato amenizado por el grafismo y las viñetas inconfundibles de Antonio Fraguas Forges.</desc>
+    <icon src="https://iptv-epg.org/images/cXbegsdgVjzeI2IM8tKx81glBlyW54vkTIHuIghsW3to3Aaf7urZDzCMtiOXM5JqRQKLBb4zle0V0fnR13yoNqtC9YduSsvHRSxlGEbhq10lbdn8VCs8bA" />
+    <title lang="es">Viaje al centro de la tele</title>
+  </programme>
+  <programme start="20260830100500 +0000" stop="20260830110500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Pedro Santos</director>
+    </credits>
+    <date>2016</date>
+    <desc lang="es">Una mirada al pasado para recuperar alguno de los mejores momentos de la historia de Televisión Española. La nostalgia, el humor y la ironía son los ingredientes principales de un formato amenizado por el grafismo y las viñetas inconfundibles de Antonio Fraguas Forges.</desc>
+    <icon src="https://iptv-epg.org/images/CEYZW_Men8YUq283ii3Sh5g84U_Xi1lFRogS2dEZIhtMD956sZAn9djj1S9808OWN81TGAp0WtXxEmLVoVn7FOj2Fec3RZ81sfwdyDx5RVzrfCvHEJwS7g" />
+    <title lang="es">Viaje al centro de la tele</title>
+  </programme>
+  <programme start="20260830110500 +0000" stop="20260830125500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">Anne Igartiburu y Javier de Hoyos hacen un repaso a la actualidad de la crónica social, con los nombres propios más importantes de la semana y estando en directo en todos los acontecimientos y eventos que se produzcan.</desc>
+    <icon src="https://iptv-epg.org/images/aeLZClAfzxVa0tzwcYBbSYq2wdk5bLit2mNA2Jt53b98mmnJqK8swxxG6vvyNRD9FTuUtvoWpAo6UXCNQ1hP_ux5WSi293u9eY0LosyMDo7erLcbY-N86g" />
+    <title lang="es">D Corazón</title>
+  </programme>
+  <programme start="20260830125500 +0000" stop="20260830134500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Informativo de Televisión Española de los fines de semana.Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
+    <icon src="https://iptv-epg.org/images/4cKu9jDMqLh6fxoZe9FRiI9ogwtUQD6c40gzySUsJPBL7BkQpy565zaw1YfqfY0MUCtimt4b2Yn7zUepai61ei-q-ybzL_MmGhUClLh6VjA4FpkYNsSzaQ" />
+    <title lang="es">Telediario 1 Fin de Semana</title>
+  </programme>
+  <programme start="20260830134500 +0000" stop="20260830135000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260830135000 +0000" stop="20260830135500 +0000" channel="la1.es">
+    <category lang="es">Ocio y Aficiones</category>
+    <date>2026</date>
+    <desc lang="es">Emisión en directo de los sorteos de la Lotería Primitiva y la Lotería Nacional. La Primitiva es el juego más popular de las Loterías y Apuestas del Estado, mientras que la Nacional se basa en el sistema de décimos de cinco números.</desc>
+    <icon src="https://iptv-epg.org/images/3hDQl1JKej2750JSZuqIQ6ul25RwdYOo1oRojIM9cAgBopV8qG4q56SvcMru3j9eV4W81bsyIm3WkFqHDb-azRWknW3YSNxV66ah8cExnarLC7I9kF2JpA" />
+    <title lang="es">La suerte en tus manos</title>
+  </programme>
+  <programme start="20260830135500 +0000" stop="20260830152500 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260830152500 +0000" stop="20260830170500 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260830170500 +0000" stop="20260830183500 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260830183500 +0000" stop="20260830185500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
+    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
+    <title lang="es">Aquí la Tierra</title>
+  </programme>
+  <programme start="20260830185500 +0000" stop="20260830195000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2017</date>
+    <desc lang="es">Informativo de Televisión Española de los fines de semana. Marc Sala y Lourdes Maldonado se encargan de presentar las últimas noticias de ámbito nacional e internacional surgidas durante el día. Mientras, Marcos López, introduce el bloque de deportes.</desc>
+    <icon src="https://iptv-epg.org/images/d9-PqShI77ALbRFntDuNtNaSl7wiG_KOflyN0xX8U0UYlxW2cZur6RklwBc8SSjvwTqulhU9LaMQi9uQUVylW3SZPeJg5_0LbdMTNojxb0517gMgDWThYw" />
+    <title lang="es">Telediario 2 Fin de Semana</title>
+  </programme>
+  <programme start="20260830195000 +0000" stop="20260830200000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
+    <title lang="es">Deportes 2</title>
+  </programme>
+  <programme start="20260830200000 +0000" stop="20260830215500 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260830215500 +0000" stop="20260830232500 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260830232500 +0000" stop="20260831010500 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260831010500 +0000" stop="20260831040000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260831040000 +0000" stop="20260831055000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
+    <title lang="es">Telediario Matinal</title>
+  </programme>
+  <programme start="20260831055000 +0000" stop="20260831083500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Silvia Intxaurrondo</director>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
+    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
+    <title lang="es">La hora de La 1: La hora de la actualidad</title>
+  </programme>
+  <programme start="20260831083500 +0000" stop="20260831125500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
+    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
+    <title lang="es">Mañaneros 360</title>
+  </programme>
+  <programme start="20260831125500 +0000" stop="20260831133500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
+    <title lang="es">Telediario 1</title>
+  </programme>
+  <programme start="20260831133500 +0000" stop="20260831134000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260831134000 +0000" stop="20260831134500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
+    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
+    <title lang="es">El tiempo</title>
+  </programme>
+  <programme start="20260831134500 +0000" stop="20260831135500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
+    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
+    <title lang="es">Informativo territorial 2</title>
+  </programme>
+  <programme start="20260831135500 +0000" stop="20260831154500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Óscar Cornejo</director>
+      <director>Ana Isabel Peces</director>
+      <actor>Rosa Villacastín</actor>
+      <actor>Ada Colau</actor>
+      <actor>Marta Flich</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
+    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
+    <title lang="es">Directo al grano</title>
+  </programme>
+  <programme start="20260831154500 +0000" stop="20260831163500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Rocío Suárez de Puga</actor>
+      <actor>Manuela Velasco</actor>
+      <actor>José Manuel Seda</actor>
+      <actor>Marina Sabadell</actor>
+      <actor>Mari Paz Sayago</actor>
+      <actor>Chechu Salgado</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
+    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
+    <title lang="es">Valle Salvaje</title>
+  </programme>
+  <programme start="20260831163500 +0000" stop="20260831173500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Joaquín Climent</actor>
+      <actor>María Castro</actor>
+      <actor>Eva Martín</actor>
+      <actor>Ana Garcés</actor>
+      <actor>Arturo Sancho</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
+    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
+    <title lang="es">La Promesa</title>
+  </programme>
+  <programme start="20260831173500 +0000" stop="20260831182500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Jesús Cintora</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
+    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
+    <title lang="es">Malas lenguas</title>
+  </programme>
+  <programme start="20260831182500 +0000" stop="20260831185500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
+    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
+    <title lang="es">Aquí la Tierra</title>
+  </programme>
+  <programme start="20260831185500 +0000" stop="20260831194000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
+    <title lang="es">Telediario 2</title>
+  </programme>
+  <programme start="20260831194000 +0000" stop="20260831194500 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
+    <title lang="es">Deportes 2</title>
+  </programme>
+  <programme start="20260831194500 +0000" stop="20260831210000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
+    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
+    <title lang="es">El Grand Prix del Verano</title>
+  </programme>
+  <programme start="20260831210000 +0000" stop="20260901000500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">La cocina se convierte en el campo de batalla para quince aspirantes a chefs profesionales. Su habilidad ante los fogones les servirá para convencer a un jurado profesional que valorará la exquisitez de sus platos y la presteza para elaborarlos y servirlos.</desc>
+    <icon src="https://iptv-epg.org/images/XVRsP7kg3BmDPwyCHfLDRSN3TCmmfsczxKiliardXwOdH_zIOf-jfCXz4R9FnHdqVR1UURMl6NLS4Yh08OQfrOr8FWLcWPJb9cvkua2daRjRvZHDqvFA5Q" />
+    <title lang="es">MasterChef</title>
+  </programme>
+  <programme start="20260901000500 +0000" stop="20260901025500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">La cocina se convierte en el campo de batalla para quince aspirantes a chefs profesionales. Su habilidad ante los fogones les servirá para convencer a un jurado profesional que valorará la exquisitez de sus platos y la presteza para elaborarlos y servirlos.</desc>
+    <icon src="https://iptv-epg.org/images/XVRsP7kg3BmDPwyCHfLDRSN3TCmmfsczxKiliardXwOdH_zIOf-jfCXz4R9FnHdqVR1UURMl6NLS4Yh08OQfrOr8FWLcWPJb9cvkua2daRjRvZHDqvFA5Q" />
+    <title lang="es">MasterChef</title>
+  </programme>
+  <programme start="20260901025500 +0000" stop="20260901040000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260901040000 +0000" stop="20260901055000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
+    <title lang="es">Telediario Matinal</title>
+  </programme>
+  <programme start="20260901055000 +0000" stop="20260901083500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Silvia Intxaurrondo</director>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
+    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
+    <title lang="es">La hora de La 1: La hora de la actualidad</title>
+  </programme>
+  <programme start="20260901083500 +0000" stop="20260901125500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
+    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
+    <title lang="es">Mañaneros 360</title>
+  </programme>
+  <programme start="20260901125500 +0000" stop="20260901133500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
+    <title lang="es">Telediario 1</title>
+  </programme>
+  <programme start="20260901133500 +0000" stop="20260901134000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260901134000 +0000" stop="20260901134500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
+    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
+    <title lang="es">El tiempo</title>
+  </programme>
+  <programme start="20260901134500 +0000" stop="20260901135500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
+    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
+    <title lang="es">Informativo territorial 2</title>
+  </programme>
+  <programme start="20260901135500 +0000" stop="20260901154500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Óscar Cornejo</director>
+      <director>Ana Isabel Peces</director>
+      <actor>Rosa Villacastín</actor>
+      <actor>Ada Colau</actor>
+      <actor>Marta Flich</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
+    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
+    <title lang="es">Directo al grano</title>
+  </programme>
+  <programme start="20260901154500 +0000" stop="20260901163500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Rocío Suárez de Puga</actor>
+      <actor>Manuela Velasco</actor>
+      <actor>José Manuel Seda</actor>
+      <actor>Marina Sabadell</actor>
+      <actor>Mari Paz Sayago</actor>
+      <actor>Chechu Salgado</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
+    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
+    <title lang="es">Valle Salvaje</title>
+  </programme>
+  <programme start="20260901163500 +0000" stop="20260901173500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Joaquín Climent</actor>
+      <actor>María Castro</actor>
+      <actor>Eva Martín</actor>
+      <actor>Ana Garcés</actor>
+      <actor>Arturo Sancho</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
+    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
+    <title lang="es">La Promesa</title>
+  </programme>
+  <programme start="20260901173500 +0000" stop="20260901182500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Jesús Cintora</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
+    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
+    <title lang="es">Malas lenguas</title>
+  </programme>
+  <programme start="20260901182500 +0000" stop="20260901185500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
+    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
+    <title lang="es">Aquí la Tierra</title>
+  </programme>
+  <programme start="20260901185500 +0000" stop="20260901194000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
+    <title lang="es">Telediario 2</title>
+  </programme>
+  <programme start="20260901194000 +0000" stop="20260901194500 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
+    <title lang="es">Deportes 2</title>
+  </programme>
+  <programme start="20260901194500 +0000" stop="20260901210000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
+    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
+    <title lang="es">El Grand Prix del Verano</title>
+  </programme>
+  <programme start="20260901210000 +0000" stop="20260901224000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Henar Álvarez</director>
+      <director>Javier Durán</director>
+      <director>Alberto Fernández</director>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">La cómica y escritora Henar Álvarez presenta desde su trono un programa de entrevistas gamberras y reivindicativas en el que se escuchan voces de mujeres que tienen mucho que contar. Manny Calavera es la banda de música encargada de poner ritmo al show.</desc>
+    <icon src="https://iptv-epg.org/images/ZIj7fMwXcJuO3I_cScqxfirHRWRjMm0_0iVTRLqUtg3-ojy11YKI-nNOCeVHICZiCsthU1z28PuyWtOWSnr27a5B8PveZsas5WqVZvfacETgfrS5MqT77Q" />
+    <title lang="es">Al cielo con ella</title>
+  </programme>
+  <programme start="20260901224000 +0000" stop="20260901234000 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260901234000 +0000" stop="20260902021500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <credits>
+      <director>Xabier Fortes</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Informativo diario nocturno que ofrece un análisis profundo y plural de la actualidad de la jornada.</desc>
+    <icon src="https://iptv-epg.org/images/_Dn7445ftqN4ScAPdcE6sYVz7gOY2ZM6CepDIXhD7V8yx8sS3UqoDoUaRagQwfXQs7iv3KAbHm2h4VkdQj_8NUngX5x2NNZen8hHeImOhTtm-cIHPeHcQQ" />
+    <title lang="es">La noche en 24 horas</title>
+  </programme>
+  <programme start="20260902021500 +0000" stop="20260902040000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260902040000 +0000" stop="20260902055000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
+    <title lang="es">Telediario Matinal</title>
+  </programme>
+  <programme start="20260902055000 +0000" stop="20260902083500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Silvia Intxaurrondo</director>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
+    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
+    <title lang="es">La hora de La 1: La hora de la actualidad</title>
+  </programme>
+  <programme start="20260902083500 +0000" stop="20260902125500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
+    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
+    <title lang="es">Mañaneros 360</title>
+  </programme>
+  <programme start="20260902125500 +0000" stop="20260902133500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
+    <title lang="es">Telediario 1</title>
+  </programme>
+  <programme start="20260902133500 +0000" stop="20260902134000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260902134000 +0000" stop="20260902134500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
+    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
+    <title lang="es">El tiempo</title>
+  </programme>
+  <programme start="20260902134500 +0000" stop="20260902135500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
+    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
+    <title lang="es">Informativo territorial 2</title>
+  </programme>
+  <programme start="20260902135500 +0000" stop="20260902154500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Óscar Cornejo</director>
+      <director>Ana Isabel Peces</director>
+      <actor>Rosa Villacastín</actor>
+      <actor>Ada Colau</actor>
+      <actor>Marta Flich</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
+    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
+    <title lang="es">Directo al grano</title>
+  </programme>
+  <programme start="20260902154500 +0000" stop="20260902163500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Rocío Suárez de Puga</actor>
+      <actor>Manuela Velasco</actor>
+      <actor>José Manuel Seda</actor>
+      <actor>Marina Sabadell</actor>
+      <actor>Mari Paz Sayago</actor>
+      <actor>Chechu Salgado</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
+    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
+    <title lang="es">Valle Salvaje</title>
+  </programme>
+  <programme start="20260902163500 +0000" stop="20260902173500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Joaquín Climent</actor>
+      <actor>María Castro</actor>
+      <actor>Eva Martín</actor>
+      <actor>Ana Garcés</actor>
+      <actor>Arturo Sancho</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
+    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
+    <title lang="es">La Promesa</title>
+  </programme>
+  <programme start="20260902173500 +0000" stop="20260902182500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Jesús Cintora</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
+    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
+    <title lang="es">Malas lenguas</title>
+  </programme>
+  <programme start="20260902182500 +0000" stop="20260902185500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
+    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
+    <title lang="es">Aquí la Tierra</title>
+  </programme>
+  <programme start="20260902185500 +0000" stop="20260902194000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
+    <title lang="es">Telediario 2</title>
+  </programme>
+  <programme start="20260902194000 +0000" stop="20260902194500 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
+    <title lang="es">Deportes 2</title>
+  </programme>
+  <programme start="20260902194500 +0000" stop="20260902210000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
+    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
+    <title lang="es">El Grand Prix del Verano</title>
+  </programme>
+  <programme start="20260902210000 +0000" stop="20260902221500 +0000" channel="la1.es">
+    <category lang="es">Documentales</category>
+    <date>2026</date>
+    <desc lang="es">El doctor Pedro Cavadas viaja a Tanzania para afrontar uno de los mayores retos de su carrera: operar a más de 100 pacientes con apenas recursos y en condiciones muy precarias en 10 días.</desc>
+    <icon src="https://iptv-epg.org/images/JXdccHzU7u_pGeKfnZVvGs1JbldMaagIcc4ui1ZpXXwiCDAzzee68XFK_1WcepRrLwqHJ_nw435dCy-0n2zka3La272qtcdJ2ZAV-HHalxuKgigsScDVJQ" />
+    <title lang="es">Operación África</title>
+  </programme>
+  <programme start="20260902221500 +0000" stop="20260902234500 +0000" channel="la1.es">
+    <category lang="es">Documentales</category>
+    <date>2026</date>
+    <desc lang="es">El doctor Pedro Cavadas viaja a Tanzania para afrontar uno de los mayores retos de su carrera: operar a más de 100 pacientes con apenas recursos y en condiciones muy precarias en 10 días.</desc>
+    <icon src="https://iptv-epg.org/images/JXdccHzU7u_pGeKfnZVvGs1JbldMaagIcc4ui1ZpXXwiCDAzzee68XFK_1WcepRrLwqHJ_nw435dCy-0n2zka3La272qtcdJ2ZAV-HHalxuKgigsScDVJQ" />
+    <title lang="es">Operación África</title>
+  </programme>
+  <programme start="20260902234500 +0000" stop="20260903022000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <credits>
+      <director>Xabier Fortes</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Informativo diario nocturno que ofrece un análisis profundo y plural de la actualidad de la jornada.</desc>
+    <icon src="https://iptv-epg.org/images/_Dn7445ftqN4ScAPdcE6sYVz7gOY2ZM6CepDIXhD7V8yx8sS3UqoDoUaRagQwfXQs7iv3KAbHm2h4VkdQj_8NUngX5x2NNZen8hHeImOhTtm-cIHPeHcQQ" />
+    <title lang="es">La noche en 24 horas</title>
+  </programme>
+  <programme start="20260903022000 +0000" stop="20260903040000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
+    <icon src="https://iptv-epg.org/images/YveBF_7PXtkBPRyHWgLmVY9fKOzSvHd3rvmLPlG8NMLUwudgrKGRrRCwAON3H3Sr0Gd3T_5D9XzM4ex1zEdtEUGiKz6rfpw52RLUjU_vwMXItRdF" />
+    <title lang="es">Noticias 24H</title>
+  </programme>
+  <programme start="20260903040000 +0000" stop="20260903055000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Lorena Baeza y Álex Barreiro conducen este rápido y exhaustivo repaso de todas las noticias de interés general. Además, se ofrece la actualidad meteorológica de España y de Europa y el estado de la mar. Rubén Briones presenta la información deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/FGf__zIOvcaHSYl4ornhz1XIhvmw8aTLS88mKVWOzff-VQpOLJXDZs36PCA7bkp1ZP1HWeogE-3TSfe0iA2cd-jAoakjpq86zOvPD3YIuUyDAbj46O9f" />
+    <title lang="es">Telediario Matinal</title>
+  </programme>
+  <programme start="20260903055000 +0000" stop="20260903083500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Silvia Intxaurrondo</director>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magazine matinal de la 1 en el que se reúne información de actualidad social. El programa cuenta con voces autorizadas que tratan temas que fomenten el pensamiento crítico y el servicio público para ayudar a los ciudadanos en su día a día.</desc>
+    <icon src="https://iptv-epg.org/images/pGj21b6u730Pq67nD8BuT8UBTsLF5tCcuLNFaCEUSDdPaqChbHityjAKlB7NhXfW33AOAJ0FeOaWfgQHE3fAol7Jpc-TALXHfYSiLIuCQapdW5oQs_M0BA" />
+    <title lang="es">La hora de La 1: La hora de la actualidad</title>
+  </programme>
+  <programme start="20260903083500 +0000" stop="20260903125500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Magazín de actualidad conducido por Adela González y Aída Bao, que combina noticias y entretenimiento de la mano de sus colaboradores.</desc>
+    <icon src="https://iptv-epg.org/images/mBXQlLD3HwJQ1JlpU2Dda1q_Mas6wJZ3aM_9tz_iEmlemBaqw2MDA45IAcGAU3EV7o_wyUyk4M4nXV6pnoos3RgwGHB4IH2sjkJ_gNuWPZ2TiqVDFWGpxw" />
+    <title lang="es">Mañaneros 360</title>
+  </programme>
+  <programme start="20260903125500 +0000" stop="20260903133500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">El noticiario audiovisual más veterano de la historia de la televisión en España. Alejandra Herranz hace un repaso diario a la actualidad general de España y el mundo, además de una sección dedicada al deporte.</desc>
+    <icon src="https://iptv-epg.org/images/ZWCtW3BFXn596i1Dk4PzFSn70GjzlmTiF_Itj1cWNW-BYemUcfPkQKUR3imI6vssZhAG_HB21bAex2CVJPL0MdEAbvCy11lL8DqWMkPFOsVb8VOwnN81" />
+    <title lang="es">Telediario 1</title>
+  </programme>
+  <programme start="20260903133500 +0000" stop="20260903134000 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/Cq78B09ThipH4c2qeqEqBvs7RLKUG2ggpumyPVCIVgJo-R6skRVad5Rb66GpC9EoiBU6-JlREqmXH_czmZ4tQfgThN2o_ispnuPTPU9yqdezmpwT5Ltb9w" />
+    <title lang="es">Deportes 1</title>
+  </programme>
+  <programme start="20260903134000 +0000" stop="20260903134500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2014</date>
+    <desc lang="es">La mejor manera de enterarse de la previsión meteorológica para los próximos días. La información del tiempo de TVE es un clásico de la historia audiovisual española. Avalada por el Instituto Nacional de Meteorología, goza de un alto nivel de acierto.</desc>
+    <icon src="https://iptv-epg.org/images/AhBrCkjxbuD9XR5scehWs6eH8ZAfpCCzEA30fbQ9lPe32IkKY5Px9kDLG5m-hj6v9wDl_P_IbQWsNuqf0LpQjhOSU4ABgf1GGEvROzpsc9RsJwUSaXmR" />
+    <title lang="es">El tiempo</title>
+  </programme>
+  <programme start="20260903134500 +0000" stop="20260903135500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2023</date>
+    <desc lang="es">Desconexión de cada uno de los centros territoriales de TVE que incluye la emisión de su informativo. Cada una de las comunidades autónomas tiene su propia delegación de RTVE, a través de la cual se informa de los problemas más cercanos para el ciudadano.</desc>
+    <icon src="https://iptv-epg.org/images/NXBNEQKlMAvXuPYVhVU_WpnjaUnPXLmYG42C66L1-iy-vkIS-C3GVrkkYM0BdG_cczx1bPGdgBB5VKifBD_ZnJB5k6MdQrFSICkEGbYKbAZOLr9voALV3Q" />
+    <title lang="es">Informativo territorial 2</title>
+  </programme>
+  <programme start="20260903135500 +0000" stop="20260903154500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Óscar Cornejo</director>
+      <director>Ana Isabel Peces</director>
+      <actor>Rosa Villacastín</actor>
+      <actor>Ada Colau</actor>
+      <actor>Marta Flich</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Magacín conducido por Martín Barreiro y Marta Flich que comenta la actualidad e intenta explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
+    <icon src="https://iptv-epg.org/images/XOpbjy5ePOlgGLLX99UXo30dxQ5YSLsj3qgyC-BAwQTr1MX0fMI-BmZwYUaW4Ij79Ium1GIrisvnE3J8I704LjgILRCPDapam0Ny13MjaF0JXYxmvwp_0w" />
+    <title lang="es">Directo al grano</title>
+  </programme>
+  <programme start="20260903154500 +0000" stop="20260903163500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Rocío Suárez de Puga</actor>
+      <actor>Manuela Velasco</actor>
+      <actor>José Manuel Seda</actor>
+      <actor>Marina Sabadell</actor>
+      <actor>Mari Paz Sayago</actor>
+      <actor>Chechu Salgado</actor>
+    </credits>
+    <date>2026</date>
+    <desc lang="es">Adriana, una joven de 20 años, viaja de Madrid a Asturias tras descubrir que su matrimonio con un desconocido fue concertado en secreto y debe ir a buscarlo a casa de su tía. Allí será obligada a trabajar como criada.</desc>
+    <icon src="https://iptv-epg.org/images/KSWb7eQKQMKHjDdaHH2zZ7h2s_9jFe_L3Cs4bPrcnPA00Sk5NsgSsNstYUsd2zXFdVZzf_m5A82RThrTOFbb5y4aADkWLo-AiT3vP_qk499gG4_YiiBOXA" />
+    <title lang="es">Valle Salvaje</title>
+  </programme>
+  <programme start="20260903163500 +0000" stop="20260903173500 +0000" channel="la1.es">
+    <category lang="es">Series</category>
+    <credits>
+      <actor>Joaquín Climent</actor>
+      <actor>María Castro</actor>
+      <actor>Eva Martín</actor>
+      <actor>Ana Garcés</actor>
+      <actor>Arturo Sancho</actor>
+    </credits>
+    <date>2023</date>
+    <desc lang="es">1913. Manuel, el hijo de los Marqueses, es salvado por Jana. El Marqués le ofrece una recompensa económica, pero ella solo quiere trabajo en el Palacio y tiene un motivo claro: hacer justicia a su madre asesinada e investigar el paradero de su hermano.</desc>
+    <icon src="https://iptv-epg.org/images/LcxOmI1sqcJXqQctTrfTKMM4I9b0BW3yPKHT8O-d6Rrxc1EVuuegVZ_joNezLmOsaNo5OQ7zEKEx4AS6jM0xnYpy0w1We5k3Ok43bdiNWpqb8hTaMuuWvg" />
+    <title lang="es">La Promesa</title>
+  </programme>
+  <programme start="20260903173500 +0000" stop="20260903183000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <credits>
+      <director>Jesús Cintora</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Gonzalo Miró y Ane Ibarzabal presentan este magacín de actualidad, en el que, con humor, se desmontan bulos que circulan en los medios de comunicación y las redes sociales.</desc>
+    <icon src="https://iptv-epg.org/images/MoCAnrXkrxliZZWqkdkwFTWyPs7bByCpfwWn-BJleNoSv41e17aMO1U9mmaTOpsK4s8uJzBKcCEbf2xbzItlJpneSpqOIutWUDYXQ42VMD46eBXrfijYwA" />
+    <title lang="es">Malas lenguas</title>
+  </programme>
+  <programme start="20260903183000 +0000" stop="20260903185500 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2025</date>
+    <desc lang="es">Jacob Petrus ofrece una original mirada sobre el territorio y sus habitantes a través de la meteorología. La divulgación y la información sobre el terreno conviven con el descubrimiento de la naturaleza y el medio ambiente.</desc>
+    <icon src="https://iptv-epg.org/images/TLA3KrqASYSr9TX3sgTkBTg4skLXZ-Zoc5dqrozZvAQmZff2Ofgc7dCta1RgzsAXC7jsTJEffsWdXi_QWTAOn0yMfOnohGCWNCHJNzwuSw9Q7Ja0IuwUhQ" />
+    <title lang="es">Aquí la Tierra</title>
+  </programme>
+  <programme start="20260903185500 +0000" stop="20260903194000 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <date>2021</date>
+    <desc lang="es">Cientos de profesionales de TVE salen cada día a la calle en busca de noticias. El resultado, un completo repaso a la actualidad nacional e internacional conducido por Pepa Bueno. También hay espacio para la parcela deportiva.</desc>
+    <icon src="https://iptv-epg.org/images/g9aBXOFdEJbg4xWak07L6mwC8ffn3I6KyLU1bN3gZLyMCfCxXnSiNA5AarfBU2Qltcnno_pCP0Ol5cUj7ouQXnDiJ8VgaqX_mQ1wIhkboM1cQsE2BjWg" />
+    <title lang="es">Telediario 2</title>
+  </programme>
+  <programme start="20260903194000 +0000" stop="20260903194500 +0000" channel="la1.es">
+    <category lang="es">Deportes</category>
+    <category lang="es">Sports</category>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <icon src="https://iptv-epg.org/images/2zWwuND78iwabYI6jiz1TAOk8IMcHCAe-_ZjGbwjfPQehA8XKRjubqJ0DaRxIWln0zOR4MqY_-MP5EKUoTQDpkiDjVG-3BJz0OYboi_Go5aeRKdshqganA" />
+    <title lang="es">Deportes 2</title>
+  </programme>
+  <programme start="20260903194500 +0000" stop="20260903210000 +0000" channel="la1.es">
+    <category lang="es">Entretenimiento</category>
+    <date>2026</date>
+    <desc lang="es">Ramon García vuelve a presentar el clásico concurso veraniego en el que varias localidades españolas ponen a prueba sus habilidades físicas y mentales enfrentándose entre sí.</desc>
+    <icon src="https://iptv-epg.org/images/71utC8MeAzzRp7fjyT3s1hkOVaoGr6xjdiTOU008HlVSkWiwTVy_hr1_22jo1duMFRauQhobt6IDQShth6APtPzEsqlSUKIIxCDFak22cCnP3II9Lf9_pw" />
+    <title lang="es">El Grand Prix del Verano</title>
+  </programme>
+  <programme start="20260903210000 +0000" stop="20260903224000 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260903224000 +0000" stop="20260904001000 +0000" channel="la1.es">
+    <desc lang="es">Cine.</desc>
+    <title lang="es">Cine</title>
+  </programme>
+  <programme start="20260904001000 +0000" stop="20260904024500 +0000" channel="la1.es">
+    <category lang="es">Información</category>
+    <credits>
+      <director>Xabier Fortes</director>
+    </credits>
+    <date>2025</date>
+    <desc lang="es">Informativo diario nocturno que ofrece un análisis profundo y plural de la actualidad de la jornada.</desc>
+    <icon src="https://iptv-epg.org/images/_Dn7445ftqN4ScAPdcE6sYVz7gOY2ZM6CepDIXhD7V8yx8sS3UqoDoUaRagQwfXQs7iv3KAbHm2h4VkdQj_8NUngX5x2NNZen8hHeImOhTtm-cIHPeHcQQ" />
+    <title lang="es">La noche en 24 horas</title>
   </programme>
   <programme start="20260828084400 +0000" stop="20260828091400 +0000" channel="la2.es">
     <category lang="es">Documentales</category>
