@@ -23,7 +23,7 @@ REMOTE_SOURCES = [
     ("IPTV-EPG España", "https://iptv-epg.org/files/epg-es.xml"),
 ]
 
-# Only high-confidence aliases. No generic fuzzy matching.
+# Aliases de alta confianza. No se usa fuzzy matching.
 ALIASES = {
     "movistarclásicoses.es":["M+.Clásicos.es","M+ Clásicos","Movistar Clásicos"],
     "movistardcine.es":["M+.Cine.es","M+ Cine","Movistar Cine"],
@@ -122,13 +122,25 @@ ALIASES = {
     "tpa7.es":["TPA.7.es","Asturias 7"],
     "tpa8es.es":["TPA.8.es","Asturias 8"],
     "tracelatinaes.es":["TraceLatina.fr@SD","Trace Latina"],
-    "tracelatina.es":["TraceLatina.fr@SD","Trace Latina"],
     "vivircongatoses.es":["Vivir.con.Gatos.es"],
     "viznertv.es":["Vizner.TV.es","Vizner TV"],
     "vodarktv.es":["Dark.es","VOD Dark"],
     "voodsea.es":["Odisea.es","VOD Odisea","Odisea"],
     "vosyfy.es":["SCI-FI","Syfy.es","VOD Syfy","Syfy"],
 }
+
+# Equivalencias confirmadas a partir de las colisiones observadas en v9.
+# Permiten que varios tvg-id distintos reciban la misma programación cuando
+# representan el mismo canal lógico en la M3U.
+EQUIVALENT_GROUPS = [
+    {"movistarclásicoses.es", "mplusclásicoses.es"},
+    {"movistardeporteses.es", "mplusdeporteses.es"},
+    {"movistarlaliga2.es", "mlaliga2.es"},
+    {"movistarlaliga3.es", "mlaliga3.es"},
+    {"tvgaliciaes.es", "galiciatv.es", "tvgtvgaliciaes.es"},
+    {"aragóntves.es", "aragontv.es"},
+    {"tveinternacional.es.plus1", "tveinternacional.es"},
+]
 
 def norm(s):
     s = s or ""
@@ -194,12 +206,18 @@ def load_sources():
             print(f"  ERROR: {e}")
     return roots
 
+def group_for(uid):
+    n = norm(uid)
+    for group in EQUIVALENT_GROUPS:
+        if any(norm(x) == n for x in group):
+            return {norm(x) for x in group}
+    return {n}
+
 def main():
     wanted = read_m3u()
     print(f"tvg-id únicos: {len(wanted)}")
     roots = load_sources()
 
-    # Gather all exact/alias candidates.
     all_candidates = {k:[] for k in wanted}
     for source_name,root in roots:
         cands=exact_candidates(wanted,root)
@@ -214,12 +232,9 @@ def main():
     candidate_lines=[]
     warnings=[]
 
-    # Resolve one requested tvg-id at a time.
     for key,items in all_candidates.items():
         if not items: continue
         requested=wanted[key]["id"]
-
-        # Prefer source priority. Within a source prefer exact ID over alias.
         items.sort(key=lambda x:(
             priority.get(x[0],99),
             0 if norm(x[1].get("id",""))==norm(requested) else 1
@@ -231,24 +246,31 @@ def main():
             "channel":chosen[1],
             "source":chosen[0],
         }
-
         if len(items)>1:
             candidates_txt=" ; ".join(f"{s}:{c.get('id','')}" for s,c in items)
-            candidate_lines.append(f"{requested} | ELEGIDO {chosen[0]}:{chosen[1].get('id','')} | CANDIDATOS {candidates_txt}")
+            candidate_lines.append(
+                f"{requested} | ELEGIDO {chosen[0]}:{chosen[1].get('id','')} | CANDIDATOS {candidates_txt}"
+            )
 
-    # Critical collision guard: same source channel cannot feed two different
-    # tvg-ids. If it does, only keep the first/highest-priority assignment and
-    # mark the other one ambiguous.
     reverse={}
     collision_keys=set()
-    for key,item in mappings.items():
+
+    for key,item in list(mappings.items()):
         sk=(item["source"],item["source_id"])
         if sk in reverse and reverse[sk] != key:
+            other_key=reverse[sk]
+            other_id=wanted[other_key]["id"]
+            this_id=item["user_id"]
+
+            # v10: si ambos tvg-id están en una equivalencia confirmada,
+            # se permite compartir la misma fuente EPG.
+            if norm(other_id) in group_for(this_id):
+                continue
+
             collision_keys.add(key)
             warnings.append(
-                f"COLISION: {item['source']}:{item['source_id']} -> "
-                f"{wanted[reverse[sk]]['id']} y {item['user_id']}; "
-                f"se elimina {item['user_id']} por seguridad"
+                f"COLISION REAL: {item['source']}:{item['source_id']} -> "
+                f"{other_id} y {this_id}; se elimina {this_id}"
             )
         else:
             reverse[sk]=key
@@ -256,19 +278,26 @@ def main():
     for key in collision_keys:
         mappings.pop(key,None)
 
+    # Recalcular reverse con todas las asignaciones válidas. Las equivalencias
+    # pueden compartir la misma fuente, así que reverse debe conservar una lista.
+    reverse_multi=defaultdict(list)
+    for key,item in mappings.items():
+        reverse_multi[(item["source"],item["source_id"])].append(key)
+
     missing=sorted(
         [info["id"] for key,info in wanted.items() if key not in mappings],
         key=str.casefold
     )
 
     out=ET.Element("tv",{
-        "generator-info-name":"Custom EPG for alvaropah/iptv v9",
+        "generator-info-name":"Custom EPG for alvaropah/iptv v10",
         "generator-info-url":"https://github.com/alvaropah/iptv"
     })
 
     for item in sorted(mappings.values(),key=lambda x:x["user_id"].casefold()):
         c=ET.Element("channel",{"id":item["user_id"]})
-        for child in item["channel"]: c.append(child)
+        for child in item["channel"]:
+            c.append(child)
         out.append(c)
 
     seen=set()
@@ -276,17 +305,22 @@ def main():
     for source_name,root in roots:
         for p in root.findall("programme"):
             sk=(source_name,p.get("channel",""))
-            uid=reverse.get(sk)
-            if not uid or uid in collision_keys: continue
-            channel_id=wanted[uid]["id"]
-            k=(channel_id,p.get("start",""),p.get("stop",""),ET.tostring(p,encoding="unicode"))
-            if k in seen: continue
-            seen.add(k)
-            np=ET.Element("programme",dict(p.attrib))
-            np.set("channel",channel_id)
-            for child in p: np.append(child)
-            out.append(np)
-            programs+=1
+            target_keys=reverse_multi.get(sk,[])
+            if not target_keys:
+                continue
+
+            for uid_key in target_keys:
+                channel_id=wanted[uid_key]["id"]
+                k=(channel_id,p.get("start",""),p.get("stop",""),ET.tostring(p,encoding="unicode"))
+                if k in seen:
+                    continue
+                seen.add(k)
+                np=ET.Element("programme",dict(p.attrib))
+                np.set("channel",channel_id)
+                for child in p:
+                    np.append(child)
+                out.append(np)
+                programs+=1
 
     MISSING.write_text("\n".join(missing)+("\n" if missing else ""),encoding="utf-8")
     MAPPING.write_text(
@@ -309,7 +343,7 @@ def main():
     print(f"Programas: {programs}")
     print(f"Sin EPG: {len(missing)}")
     print(f"Candidatos con varias fuentes: {len(candidate_lines)}")
-    print(f"Colisiones bloqueadas: {len(warnings)}")
+    print(f"Colisiones reales bloqueadas: {len(warnings)}")
     print("Archivos: guide.xml, epg_missing.txt, epg_mapping.txt, epg_candidates.txt, epg_duplicate_warnings.txt")
 
 if __name__=="__main__":

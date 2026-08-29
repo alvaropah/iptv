@@ -52,7 +52,7 @@ jobs:
           echo "=== epg-local ==="
           ls -lh epg-local || true
 
-      - name: Generar EPG personalizado v9
+      - name: Generar EPG personalizado v10
         run: python build_epg.py
 
       - name: Guardar resultados
@@ -60,5 +60,5 @@ jobs:
           git config user.name "epg-bot"
           git config user.email "actions@github.com"
           git add guide.xml epg_missing.txt epg_mapping.txt epg_candidates.txt epg_duplicate_warnings.txt
-          git diff --cached --quiet || git commit -m "Actualizar EPG v9"
+          git diff --cached --quiet || git commit -m "Actualizar EPG v10"
           git push
