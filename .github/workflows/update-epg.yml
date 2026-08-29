@@ -20,6 +20,31 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Descargar motor EPG IPTV-org
+        uses: actions/checkout@v4
+        with:
+          repository: iptv-org/epg
+          path: epg-src
+          fetch-depth: 1
+
+      - name: Instalar dependencias EPG
+        working-directory: epg-src
+        run: npm ci --omit=optional
+
+      - name: Generar EPG Movistar+
+        working-directory: epg-src
+        continue-on-error: true
+        run: |
+          mkdir -p ../epg-local
+          npm run grab -- --sites=movistarplus.es --lang=es --output=../epg-local/movistarplus.xml --maxConnections=5
+
+      - name: Generar EPG Orange TV
+        working-directory: epg-src
+        continue-on-error: true
+        run: |
+          mkdir -p ../epg-local
+          npm run grab -- --sites=orangetv.orange.es --lang=es --output=../epg-local/orangetv.xml --maxConnections=5
+
       - name: Generar EPG personalizado
         run: python build_epg.py
 
