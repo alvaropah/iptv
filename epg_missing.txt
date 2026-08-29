@@ -26,6 +26,7 @@ darkes.es
 dazn3es.es
 dazn4es.es
 decasa.es
+discoveryes.es
 dwenespañoles.es
 enfamiliaes.es
 etb.es
@@ -62,8 +63,6 @@ movistardcine.es
 movistardeportes.es
 movistardrama.es
 movistarf1es.es
-movistargolf.es
-movistargolf2.es
 movistarlaliga1.es
 movistarorgulloes.es
 movistarpluses.es
@@ -74,6 +73,7 @@ mpluscineespañoles.es
 mplusclásicoses.es
 mplusdeportes2es.es
 mplusdeportes3es.es
+mplusdeporteses.es
 mplusdocumentales.es
 mplusdocumentaleses.es
 mplusellasv.es
@@ -97,7 +97,6 @@ runtimees.es
 runtimeromancees.es
 runtimethrillerplusterrores.es
 sicinternacionales.es
-telemadridinternacional.es
 tpa7.es
 tpa8es.es
 trtworld.es
