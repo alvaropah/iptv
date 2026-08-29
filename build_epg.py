@@ -1,92 +1,74 @@
 #!/usr/bin/env python3
-import re, gzip, urllib.request, xml.etree.ElementTree as ET
+import re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 M3U = Path("mi_playlist_final.m3u")
-OUT = Path("guide.xml")
+EPG_REPO = Path("epg-src")
+CHANNELS_OUT = Path("custom.channels.xml")
 
-SOURCES = [
-    ("TDTChannels", "https://www.tdtchannels.com/epg/TV.xml.gz"),
-    ("IPTV-EPG España", "https://iptv-epg.org/files/epg-es.xml"),
-    ("IPTV-org Movistar+", "https://iptv-org.github.io/epg/guides/es/movistarplus.es.xml"),
+CHANNEL_FILES = [
+    EPG_REPO / "sites" / "orangetv.orange.es" / "orangetv.orange.es.channels.xml",
+    EPG_REPO / "sites" / "movistarplus.es" / "movistarplus.es.channels.xml",
+    EPG_REPO / "sites" / "guia.tv" / "guia.tv.channels.xml",
+    EPG_REPO / "sites" / "programacion-tv.elpais.com" / "programacion-tv.elpais.com.channels.xml",
+    EPG_REPO / "sites" / "mi.tv" / "mi.tv_es.channels.xml",
+    EPG_REPO / "sites" / "pluto.tv" / "pluto.tv_es.channels.xml",
 ]
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 EPG builder"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = r.read()
-    if data[:2] == b"\x1f\x8b" or url.endswith(".gz"):
-        data = gzip.decompress(data)
-    return data
-
-def get_ids():
+def get_wanted():
     text = M3U.read_text(encoding="utf-8", errors="ignore")
-    ids = set(re.findall(r'tvg-id="([^"]+)"', text, flags=re.I))
-    return {x.lower(): x for x in ids}
+    ids = set(re.findall(r'tvg-id="([^"]+)"', text, re.I))
+    return {x.casefold(): x for x in ids}
 
 def main():
-    wanted = get_ids()
+    wanted = get_wanted()
     print(f"Encontrados {len(wanted)} tvg-id únicos en {M3U.name}")
 
-    channels = {}
-    programmes = []
-    seen = set()
+    root = ET.Element("channels")
+    found = {}
 
-    for name, url in SOURCES:
+    for path in CHANNEL_FILES:
+        if not path.exists():
+            print(f"Fuente no disponible: {path}")
+            continue
         try:
-            print(f"\nFuente: {name}")
-            root = ET.fromstring(fetch(url))
-
-            matched = 0
-            for ch in root.findall("channel"):
-                cid = ch.get("id", "")
-                exact = wanted.get(cid.lower())
-                if exact:
-                    matched += 1
-                    newch = ET.Element("channel", {"id": exact})
-                    for child in ch:
-                        newch.append(child)
-                    channels.setdefault(exact, newch)
-
-            for p in root.findall("programme"):
-                cid = p.get("channel", "")
-                exact = wanted.get(cid.lower())
-                if not exact:
-                    continue
-                key = (exact, p.get("start",""), p.get("stop",""),
-                       "".join(p.itertext())[:300])
-                if key in seen:
-                    continue
-                seen.add(key)
-                np = ET.Element("programme", dict(p.attrib))
-                np.set("channel", exact)
-                for child in p:
-                    np.append(child)
-                programmes.append(np)
-
-            print(f"  Coincidencias: {matched}")
+            src = ET.parse(path).getroot()
         except Exception as e:
-            print(f"  Error: {e}")
+            print(f"Error leyendo {path}: {e}")
+            continue
 
-    root_out = ET.Element("tv", {
-        "generator-info-name": "Custom EPG - alvaropah/iptv",
-        "generator-info-url": "https://github.com/alvaropah/iptv"
-    })
+        hits = 0
+        for ch in src.findall("channel"):
+            xmltv_id = ch.get("xmltv_id", "")
+            exact = wanted.get(xmltv_id.casefold())
+            if not exact or exact.casefold() in found:
+                continue
 
-    for cid in sorted(channels):
-        root_out.append(channels[cid])
+            newch = ET.Element("channel", {
+                "site": ch.get("site", ""),
+                "site_id": ch.get("site_id", ""),
+                "lang": ch.get("lang", "es"),
+                "xmltv_id": exact,
+            })
+            newch.text = ch.text or exact
+            root.append(newch)
+            found[exact.casefold()] = exact
+            hits += 1
 
-    programmes.sort(key=lambda p: (p.get("channel",""), p.get("start","")))
-    for p in programmes:
-        root_out.append(p)
+        print(f"{path.parent.name}: {hits} coincidencias")
 
-    tree = ET.ElementTree(root_out)
-    ET.indent(tree, space="  ")
-    tree.write(OUT, encoding="utf-8", xml_declaration=True)
+    ET.indent(root, space="  ")
+    ET.ElementTree(root).write(CHANNELS_OUT, encoding="utf-8", xml_declaration=True)
 
-    print(f"\nEPG generado: {len(channels)}/{len(wanted)} canales con programación")
-    print(f"Programas: {len(programmes)}")
-    print(f"Archivo: {OUT}")
+    missing = [v for k, v in wanted.items() if k not in found]
+    Path("epg_missing.txt").write_text(
+        "\n".join(sorted(missing, key=str.casefold)) + ("\n" if missing else ""),
+        encoding="utf-8"
+    )
+
+    print(f"\nCanales preparados para EPG: {len(found)}/{len(wanted)}")
+    print(f"Sin fuente EPG encontrada: {len(missing)}")
 
 if __name__ == "__main__":
     main()
