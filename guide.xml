@@ -934,12 +934,6 @@
     <icon src="https://cdn.sincroguia.tv/storage/channels/68-square.jpg" />
     <url>http://www.sincroguia-tv</url>
   </channel>
-  <programme start="20260829140000 +0000" stop="20260829143000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
   <programme start="20260829143000 +0000" stop="20260829150000 +0000" channel="bbcnews.es">
     <title lang="es">The Road to Hope with Fergal Keane</title>
     <desc lang="es">The BBC's Fergal Keane has spent forty years witnessing the worst that humanity can do - genocide, war, and famine. So why is he full of hope?.</desc>
@@ -1540,6 +1534,12 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
   </programme>
+  <programme start="20260831143000 +0000" stop="20260831150000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
+  </programme>
   <programme start="20260829130200 +0000" stop="20260829145400 +0000" channel="fdf.es">
     <title lang="es">La que se avecina</title>
     <desc lang="es">Tras desalojar el emblemático edificio de Mirador de Montepinar, los vecinos inician una nueva vida trasladándose a un inmueble en el centro de la ciudad.</desc>
@@ -1841,14 +1841,6 @@
     <desc lang="es">Brillante parodia de la vida cotidiana de cualquier comunidad de vecinos a través de unos personajes que se relacionan con desconfianza y alimentan con su maldad intrínseca unas tramas surrealistas llenas de obsesiones personales y vecinales.</desc>
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP933744" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF933744.jpg</image>
-  </programme>
-  <programme start="20260829141500 +0000" stop="20260829143000 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA EA Sports</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/M322409V4363246" />
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
   </programme>
   <programme start="20260829143000 +0000" stop="20260829153000 +0000" channel="goltv.es">
     <title lang="es">Manchester City TV</title>
