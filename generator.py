@@ -301,15 +301,53 @@ def filter_and_order(
 
     ordered = []
 
-    # SERIES: exactamente el orden de config.yml.
+    # SERIES: categorías exactamente en el orden de config.yml.
+    # Dentro de cada categoría: orden alfabético por título.
     for category in series_categories:
-        ordered.extend(series_by_category[category])
+        ordered.extend(
+            sort_entries_alphabetically(series_by_category[category])
+        )
 
-    # PELÍCULAS/VOD: exactamente el orden de config.yml.
+    # PELÍCULAS/VOD: categorías exactamente en el orden de config.yml.
+    # Dentro de cada categoría: orden alfabético por título.
     for category in movie_categories:
-        ordered.extend(movies_by_category[category])
+        ordered.extend(
+            sort_entries_alphabetically(movies_by_category[category])
+        )
 
     return ordered, series_by_category, movies_by_category
+
+
+def entry_display_name(extinf: str) -> str:
+    """
+    Extrae el título visible de #EXTINF.
+
+    En una línea M3U típica:
+      #EXTINF:-1 tvg-id="..." group-title="...",Título
+
+    El nombre que queremos ordenar es lo que aparece después de la última
+    coma. No usamos tvg-name ni group-title porque pueden no coincidir con
+    el título que muestra el reproductor.
+    """
+    if "," in extinf:
+        return extinf.rsplit(",", 1)[1].strip()
+
+    return extinf.strip()
+
+
+def sort_entries_alphabetically(
+    entries: list[tuple[str, str]],
+) -> list[tuple[str, str]]:
+    """
+    Orden alfabético por título visible, sin distinguir mayúsculas/minúsculas.
+
+    casefold() proporciona una comparación Unicode más robusta que lower(),
+    especialmente para títulos con caracteres internacionales.
+    """
+    return sorted(
+        entries,
+        key=lambda item: entry_display_name(item[0]).casefold(),
+    )
 
 
 def entries_to_text(entries: list[tuple[str, str]]) -> str:
