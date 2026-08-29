@@ -1,10 +1,2 @@
-COLISION: EPGShare ES1:Decasa.es -> canaldecasa.es y decasa.es; se elimina decasa.es por seguridad
-COLISION: EPGShare ES1:Discovery.Channel.es -> discoverychannel.es y discoveryes.es; se elimina discoveryes.es por seguridad
-COLISION: IPTV-org Movistar+:CPDEP -> movistardeporteses.es y mplusdeporteses.es; se elimina mplusdeporteses.es por seguridad
-COLISION: IPTV-EPG España:AragonTV.es -> aragontv.es y aragóntves.es; se elimina aragóntves.es por seguridad
-COLISION: IPTV-org Movistar+:MCLAS -> movistarclásicoses.es y mplusclásicoses.es; se elimina mplusclásicoses.es por seguridad
-COLISION: IPTV-org Movistar+:MLIG1 -> movistarlaliga2.es y mlaliga2.es; se elimina mlaliga2.es por seguridad
-COLISION: IPTV-org Movistar+:MLIG2 -> movistarlaliga3.es y mlaliga3.es; se elimina mlaliga3.es por seguridad
-COLISION: IPTV-org Orange TV:GaliciaTVEuropa.es@SD -> tvgaliciaes.es y galiciatv.es; se elimina galiciatv.es por seguridad
-COLISION: IPTV-org Orange TV:GaliciaTVEuropa.es@SD -> tvgaliciaes.es y tvgtvgaliciaes.es; se elimina tvgtvgaliciaes.es por seguridad
-COLISION: IPTV-EPG España:TVEInternacional.es -> tveinternacional.es.plus1 y tveinternacional.es; se elimina tveinternacional.es por seguridad
+COLISION REAL: EPGShare ES1:Decasa.es -> canaldecasa.es y decasa.es; se elimina decasa.es
+COLISION REAL: EPGShare ES1:Discovery.Channel.es -> discoverychannel.es y discoveryes.es; se elimina discoveryes.es

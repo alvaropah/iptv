@@ -2,7 +2,6 @@
 acontrapluscine.es
 aljazeeraes.es
 alquiler1es.es
-aragóntves.es
 aragóntvintes.es
 azcorazónes.es
 babytvs.es
@@ -32,7 +31,6 @@ enfamiliaes.es
 etb.es
 etbbasquees.es
 filmcoes.es
-galiciatv.es
 gh24h1.es
 gh24h2.es
 goltv.es
@@ -51,8 +49,6 @@ laligatvhypermotion3es.es
 laligatvhypermotiones.es
 levantetves.es
 maxavances.es
-mlaliga2.es
-mlaliga3.es
 mligadecampeoneses.es
 motorvisiontv.es
 movistaracción.es
@@ -70,10 +66,8 @@ movistarseries2.es
 mplusbaloncesto2es.es
 mplusbaloncesto3es.es
 mpluscineespañoles.es
-mplusclásicoses.es
 mplusdeportes2es.es
 mplusdeportes3es.es
-mplusdeporteses.es
 mplusdocumentales.es
 mplusdocumentaleses.es
 mplusellasv.es
@@ -99,10 +93,9 @@ runtimethrillerplusterrores.es
 sicinternacionales.es
 tpa7.es
 tpa8es.es
+tracelatina.es
 trtworld.es
-tveinternacional.es
 tvgeuropaes.es
-tvgtvgaliciaes.es
 veo7es.es
 vivirconperroses.es
 viznertv.es
