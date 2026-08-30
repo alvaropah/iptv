@@ -120,7 +120,6 @@ movistarplus.es -> Movistar.Plus+.es | EPGShare ES1 | exact/alias
 movistarvamos2es.es -> M+.Vamos.2.es | EPGShare ES1 | exact/alias
 mplusacción.es -> M+.Acción.es | EPGShare ES1 | exact/alias
 mplusclásicoses.es -> M+.Clásicos.es | EPGShare ES1 | exact/alias
-mpluscomediaes.es -> M+.Comedia.es | EPGShare ES1 | exact/alias
 mplusdeporteses.es -> M+.Deportes.es | EPGShare ES1 | exact/alias
 mplusestrenos.es -> M+.Estrenos.es | EPGShare ES1 | exact/alias
 mplusgolf2.es -> M+.Golf.2.es | EPGShare ES1 | exact/alias
