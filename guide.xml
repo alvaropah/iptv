@@ -932,56 +932,6 @@
     <icon src="https://cdn.sincroguia.tv/storage/channels/68-square.jpg" />
     <url>http://www.sincroguia-tv</url>
   </channel>
-  <programme start="20260913140000 +0000" stop="20260913143000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
-  <programme start="20260913143000 +0000" stop="20260913150000 +0000" channel="bbcnews.es">
-    <title lang="es">Streets of Gold: Mumbai</title>
-    <desc lang="es">Streets of Gold: Mumbai.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP4381542" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF4381542.jpg</image>
-  </programme>
-  <programme start="20260913150000 +0000" stop="20260913153000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
-  <programme start="20260913153000 +0000" stop="20260913160000 +0000" channel="bbcnews.es">
-    <title lang="es">Global Eye</title>
-    <desc lang="es">Yemisi Adegoke reports on Nigeria's growing kidnapping crisis and meets some of the girls who survived an abduction four years ago and are now back at school in defiance of their kidnappers.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP4393377" />
-    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF4393377.jpg</image>
-  </programme>
-  <programme start="20260913160000 +0000" stop="20260913170000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
-  <programme start="20260913170000 +0000" stop="20260913173000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
-  <programme start="20260913173000 +0000" stop="20260913180000 +0000" channel="bbcnews.es">
-    <title lang="es">Talking Business</title>
-    <desc lang="es">Linda Yueh intentará dar respuestas a algunas cuestiones sobre la inquietante situación económica que se vive desde hace más de cinco años.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1370324" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1370324.jpg</image>
-  </programme>
-  <programme start="20260913180000 +0000" stop="20260913183000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC News</title>
-    <desc lang="es">Katty Kay en Washington y Christian Fraser en Londres informan sobre las noticias más importantes que están dando forma al mundo.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1827235" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1827235.jpg</image>
-  </programme>
   <programme start="20260913183000 +0000" stop="20260913190000 +0000" channel="bbcnews.es">
     <title lang="es">BBC Africa Eye</title>
     <desc lang="es">BBC Africa Eye follows a groundbreaking process helping Kenyans track down their British dads. Families are finding answers, in a landmark case exposing the human cost of Britain's military presence.</desc>
@@ -1566,27 +1516,65 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
   </programme>
-  <programme start="20260913125000 +0000" stop="20260913144300 +0000" channel="fdf.es">
-    <title lang="es">La que se avecina</title>
-    <desc lang="es">Antonio recibe la temida notificación de lanzamiento: debe abandonar la pescadería. Amador y Fermín descubren que Óscar y Victoria venden sus pisos. Julia monta una web para subastar su virginidad.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP4196592" />
-    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF4196592.jpg</image>
+  <programme start="20260915143000 +0000" stop="20260915150000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
   </programme>
-  <programme start="20260913144300 +0000" stop="20260913162700 +0000" channel="fdf.es">
-    <title lang="es">El pueblo</title>
-    <desc lang="es">Un grupo de urbanitas decide instalarse en una aldea semi abandonada de Castilla con el sueño de disfrutar de una mayor calidad de vida. Sin embargo, su adaptación al entorno y sus relaciones con sus nuevos vecinos no son tan fáciles como esperaban. Ficción que aborda en clave de humor la adaptación de un grupo de urbanitas al duro entorno campestre castellano tras instalarse en un pueblo semi abandonado, donde comenzarán sus vidas desde cero. ''El pueblo'' es un proyecto de los creadores de la tan exitosa como longeva ''La que se avecina'', Alberto Caballero y Laura Caballero junto a Julián Sastre y Nando Abad, experimentados guionistas de comedia. Encabezan el reparto actores de la talla de Carlos Areces (''Muchachada Nui''), Santi Millán (''7 vidas''), Ingrid Rubio (''Hermanas'') o María Hervás (''Es por tu bien'').</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP1755237" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1755237.jpg</image>
+  <programme start="20260915150000 +0000" stop="20260915153000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
   </programme>
-  <programme start="20260913162700 +0000" stop="20260913181100 +0000" channel="fdf.es">
-    <title lang="es">La que se avecina</title>
-    <desc lang="es">Tras invertir parte de su herencia en diversos negocios, Coque se ve sobrepasado por las obligaciones. Para poder gestionar sus actividades empresariales, decide contratar a Nadia, una joven camarera que compartirá con él sus ideas sobre cómo gestionar un bar. Por su parte, Alba y el padre Alejandro deciden dar un giro radical a sus vidas colgando el hábito y la sotana, y abriéndose al amor. Tras la huida de su madre a Brasil, Yoli se ve obligada a asumir de manera provisional la presidencia de Mirador de Montepinar. Además, Maite, celosa de la felicidad de Amador con Bárbara, se cuela en el Bajo A para boicotear su relación. Cabe destacar la presencia de Edurne, la cantante madrileña y jurado de ''Got Talent España'', interpretando a la camarera Nadia.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP1740120" />
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1740120.jpg</image>
+  <programme start="20260915153000 +0000" stop="20260915154500 +0000" channel="bbcnews.es">
+    <title lang="es">Business Today</title>
+    <desc lang="es">Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3348924" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3348924.jpg</image>
+  </programme>
+  <programme start="20260915154500 +0000" stop="20260915160000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
+  </programme>
+  <programme start="20260915160000 +0000" stop="20260915163000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
+  </programme>
+  <programme start="20260915163000 +0000" stop="20260915170000 +0000" channel="bbcnews.es">
+    <title lang="es">BBC Focus on Africa</title>
+    <desc lang="es">Este espacio informativo centra toda la información en el continente africano y está especialmente destinado a la audiencias residentes fuera del Reino Unido. Pero no solo para los africanos sino también aquellos que están interesados en la actualidad del continente.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1367503" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1367503.jpg</image>
+  </programme>
+  <programme start="20260915170000 +0000" stop="20260915173000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260915173000 +0000" stop="20260915180000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260915180000 +0000" stop="20260915183000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260915183000 +0000" stop="20260915190000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
   </programme>
   <programme start="20260913181100 +0000" stop="20260913202000 +0000" channel="fdf.es">
     <title lang="es">La que se avecina</title>
@@ -1846,85 +1834,23 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP933744" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF933744.jpg</image>
   </programme>
-  <programme start="20260913141500 +0000" stop="20260913143000 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA HyperMotion</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4361323" />
-    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  <programme start="20260915144800 +0000" stop="20260915161800 +0000" channel="fdf.es">
+    <title lang="es">La que se avecina</title>
+    <desc lang="es">Brillante parodia de la vida cotidiana de cualquier comunidad de vecinos a través de unos personajes que se relacionan con desconfianza y alimentan con su maldad intrínseca unas tramas surrealistas llenas de obsesiones personales y vecinales.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP933744" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF933744.jpg</image>
   </programme>
-  <programme start="20260913143000 +0000" stop="20260913144500 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA HyperMotion</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4361324" />
-    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  <programme start="20260915161800 +0000" stop="20260915175200 +0000" channel="fdf.es">
+    <title lang="es">La que se avecina</title>
+    <desc lang="es">Brillante parodia de la vida cotidiana de cualquier comunidad de vecinos a través de unos personajes que se relacionan con desconfianza y alimentan con su maldad intrínseca unas tramas surrealistas llenas de obsesiones personales y vecinales.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP933744" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF933744.jpg</image>
   </programme>
-  <programme start="20260913144500 +0000" stop="20260913151500 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes Liga F</title>
-    <desc lang="es">Un compendio que resume lo mejor de la Primera División del fútbol femenino español. Los goles y las imágenes más espectaculares de la Liga centran la atención del programa.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4389192" />
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4389192.jpg</image>
-  </programme>
-  <programme start="20260913151500 +0000" stop="20260913153000 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA EA Sports</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363272" />
-    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
-  </programme>
-  <programme start="20260913153000 +0000" stop="20260913154500 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA EA Sports</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363271" />
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
-  </programme>
-  <programme start="20260913154500 +0000" stop="20260913160000 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA EA Sports</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363269" />
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
-  </programme>
-  <programme start="20260913160000 +0000" stop="20260913161500 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA EA Sports</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363270" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
-  </programme>
-  <programme start="20260913161500 +0000" stop="20260913163000 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA EA Sports</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363272" />
-    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
-  </programme>
-  <programme start="20260913163000 +0000" stop="20260913183000 +0000" channel="goltv.es">
-    <title lang="es">LALIGA HYPERMOTION</title>
-    <desc lang="es">Son Moix recibe un cruce atractivo entre un RCD Mallorca que necesita reencontrarse con la victoria y un CE Sabadell que llega reforzado por su buen inicio. El conjunto bermellón, que empezó el curso con buenas sensaciones pero ha perdido impulso en las últimas jornadas, buscará recuperar autoridad en casa y no alejarse de la zona noble en este primer tramo de temporada. El Sabadell se presenta con ocho puntos y una dinámica muy positiva después de cerrar la jornada anterior con un triunfo de carácter ante el Córdoba. Su reto estará en sostener esa inercia lejos de casa, gestionar el ritmo del partido y demostrar que su arranque no es solo una cuestión de entusiasmo, sino también de competitividad real dentro de la categoría.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4499062" />
-    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4360695.jpg</image>
-  </programme>
-  <programme start="20260913183000 +0000" stop="20260913184500 +0000" channel="goltv.es">
-    <title lang="es">Resúmenes LALIGA EA Sports</title>
-    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363272" />
-    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  <programme start="20260915175200 +0000" stop="20260915191400 +0000" channel="fdf.es">
+    <title lang="es">La que se avecina</title>
+    <desc lang="es">Brillante parodia de la vida cotidiana de cualquier comunidad de vecinos a través de unos personajes que se relacionan con desconfianza y alimentan con su maldad intrínseca unas tramas surrealistas llenas de obsesiones personales y vecinales.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP933744" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF933744.jpg</image>
   </programme>
   <programme start="20260913184500 +0000" stop="20260913190000 +0000" channel="goltv.es">
     <title lang="es">Resúmenes LALIGA EA Sports</title>
@@ -2554,26 +2480,61 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
   </programme>
-  <programme start="20260913060000 +0000" stop="20260913160000 +0000" channel="mlaliga2.es">
-    <title lang="es">M+ LALIGA 2</title>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/M1860070V3152673" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/M1860071H3152673.jpg</image>
+  <programme start="20260915170000 +0000" stop="20260915171500 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363277" />
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
   </programme>
-  <programme start="20260913160000 +0000" stop="20260913162400 +0000" channel="mlaliga2.es">
-    <title lang="es">La Casa del Fútbol Previa</title>
-    <desc lang="es">Previa Liga Española. 1ª División.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4495671" />
-    <episode-num system="xmltv_ns">0.30.0/1</episode-num>
-    <episode-num system="onscreen">S01E31</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4495673.jpg</image>
+  <programme start="20260915171500 +0000" stop="20260915173000 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4361321" />
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
   </programme>
-  <programme start="20260913162400 +0000" stop="20260913183000 +0000" channel="mlaliga2.es">
-    <title lang="es">LALIGA EA SPORTS</title>
-    <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490610" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4488998.jpg</image>
+  <programme start="20260915173000 +0000" stop="20260915174500 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363272" />
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915174500 +0000" stop="20260915180000 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363276" />
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915180000 +0000" stop="20260915181500 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363274" />
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915181500 +0000" stop="20260915183000 +0000" channel="goltv.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4363277" />
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915183000 +0000" stop="20260915203000 +0000" channel="goltv.es">
+    <title lang="es">Liga BBVA</title>
+    <desc lang="es">El campeón de liga empieza el curso en casa frente a un renovado Levante. Martino y Neymar son los nombres propios de un Barça que aún podría traer caras nuevas. Joaquín Caparros intentará consolidar a los granotas en la máxima categoría. Pocas caras nuevas pero de mucho calado. El F.C Barcelona tras una fatigosa pretemporada empieza a competir sin Tito Vilanova y con el Tata Martino. El Levante incorpora muchas novedades, la última la del delantero camerunés Nong.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP1104412" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF1104412.jpg</image>
   </programme>
   <programme start="20260913183000 +0000" stop="20260913190000 +0000" channel="mlaliga2.es">
     <title lang="es">La Casa del Fútbol Post</title>
@@ -2615,6 +2576,22 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/M1860070V3152673" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/M1860071H3152673.jpg</image>
   </programme>
+  <programme start="20260915163000 +0000" stop="20260915165400 +0000" channel="mlaliga2.es">
+    <title lang="es">La Casa del Fútbol Previa</title>
+    <desc lang="es">Previa Liga Española. 1ª División.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4495671" />
+    <episode-num system="xmltv_ns">0.33.0/1</episode-num>
+    <episode-num system="onscreen">S01E34</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4495673.jpg</image>
+  </programme>
+  <programme start="20260915165400 +0000" stop="20260915190000 +0000" channel="mlaliga2.es">
+    <title lang="es">LALIGA EA SPORTS</title>
+    <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490784" />
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4488998.jpg</image>
+  </programme>
   <programme start="20260913100000 +0000" stop="20260913220000 +0000" channel="movistarlaliga3.es">
     <title lang="es">M+ LALIGA 3</title>
     <desc lang="es">M+ LALIGA 3</desc>
@@ -2654,28 +2631,6 @@
   <programme start="20260915100000 +0000" stop="20260915220000 +0000" channel="movistarlaliga4.es">
     <title lang="es">M+ LALIGA 4</title>
     <desc lang="es">M+ LALIGA 4</desc>
-  </programme>
-  <programme start="20260913140600 +0000" stop="20260913161500 +0000" channel="movistarlaliga.es">
-    <title lang="es">LALIGA EA SPORTS</title>
-    <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490608" />
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4488998.jpg</image>
-  </programme>
-  <programme start="20260913161500 +0000" stop="20260913164500 +0000" channel="movistarlaliga.es">
-    <title lang="es">La Casa del Fútbol Post</title>
-    <desc lang="es">Postpartido Liga.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/M2659107V4357525" />
-    <episode-num system="xmltv_ns">0.17.0/1</episode-num>
-    <episode-num system="onscreen">S01E18</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBOBMV3H4357507.jpg</image>
-  </programme>
-  <programme start="20260913164500 +0000" stop="20260913174000 +0000" channel="movistarlaliga.es">
-    <title lang="es">Informe Plus+. El espíritu de San Marino</title>
-    <desc lang="es">De las 210 selecciones que forman parte de la FIFA hay una que no ha ganado nunca un partido oficial. El equipo nacional de San Marino echó a andar en 1990. Desde entonces ha encajado más de 800 goles y ha marcado 32. La humildad de unos jugadores que solo sueñan con jugar al fútbol, más allá de las derrotas. Una forma de ser. Una forma de vida. Es el espíritu de San Marino.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4331381" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4213238.jpg</image>
   </programme>
   <programme start="20260913174000 +0000" stop="20260913185400 +0000" channel="movistarlaliga.es">
     <title lang="es">El fútbol según Raúl</title>
@@ -3105,45 +3060,195 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489805.jpg</image>
   </programme>
-  <programme start="20260913141500 +0000" stop="20260913151000 +0000" channel="natgeowildes.es">
-    <title lang="es">Savage Kingdom</title>
-    <desc lang="es">Mientras Mombo está en llamas, la leona Thata lo arriesga todo para salvar a su manada, pero debe pagar un terrible precio.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1842721" />
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF1842721.jpg</image>
+  <programme start="20260915143500 +0000" stop="20260915144700 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
   </programme>
-  <programme start="20260913151000 +0000" stop="20260913160000 +0000" channel="natgeowildes.es">
-    <title lang="es">Savage Kingdom</title>
-    <desc lang="es">El sur del reino se ha convertido en un páramo y la joven hembra alfa Wein busca agua desesperadamente para sus cachorros, pero sufre unas terribles consecuencias.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1842722" />
-    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
-    <episode-num system="onscreen">S01E05</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF1842722.jpg</image>
-  </programme>
-  <programme start="20260913160000 +0000" stop="20260913165500 +0000" channel="natgeowildes.es">
-    <title lang="es">Visto en el safari</title>
-    <desc lang="es">Los leones imponen su dominio con una precisión implacable, derrotando a una hiena con facilidad. Pero no todos los depredadores se someten. Los perros salvajes regresan para desafiar el equilibrio de poder.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4392136" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4392136.jpg</image>
-  </programme>
-  <programme start="20260913165500 +0000" stop="20260913175000 +0000" channel="natgeowildes.es">
-    <title lang="es">Visto en el safari</title>
-    <desc lang="es">Las emociones están a flor de piel cuando una joven cría de león se enfrenta a una peligrosa travesía entre cocodrilos e hipopótamos. Muy cerca, una enorme manada de leones derriba a un búfalo adulto, atrayendo a los turistas al centro de la acción.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4392139" />
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4392139.jpg</image>
-  </programme>
-  <programme start="20260913175000 +0000" stop="20260913184000 +0000" channel="natgeowildes.es">
-    <title lang="es">Visto en el safari</title>
-    <desc lang="es">Los animales salvajes protagonizan algunas de las batallas y encuentros más feroces, ofreciendo un espectáculo y una experiencia inolvidables para los visitantes de los safaris.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4387847" />
+  <programme start="20260915144700 +0000" stop="20260915145900 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4387847.jpg</image>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915145900 +0000" stop="20260915151100 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915151100 +0000" stop="20260915152300 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915152300 +0000" stop="20260915153500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915153500 +0000" stop="20260915154700 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915154700 +0000" stop="20260915155900 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915155900 +0000" stop="20260915161100 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915161100 +0000" stop="20260915162300 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915162300 +0000" stop="20260915164000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA EA Sports</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Primera División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la máxima competición del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4490083" />
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4490085.jpg</image>
+  </programme>
+  <programme start="20260915164000 +0000" stop="20260915171000 +0000" channel="movistarlaliga.es">
+    <title lang="es">LALIGA Show</title>
+    <desc lang="es">La previa de cada jornada de LaLiga. Además, el espacio se complementa con entrevistas a los protagonistas de la competición y reportajes sobre temas de actualidad.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/M2661556V4380029" />
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MLIGBARF4380023.jpg</image>
+  </programme>
+  <programme start="20260915171000 +0000" stop="20260915173000 +0000" channel="movistarlaliga.es">
+    <title lang="es">El Legado de Raúl</title>
+    <desc lang="es">En el verano de 2010 Raúl González Blanco aterrizaba en Alemania para jugar en el Schalke 04. Cómo fue su vida en esos dos años pasa por comprender las razones que le llevaron hasta allí.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4044130" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3820141.jpg</image>
+  </programme>
+  <programme start="20260915173000 +0000" stop="20260915173500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915173500 +0000" stop="20260915174000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915174000 +0000" stop="20260915174500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915174500 +0000" stop="20260915175000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915175000 +0000" stop="20260915175500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915175500 +0000" stop="20260915180000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915180000 +0000" stop="20260915180500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915180500 +0000" stop="20260915181000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915181000 +0000" stop="20260915181500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915181500 +0000" stop="20260915182000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915182000 +0000" stop="20260915183000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260915183000 +0000" stop="20260915192400 +0000" channel="movistarlaliga.es">
+    <title lang="es">La Casa del Fútbol Previa</title>
+    <desc lang="es">Previa Liga Española. 1ª División.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4495671" />
+    <episode-num system="xmltv_ns">0.31.0/1</episode-num>
+    <episode-num system="onscreen">S01E32</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4495673.jpg</image>
   </programme>
   <programme start="20260913184000 +0000" stop="20260913193500 +0000" channel="natgeowildes.es">
     <title lang="es">Visto en el safari</title>
@@ -3606,6 +3711,44 @@
     <desc lang="es">Cada año, casi dos millones de ñus y cebras cruzan el Serengeti en busca de pastos frescos. Pero dos ríos legendarios se interponen en su camino: el Grumeti y el Mara, cada uno gobernado por una formidable dinastía de cocodrilos del Nilo. En "Guerras de cocodrilos", sigue a estos antiguos depredadores mientras se preparan para el festín del año, pero no todos los cocodrilos son iguales. En las profundas y rápidas aguas del Mara, reina el privilegio, las presas son fáciles de cazar y la comida es abundante. En el accidentado Grumeti, los cocodrilos deben ser más astutos, adaptarse y luchar por cada trozo de comida. Desde brutales emboscadas hasta presas robadas, se trata de una batalla de alto riesgo por la supervivencia en dos ríos con dos estrategias y una sola oportunidad para comer.</desc>
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4120896" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4120896.jpg</image>
+  </programme>
+  <programme start="20260915150500 +0000" stop="20260915160000 +0000" channel="natgeowildes.es">
+    <title lang="es">Gigantes de los ríos de África</title>
+    <desc lang="es">África es una tierra de gigantes. Sus poderosos ríos esculpen la tierra y forman impresionantes valles y cursos de agua que albergan a muchos habitantes imponentes y poderosos. Son los ríos donde viven, se alimentan y beben enormes elefantes e hipopótamos y donde cazan y se reproducen antiguos cocodrilos. Comparten los ríos con otras criaturas de su especie, como los puercoespines, los roedores gigantes de África; el águila marcial, la mayor de su especie en el continente; y el leopardo, un gigante entre los felinos moteados.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4066840" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4066840.jpg</image>
+  </programme>
+  <programme start="20260915160000 +0000" stop="20260915170000 +0000" channel="natgeowildes.es">
+    <title lang="es">Especial Los reinos ocultos de China</title>
+    <desc lang="es">Los inmensos paisajes chinos esconden multitud de especies animales que raramente son vistas por el ser humano. A través de un espectacular viaje, el programa descubre la enorme variedad de especies que habitan los lugares más remotos de China.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4393320" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4393320.jpg</image>
+  </programme>
+  <programme start="20260915170000 +0000" stop="20260915175000 +0000" channel="natgeowildes.es">
+    <title lang="es">El imperio salvaje de China</title>
+    <desc lang="es">Los elefantes asiáticos de China juegan un papel crucial en la salud y diversidad de las selvas tropicales de Yunnan. Para sobrevivir necesitan mucha comida y agua todos los días, pero con el crecimiento de la población, las cosas se ponen cada vez más difíciles. Esta es la historia de una madre elefante que enseña a su cría a sobrevivir un año en su hábitat natural, mientras otra manada emprende un viaje maratoniano.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP3051757" />
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4116495.jpg</image>
+  </programme>
+  <programme start="20260915175000 +0000" stop="20260915184000 +0000" channel="natgeowildes.es">
+    <title lang="es">El imperio salvaje de China</title>
+    <desc lang="es">Los bosques de alta montaña del Parque Nacional Shennongjia de China albergan monos dorados de nariz chata. Contada a lo largo de un año, esta película presenta a dos clanes familiares que luchan por comida, pareja y estatus social. Para sobrevivir y prosperar, deben soportar el clima extremo, la escasez de alimentos, las presiones de los depredadores y las batallas con los rivales, en una sociedad donde, en última instancia, son las mujeres las que tienen una gran influencia.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP3051753" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF3051753.jpg</image>
+  </programme>
+  <programme start="20260915184000 +0000" stop="20260915194000 +0000" channel="natgeowildes.es">
+    <title lang="es">El imperio salvaje de China</title>
+    <desc lang="es">Cada año, decenas de miles de hembras de antílope tibetano, o 'chiru', migran desde sus zonas de alimentación y apareamiento de invierno a sus zonas de alumbramiento de verano, en lo alto de la meseta tibetana, antes de regresar con sus crías. Es una hazaña monumental de resistencia y un viaje lleno de peligros. Los lobos tibetanos siguen cada uno de sus movimientos, y el clima puede cambiar en un instante.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP3051755" />
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4116495.jpg</image>
   </programme>
   <programme start="20260912203000 +0000" stop="20260912221500 +0000" channel="runtimeclásicoses.es">
     <title lang="es">The Black Gestapo</title>
@@ -6091,12 +6234,19 @@
     <category lang="es">Terror</category>
     <icon src="https://pc.orangetv.orange.es/pc/api/rtv/v1/images/epg/COVER/COVER_5630353.jpg" />
   </programme>
-  <programme start="20260913030000 +0000" stop="20260913050000 +0000" channel="canalextremadurasates.es">
+  <programme start="20260913030000 +0000" stop="20260913040000 +0000" channel="canalextremadurasates.es">
     <title lang="es">Escrito en el aire</title>
     <desc lang="es">Espacio de análisis sobre los casos de crónica negra sucedidos en Extremadura. Con ayuda de la Policía y la Guardia Civil se expondrán los puntos clave de cada una de las investigaciones.</desc>
     <category lang="es">Programa</category>
     <category lang="es">Crimen</category>
     <icon src="https://pc.orangetv.orange.es/pc/api/rtv/v1/images/epg/COVER/COVER_5386526.jpg" />
+  </programme>
+  <programme start="20260913040000 +0000" stop="20260913050000 +0000" channel="canalextremadurasates.es">
+    <title lang="es">Esta es mi casa</title>
+    <desc lang="es">Este programa enseña la evolución de la construcción, la decoración, la adecuación al entorno y la usabilidad de la vivienda en Extremadura.</desc>
+    <category lang="es">Programa</category>
+    <category lang="es">Entretenimiento</category>
+    <icon src="https://pc.orangetv.orange.es/pc/api/rtv/v1/images/epg/COVER/COVER_4013716.jpg" />
   </programme>
   <programme start="20260913050000 +0000" stop="20260913053000 +0000" channel="canalextremadurasates.es">
     <title lang="es">El chapuzón</title>
