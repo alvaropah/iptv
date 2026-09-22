@@ -932,60 +932,6 @@
     <icon src="https://cdn.sincroguia.tv/storage/channels/68-square.jpg" />
     <url>http://www.sincroguia-tv</url>
   </channel>
-  <programme start="20260922150000 +0000" stop="20260922153000 +0000" channel="bbcnews.es">
-    <title lang="es">Verified Live</title>
-    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
-  </programme>
-  <programme start="20260922153000 +0000" stop="20260922154500 +0000" channel="bbcnews.es">
-    <title lang="es">Business Today</title>
-    <desc lang="es">Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3348924" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3348924.jpg</image>
-  </programme>
-  <programme start="20260922154500 +0000" stop="20260922160000 +0000" channel="bbcnews.es">
-    <title lang="es">Verified Live</title>
-    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
-  </programme>
-  <programme start="20260922160000 +0000" stop="20260922163000 +0000" channel="bbcnews.es">
-    <title lang="es">Verified Live</title>
-    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
-  </programme>
-  <programme start="20260922163000 +0000" stop="20260922170000 +0000" channel="bbcnews.es">
-    <title lang="es">BBC Focus on Africa</title>
-    <desc lang="es">Este espacio informativo centra toda la información en el continente africano y está especialmente destinado a la audiencias residentes fuera del Reino Unido. Pero no solo para los africanos sino también aquellos que están interesados en la actualidad del continente.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1367503" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1367503.jpg</image>
-  </programme>
-  <programme start="20260922170000 +0000" stop="20260922173000 +0000" channel="bbcnews.es">
-    <title lang="es">The World Today with Maryam Moshiri</title>
-    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
-  </programme>
-  <programme start="20260922173000 +0000" stop="20260922180000 +0000" channel="bbcnews.es">
-    <title lang="es">The World Today with Maryam Moshiri</title>
-    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
-  </programme>
-  <programme start="20260922180000 +0000" stop="20260922183000 +0000" channel="bbcnews.es">
-    <title lang="es">The World Today with Maryam Moshiri</title>
-    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
-  </programme>
-  <programme start="20260922183000 +0000" stop="20260922190000 +0000" channel="bbcnews.es">
-    <title lang="es">The World Today with Maryam Moshiri</title>
-    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
-  </programme>
   <programme start="20260922190000 +0000" stop="20260922193000 +0000" channel="bbcnews.es">
     <title lang="es">The Context USA</title>
     <desc lang="es">Cobertura especial desde Washington DC y Londres, centrándose en el segundo mandato del presidente Trump.</desc>
@@ -1570,21 +1516,65 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
   </programme>
-  <programme start="20260922145900 +0000" stop="20260922165900 +0000" channel="fdf.es">
-    <title lang="es">La que se avecina</title>
-    <desc lang="es">Brillante parodia de la vida cotidiana de cualquier comunidad de vecinos a través de unos personajes que se relacionan con desconfianza y alimentan con su maldad intrínseca unas tramas surrealistas llenas de obsesiones personales y vecinales.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP1178643" />
-    <episode-num system="xmltv_ns">0.94.0/1</episode-num>
-    <episode-num system="onscreen">S01E95</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1178643.jpg</image>
+  <programme start="20260924150000 +0000" stop="20260924153000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
   </programme>
-  <programme start="20260922165900 +0000" stop="20260922185300 +0000" channel="fdf.es">
-    <title lang="es">La que se avecina</title>
-    <desc lang="es">La aparición de una terrible grieta en el edificio deriva en una búsqueda de responsabilidades por parte de Enrique y Antonio, que acaban encontrando a Jorge, el arquitecto que proyectó el edificio. Por su parte, el ingeniero se niega a pagar el arreglo de su bolsillo por lo que Enrique se plantea cómo solucionar el asunto: por las buenas o por las malas. Además, en la comunidad, la elección del color con el que repintar los rellanos provocará un conflicto frontal de los vecinos con Fina, la nueva inquilina del 2º C. Las represalias de la huraña anciana darán pie a un plan de Fermín para doblegarla. Finalmente, Amador, quiere conseguir un trabajo para poder recuperar a sus hijos y convence a Maite para que le ayude en su intento de convertirse en empresario. Convertirá la caravana en un puesto de perritos calientes ambulante.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP1178762" />
-    <episode-num system="xmltv_ns">0.95.0/1</episode-num>
-    <episode-num system="onscreen">S01E96</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1178762.jpg</image>
+  <programme start="20260924153000 +0000" stop="20260924154500 +0000" channel="bbcnews.es">
+    <title lang="es">Business Today</title>
+    <desc lang="es">Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3348924" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3348924.jpg</image>
+  </programme>
+  <programme start="20260924154500 +0000" stop="20260924160000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
+  </programme>
+  <programme start="20260924160000 +0000" stop="20260924163000 +0000" channel="bbcnews.es">
+    <title lang="es">Verified Live</title>
+    <desc lang="es">Boletín de noticias y análisis en profundidad de los temas de actualidad internacional y de Reino Unido. Presenta Matthew Amroliwala.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3241881" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3241881.jpg</image>
+  </programme>
+  <programme start="20260924163000 +0000" stop="20260924170000 +0000" channel="bbcnews.es">
+    <title lang="es">BBC Focus on Africa</title>
+    <desc lang="es">Este espacio informativo centra toda la información en el continente africano y está especialmente destinado a la audiencias residentes fuera del Reino Unido. Pero no solo para los africanos sino también aquellos que están interesados en la actualidad del continente.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP1367503" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF1367503.jpg</image>
+  </programme>
+  <programme start="20260924170000 +0000" stop="20260924173000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260924173000 +0000" stop="20260924180000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260924180000 +0000" stop="20260924183000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260924183000 +0000" stop="20260924190000 +0000" channel="bbcnews.es">
+    <title lang="es">The World Today with Maryam Moshiri</title>
+    <desc lang="es">Boletín informativo que ofrece las últimas noticias de los principales temas de actualidad internacionales. Conducido por Maryam Moshiri y de la mano de los corresponsales que BBC News tiene desplegados en distintos puntos del planeta.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP3274025" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF3274025.jpg</image>
+  </programme>
+  <programme start="20260924190000 +0000" stop="20260924193000 +0000" channel="bbcnews.es">
+    <title lang="es">The Context USA</title>
+    <desc lang="es">Cobertura especial desde Washington DC y Londres, centrándose en el segundo mandato del presidente Trump.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MBBCP4070640" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MBBCF4070640.jpg</image>
   </programme>
   <programme start="20260922185300 +0000" stop="20260922205500 +0000" channel="fdf.es">
     <title lang="es">La que se avecina</title>
@@ -1846,47 +1836,21 @@
     <episode-num system="onscreen">S01E99</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1178765.jpg</image>
   </programme>
-  <programme start="20260922143500 +0000" stop="20260922152000 +0000" channel="goltv.es">
-    <title lang="es">ESPN Combates históricos</title>
-    <desc lang="es">ESPN Combates históricos.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4396280" />
-    <episode-num system="xmltv_ns">0.135.0/1</episode-num>
-    <episode-num system="onscreen">S01E136</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4396280.jpg</image>
+  <programme start="20260924165500 +0000" stop="20260924185000 +0000" channel="fdf.es">
+    <title lang="es">La que se avecina</title>
+    <desc lang="es">Una serie de desastres se ciernen sobre Mirador de Montepinar: la Agencia Tributaria acosa el imperio empresarial de Antonio Recio; Maite y Amador están a punto de perder a sus hijos definitivamente; la amistad entre Judith y Rebeca comienza a resquebrajarse peligrosamente; y Vicente, cansado de vivir, lleva a cabo un nuevo intento de suicidio. Cuando parece que la debacle está a punto de desatarse en la urbanización, un acontecimiento absolutamente inesperado e inexplicable revoluciona a los vecinos de la comunidad.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP1178766" />
+    <episode-num system="xmltv_ns">0.99.0/1</episode-num>
+    <episode-num system="onscreen">S01E100</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1178766.jpg</image>
   </programme>
-  <programme start="20260922152000 +0000" stop="20260922153500 +0000" channel="goltv.es">
-    <title lang="es">Boxeo: combate Tyson vs Spinks</title>
-    <desc lang="es">El combate entre Mike Tyson y Michael Spinks, conocido como ''Once and For All'', tuvo lugar el 27 de junio de 1988 en el Convention Hall de Atlantic City, Nueva Jersey.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4083112" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4083112.jpg</image>
-  </programme>
-  <programme start="20260922153500 +0000" stop="20260922162500 +0000" channel="goltv.es">
-    <title lang="es">ESPN Combates históricos</title>
-    <desc lang="es">ESPN Combates históricos.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4403079" />
-    <episode-num system="xmltv_ns">0.151.0/1</episode-num>
-    <episode-num system="onscreen">S01E152</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4403079.jpg</image>
-  </programme>
-  <programme start="20260922162500 +0000" stop="20260922171000 +0000" channel="goltv.es">
-    <title lang="es">ESPN Combates históricos</title>
-    <desc lang="es">ESPN Combates históricos.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4397023" />
-    <episode-num system="xmltv_ns">0.107.0/1</episode-num>
-    <episode-num system="onscreen">S01E108</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4397023.jpg</image>
-  </programme>
-  <programme start="20260922171000 +0000" stop="20260922174500 +0000" channel="goltv.es">
-    <title lang="es">Boxeo: combate Muhammad Ali vs George Foreman</title>
-    <desc lang="es">El 30 de octubre de 1974, Muhammad Ali y George Foreman se enfrentaron en el histórico combate conocido como ''Rumble in the Jungle'' en el Stade Tata Raphaël en Kinshasa, Zaire (actual República Democrática del Congo).</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4087756" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4087756.jpg</image>
-  </programme>
-  <programme start="20260922174500 +0000" stop="20260922190000 +0000" channel="goltv.es">
-    <title lang="es">El último duelo</title>
-    <desc lang="es">El Mundial de 2026 podría ser el último en el que coincidan Cristiano Ronaldo y Lionel Messi. Con este telón de fondo, este documental realiza un viaje al origen de la rivalidad que protagonizó el fútbol moderno y convirtió LaLiga en un fenómeno global. “El último duelo” revive los años en los que ambos jugadores coincidieron en el campeonato español, cuando su enfrentamiento elevó la competición a una nueva dimensión internacional. Con la llegada de Cristiano Ronaldo al Real Madrid CF y la consolidación del FC Barcelona de Pep Guardiola, cada Clásico se convirtió en un acontecimiento mundial. Dos estilos opuestos, dos personalidades únicas y una rivalidad que definió toda una era. A través de material de archivo exclusivo y testimonios de quienes lo vivieron de cerca, este documental explora cómo Messi y Cristiano cambiaron para siempre el fútbol… justo cuando el próximo Mundial podría marcar el cierre definitivo de su historia compartida.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4309866" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4478921.jpg</image>
+  <programme start="20260924185000 +0000" stop="20260924205500 +0000" channel="fdf.es">
+    <title lang="es">La que se avecina</title>
+    <desc lang="es">Las alocadas vivencias de los vecinos de Mirador de Montepinar llegan a su fin esta temporada con este episodio que cuenta con la participación del chef David Muñoz, que se convertirá en el becario de la cocina del Max&amp;Henry. Mientras Fermín busca revitalizar el bar contratando a un cocinero, Antonio y Berta vuelven a tener a su hijo Álvaro con ellos, quien ha regresado a casa con motivo de las segundas nupcias de sus padres. Pero el joven volverá a provocar más de un mal de cabeza a sus progenitores, ya que se encuentra inmerso en un nuevo proceso de cambio personal.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MFDFICP1178917" />
+    <episode-num system="xmltv_ns">0.108.0/1</episode-num>
+    <episode-num system="onscreen">S01E109</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MFDFICF1178917.jpg</image>
   </programme>
   <programme start="20260922190000 +0000" stop="20260922210000 +0000" channel="goltv.es">
     <title lang="es">Liga BBVA</title>
@@ -2138,6 +2102,42 @@
     <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4153067" />
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4153067.jpg</image>
   </programme>
+  <programme start="20260924151500 +0000" stop="20260924161000 +0000" channel="goltv.es">
+    <title lang="es">ESPN Combates históricos</title>
+    <desc lang="es">ESPN Combates históricos.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4407383" />
+    <episode-num system="xmltv_ns">0.160.0/1</episode-num>
+    <episode-num system="onscreen">S01E161</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4407383.jpg</image>
+  </programme>
+  <programme start="20260924161000 +0000" stop="20260924170000 +0000" channel="goltv.es">
+    <title lang="es">ESPN Combates históricos</title>
+    <desc lang="es">ESPN Combates históricos.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4407379" />
+    <episode-num system="xmltv_ns">0.136.0/1</episode-num>
+    <episode-num system="onscreen">S01E137</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4407379.jpg</image>
+  </programme>
+  <programme start="20260924170000 +0000" stop="20260924174500 +0000" channel="goltv.es">
+    <title lang="es">Boxeo: combate George Foreman vs Gregorio Peralta</title>
+    <desc lang="es">El Madison Square Garden de Nueva York acoge este combate de George Foreman y Gregorio Peralta por el título mundial de los pesos pesados.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP4020996" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF4020996.jpg</image>
+  </programme>
+  <programme start="20260924174500 +0000" stop="20260924190000 +0000" channel="goltv.es">
+    <title lang="es">El Real Madrid de los recórds</title>
+    <desc lang="es">El Real Madrid es el club más laureado del mundo. Acumula más Ligas, Copas de Europa y mundiales de clubes que ningún otro equipo. Su leyenda queda plasmada al repasar sus números.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP1357948" />
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MGOLF1357948.jpg</image>
+  </programme>
+  <programme start="20260924190000 +0000" stop="20260924210000 +0000" channel="goltv.es">
+    <title lang="es">Liga BBVA</title>
+    <desc lang="es">Retransmisión de los mejores partidos de la Liga BBVA de la temporada 2011-2012.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MGOLP992387" />
+    <episode-num system="xmltv_ns">0.163.0/1</episode-num>
+    <episode-num system="onscreen">S01E164</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3819635.jpg</image>
+  </programme>
   <programme start="20260922100000 +0000" stop="20260922220000 +0000" channel="mlaliga2.es">
     <title lang="es">M+ LALIGA 2</title>
     <desc lang="es">M+ LALIGA 2</desc>
@@ -2197,28 +2197,6 @@
   <programme start="20260924100000 +0000" stop="20260924220000 +0000" channel="movistarlaliga4.es">
     <title lang="es">M+ LALIGA 4</title>
     <desc lang="es">M+ LALIGA 4</desc>
-  </programme>
-  <programme start="20260922144400 +0000" stop="20260922164100 +0000" channel="movistarlaliga.es">
-    <title lang="es">LALIGA EA SPORTS</title>
-    <desc lang="es">Los mejores clubes del país protagonizan LaLiga, el campeonato de la regularidad del fútbol español. El torneo es una carrera de fondo en la que los equipos pelean por sus metas: la salvación, Europa, la Champions o el título. El Barcelona defiende corona.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4503240" />
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4488998.jpg</image>
-  </programme>
-  <programme start="20260922164100 +0000" stop="20260922172900 +0000" channel="movistarlaliga.es">
-    <title lang="es">Antoine Griezmann. Enamorado del Atleti</title>
-    <desc lang="es">Este documental acompaña a Antoine Griezmann en uno de los días más especiales de su carrera: su despedida de la afición que lo ha acompañado durante 12 temporadas. Con acceso exclusivo, la cámara se adentra en lo que no se vio del homenaje: la relación del futbolista con su familia, amigos, compañeros y seguidores, así como los nervios y la emoción que lo acompañaron en una jornada tan bonita como difícil. A lo largo del día y del documental, a través de conversaciones y momentos íntimos, el máximo goleador de la historia del Atlético de Madrid reflexiona sobre su legado y revela su faceta más personal. Cuarenta minutos para descubrir al hombre detrás del ídolo que ha marcado a toda una generación de aficionados.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4481573" />
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4481570.jpg</image>
-  </programme>
-  <programme start="20260922172900 +0000" stop="20260922183900 +0000" channel="movistarlaliga.es">
-    <title lang="es">DeportePlus con Juanma Castaño</title>
-    <desc lang="es">Un lugar donde cabe todo el deporte que se juega en el planeta. La emoción y la pasión al completo de la mano de Juanma Castaño. Las mejores imágenes, las previas, los resúmenes, los testimonios y el análisis de nuestros expertos.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4488241" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4488243.jpg</image>
   </programme>
   <programme start="20260922183900 +0000" stop="20260922203100 +0000" channel="movistarlaliga.es">
     <title lang="es">LALIGA EA SPORTS</title>
@@ -2792,45 +2770,109 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4488998.jpg</image>
   </programme>
-  <programme start="20260922141000 +0000" stop="20260922150500 +0000" channel="natgeowildes.es">
-    <title lang="es">Especial Los animales más raros del mundo</title>
-    <desc lang="es">Para los animales que habitan el mundo salvaje, prepararse para situaciones de emergencia puede marcar la diferencia entre la vida y la muerte. Tanto si se trata de escapar de las mandíbulas de un depredador, como si es de desafiar el más severo de los elementos naturales, estos inusuales pulpos, extraños castores y peculiares peces han adaptado algunas de las más raras estrategias con el fin de asegurarse la supervivencia.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1724078" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3792970.jpg</image>
-  </programme>
-  <programme start="20260922150500 +0000" stop="20260922160000 +0000" channel="natgeowildes.es">
-    <title lang="es">Los secretos naturales de Asia</title>
-    <desc lang="es">Algunos de los secretos más salvajes de Asia están escondidos en sus numerosas islas únicas. Nos encontramos con las criaturas más raras e inusuales para descubrir cómo se han adaptado a la vida en la isla.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1866399" />
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF1866399.jpg</image>
-  </programme>
-  <programme start="20260922160000 +0000" stop="20260922165500 +0000" channel="natgeowildes.es">
-    <title lang="es">Especial Los reinos ocultos de China</title>
-    <desc lang="es">En este episodio especial, sigue a las criaturas más singulares y letales que se han adaptado para sobrevivir en los entornos más extremos de China. En los remotos reinos montañosos, los depredadores y los carroñeros hacen todo lo posible por conseguir comida. En lo alto del dosel de la selva, un cálao asiático lleva el futuro de su familia en la punta de su pico. Los monos dorados de nariz chata luchan por su derecho a formar una familia en los bosques de montaña. Y en las antiguas praderas, el peligro se presenta en todas las formas y tamaños.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4396797" />
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF4396797.jpg</image>
-  </programme>
-  <programme start="20260922165500 +0000" stop="20260922175000 +0000" channel="natgeowildes.es">
-    <title lang="es">Los secretos naturales de Asia</title>
-    <desc lang="es">Ya tenga su origen en el monzón, el agua de deshielo del Himalaya, las mareas o en la nieve, cada animal de Asia tiene una historia que contar sobre el agua.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP4100377" />
-    <episode-num system="xmltv_ns">0.98.0/1</episode-num>
-    <episode-num system="onscreen">S01E99</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3901901.jpg</image>
-  </programme>
-  <programme start="20260922175000 +0000" stop="20260922184000 +0000" channel="natgeowildes.es">
-    <title lang="es">Raros y salvajes</title>
-    <desc lang="es">Nos unimos a los inadaptados de Asia mientras utilizan sus más raras formas de adaptación en busca de pareja y de formar una familia.</desc>
-    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP2022042" />
+  <programme start="20260924150000 +0000" stop="20260924150500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF2022042.jpg</image>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924150500 +0000" stop="20260924151000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924151000 +0000" stop="20260924151500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924151500 +0000" stop="20260924152000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924152000 +0000" stop="20260924152500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924152500 +0000" stop="20260924153000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924153000 +0000" stop="20260924153500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924153500 +0000" stop="20260924154000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924154000 +0000" stop="20260924154500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924154500 +0000" stop="20260924155500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Resúmenes LALIGA HyperMotion</title>
+    <desc lang="es">El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4489807" />
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489810.jpg</image>
+  </programme>
+  <programme start="20260924155500 +0000" stop="20260924165500 +0000" channel="movistarlaliga.es">
+    <title lang="es">Universo Valdano</title>
+    <desc lang="es">Una mirada futbolística con los ojos de Jorge Valdano. El argentino es una de las voces más autorizadas y respetadas del mundo del balompié. En este espacio, conversa con personajes que ya son historia de este deporte.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F3878925" />
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3952073.jpg</image>
+  </programme>
+  <programme start="20260924165500 +0000" stop="20260924184000 +0000" channel="movistarlaliga.es">
+    <title lang="es">LALIGA HYPERMOTION</title>
+    <desc lang="es">La igualdad es la nota imperante en LaLiga HyperMotion, la Segunda División de fútbol español. Muchos son los aspirantes al ascenso, bien en busca de las dos plazas directas o por la vía del emocionante playoff con el que culmina la temporada. Sin duda, una competición con equipos de primera.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F4502362" />
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F4489805.jpg</image>
+  </programme>
+  <programme start="20260924184000 +0000" stop="20260924194000 +0000" channel="movistarlaliga.es">
+    <title lang="es">Momentazos de LaLiga</title>
+    <desc lang="es">Más de 120 personajes entre los que se encuentran ex jugadores, entrenadores, periodistas y las caras más reconocidas de Movistar + repasan momentos, partidos o jugadores destacados de la historia de LaLiga en un formato de Ranking formado por 15 puestos por cada capítulo.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/F3826887" />
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3826884.jpg</image>
   </programme>
   <programme start="20260922184000 +0000" stop="20260922194000 +0000" channel="natgeowildes.es">
     <title lang="es">El lado salvaje de Japón</title>
@@ -3269,6 +3311,46 @@
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3792970.jpg</image>
+  </programme>
+  <programme start="20260924150500 +0000" stop="20260924160000 +0000" channel="natgeowildes.es">
+    <title lang="es">Especial Los animales más raros del mundo</title>
+    <desc lang="es">Para los animales que habitan el mundo salvaje, prepararse para situaciones de emergencia puede marcar la diferencia entre la vida y la muerte. Tanto si se trata de escapar de las mandíbulas de un depredador, como si es de desafiar el más severo de los elementos naturales, estos inusuales pulpos, extraños castores y peculiares peces han adaptado algunas de las más raras estrategias con el fin de asegurarse la supervivencia.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1724078" />
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3792970.jpg</image>
+  </programme>
+  <programme start="20260924160000 +0000" stop="20260924165500 +0000" channel="natgeowildes.es">
+    <title lang="es">Los animales más raros de Sudamérica</title>
+    <desc lang="es">Sudamérica, el cuarto continente en tamaño, es, también, uno de los más diversos. Para sobrevivir en este exigente escenario, la naturaleza le ha dado la espalda a lo convencional. Los bichos raros han heredado este territorio.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1794936" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3846072.jpg</image>
+  </programme>
+  <programme start="20260924165500 +0000" stop="20260924175000 +0000" channel="natgeowildes.es">
+    <title lang="es">Los animales más raros de Sudamérica</title>
+    <desc lang="es">América del Sur es una tierra de extremos. Cientos de miles de kilómetros cuadradas de bosques, praderas y montañas. Existir aquí es una propuesta desalentadora, y algunos animales se han adaptado haciéndose grandes o muy pequeños, cada estrategia maximizando sus posibilidades de supervivencia.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1794937" />
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3846072.jpg</image>
+  </programme>
+  <programme start="20260924175000 +0000" stop="20260924184000 +0000" channel="natgeowildes.es">
+    <title lang="es">Los animales más raros de Madagascar</title>
+    <desc lang="es">Las criaturas de Madagascar han desarrollado algunos de los métodos de supervivencia más extraños que ofrece la Madre Naturaleza.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP2050855" />
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/F3995517.jpg</image>
+  </programme>
+  <programme start="20260924184000 +0000" stop="20260924194500 +0000" channel="natgeowildes.es">
+    <title lang="es">El reino secreto de Borneo</title>
+    <desc lang="es">Este primer episodio nos acerca al río Kinabatangan, una auténtica fuerza de la naturaleza que nace en el corazón de la isla. Los monzones anuales alimentan este río, que fluye por una zona de mucha riqueza natural. Una red de fuerzas poderosas ha creado la zona del planeta con mayor biodiversidad. Las panteras nebulosas acechan a los primates, y las serpientes voladoras realizan saltos imposibles.</desc>
+    <icon src="https://estatico.emisiondof6.com/recorte/n/dispficha/MNATGWP1362685" />
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://estatico.emisiondof6.com/recorte/n/vegend/MNATGWF1362685.jpg</image>
   </programme>
   <programme start="20260921203000 +0000" stop="20260921221500 +0000" channel="runtimeclásicoses.es">
     <title lang="es">The Black Gestapo</title>
@@ -6615,14 +6697,21 @@
     <category lang="es">Otros</category>
     <icon src="https://pc.orangetv.orange.es/pc/api/rtv/v1/images/epg/COVER/COVER_5222652.jpg" />
   </programme>
-  <programme start="20260921220000 +0000" stop="20260922020000 +0000" channel="daznmotogpes.es">
+  <programme start="20260921220000 +0000" stop="20260922000000 +0000" channel="daznmotogpes.es">
     <title lang="es">DAZN Moto GP</title>
     <desc lang="es">Información pendiente de actualización. Programación próximamente disponible. Por favor, inténtalo de nuevo más tarde.</desc>
     <category lang="es">Programa</category>
     <category lang="es">Otros</category>
     <icon src="https://pc.orangetv.orange.es/pc/api/rtv/v1/images/epg/COVER/COVER_5222652.jpg" />
   </programme>
-  <programme start="20260922020000 +0000" stop="20260922060000 +0000" channel="daznmotogpes.es">
+  <programme start="20260922000000 +0000" stop="20260922040000 +0000" channel="daznmotogpes.es">
+    <title lang="es">DAZN Moto GP</title>
+    <desc lang="es">Información pendiente de actualización. Programación próximamente disponible. Por favor, inténtalo de nuevo más tarde.</desc>
+    <category lang="es">Programa</category>
+    <category lang="es">Otros</category>
+    <icon src="https://pc.orangetv.orange.es/pc/api/rtv/v1/images/epg/COVER/COVER_5222652.jpg" />
+  </programme>
+  <programme start="20260922040000 +0000" stop="20260922060000 +0000" channel="daznmotogpes.es">
     <title lang="es">DAZN Moto GP</title>
     <desc lang="es">Información pendiente de actualización. Programación próximamente disponible. Por favor, inténtalo de nuevo más tarde.</desc>
     <category lang="es">Programa</category>
